@@ -40,6 +40,8 @@ python3 test_dataforseo.py --project _general
 
 ## Новый проект
 
+Репозиторий поставляется без реальных проектов — только шаблон `_example` и общая папка `_general`. Проект заводится под конкретную задачу, вручную или агентом:
+
 ```bash
 cp -r projects/_example projects/acme
 $EDITOR projects/acme/project.json
@@ -77,6 +79,10 @@ Docker:
 docker compose build
 docker compose run --rm seomachine python3 research_quick_wins.py --project acme
 ```
+
+## Git
+
+Артефакты рисёрча и новые проекты коммитятся в `main` и пушатся — так результаты синхронизируются между VPS-агентом и остальными машинами. `.env` и `credentials/` в git не попадают.
 
 ## Тесты
 

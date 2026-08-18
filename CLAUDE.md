@@ -32,7 +32,15 @@ projects/
 - Pass `--project <slug>` to every script; without it the run falls back to `$SEO_PROJECT`, then `_general`.
 - Write artifacts to `projects/<slug>/research/` as `YYYY-MM-DD-<kind>.md`.
 - **Reports are written in Russian.** Keywords, metrics, URLs, domains and code identifiers stay in their original form. Code comments stay in English.
-- Starting a new project = copy `projects/_example/`, rename, fill in `project.json`.
+- Starting a new project = copy `projects/_example/`, rename, fill in `project.json`. Create it yourself when a task needs one; the repo intentionally ships with no real projects.
+
+## Git
+
+Research output belongs in the repository - it is how results travel between the VPS agent and other machines.
+
+- Commit new project directories and every research artifact to `main` and push.
+- Commit messages describe the research, not the mechanics: `Add SERP analysis for <topic> (<project>)`.
+- Never commit `.env` or `credentials/` - both are gitignored and provisioned out of band on the VPS.
 
 ## Setup
 
