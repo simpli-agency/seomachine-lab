@@ -392,16 +392,15 @@ Buying Tokenized Stocks with USDT: A Complete Guide
 - **Keyword Surface Data:** `2026-08-18-keyword-surface-data.json` (7,254 строк, monthly trends)
 - **SERP Reports:**
   - `2026-08-18-serp-analysis-tokenized-stocks.md`
-  - `2026-08-18-serp-analysis-buy-stocks-with-crypto.md` (созданы)
+  - `2026-08-18-serp-analysis-buy-stocks-with-crypto.md`
   - `2026-08-18-serp-analysis-blockchain-stocks.md`
-  - `2026-08-18-serp-analysis-rwa-tokens.md`
   - `2026-08-18-serp-analysis-synthetic-stocks.md`
 
 ---
 
 ## Финальный Вердикт
 
-**Гипотеза "15 asset pages под USDT" невизма.**
+**Гипотеза "15 asset pages под USDT" не выглядит жизнеспособной как основной SEO-драйвер.**
 
 **Альтернативный путь: Hub + Spoke модель**
 - 1 большая hub страница ("Tokenized Stocks: Complete Guide")
