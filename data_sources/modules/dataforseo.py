@@ -378,6 +378,212 @@ class DataForSEO:
 
         return keywords
 
+    def _market(
+        self,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        worldwide: bool = False,
+    ) -> Dict[str, Any]:
+        """
+        Market keys for a request payload.
+
+        Worldwide runs omit both keys - that is how DataForSEO asks for global
+        data, and it is the only way to size a topic whose demand sits outside
+        the project's default country.
+        """
+        if worldwide:
+            return {}
+        return {
+            "location_code": self._loc(location_code),
+            "language_code": self._lang(language_code),
+        }
+
+    def get_search_volume(
+        self,
+        keywords: List[str],
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        worldwide: bool = False,
+    ) -> List[Dict[str, Any]]:
+        """
+        Get Google Ads search volume for exact keywords
+
+        Uses the Google Ads data source rather than DataForSEO Labs. Labs only
+        knows keywords it has crawled a SERP for, so long-tail phrases often
+        come back missing entirely; Google Ads returns a row for every keyword
+        asked about, with search_volume None or 0 when it is below threshold.
+
+        Args:
+            keywords: Exact keywords to look up (max 1000 per call)
+            location_code: Location code
+            language_code: Language code
+            worldwide: Ignore the market and ask for global volume
+
+        Returns:
+            List of dicts with volume, CPC and competition, by volume desc
+        """
+        payload = {"keywords": keywords[:1000], "search_partners": False}
+        payload.update(self._market(location_code, language_code, worldwide))
+
+        response = self._post(
+            "/v3/keywords_data/google_ads/search_volume/live", [payload]
+        )
+
+        if response["status_code"] != 20000:
+            return []
+
+        task = self._first_task(response)
+        if not task or task.get("status_code") != 20000:
+            return []
+
+        volumes = []
+        for item in task.get("result") or []:
+            if not isinstance(item, dict):
+                continue
+            volumes.append(
+                {
+                    "keyword": item.get("keyword"),
+                    "search_volume": item.get("search_volume"),
+                    "cpc": item.get("cpc"),
+                    "competition": item.get("competition"),
+                    "competition_index": item.get("competition_index"),
+                    "low_top_of_page_bid": item.get("low_top_of_page_bid"),
+                    "high_top_of_page_bid": item.get("high_top_of_page_bid"),
+                }
+            )
+
+        volumes.sort(key=lambda x: x["search_volume"] or 0, reverse=True)
+
+        return volumes
+
+    def get_keyword_overview(
+        self,
+        keywords: List[str],
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        worldwide: bool = False,
+    ) -> List[Dict[str, Any]]:
+        """
+        Get volume, CPC, competition, difficulty and intent for exact keywords
+
+        Unlike get_keyword_ideas() this does not expand the seed - it returns
+        metrics for the keywords passed in, so it is the cheap way to size a
+        seed list. Keywords below the provider's volume threshold come back
+        with search_volume None, which means "no data", not "no demand".
+
+        Args:
+            keywords: Exact keywords to look up (max 700 per call)
+            location_code: Location code
+            language_code: Language code
+
+        Returns:
+            List of dicts with metrics per keyword, sorted by search volume
+        """
+        payload = {"keywords": keywords[:700], "include_serp_info": False}
+        payload.update(self._market(location_code, language_code, worldwide))
+        data = [payload]
+
+        response = self._post("/v3/dataforseo_labs/google/keyword_overview/live", data)
+
+        if response["status_code"] != 20000:
+            return []
+
+        task = self._first_task(response)
+        if not task or task.get("status_code") != 20000:
+            return []
+
+        result = self._first_result(task)
+        if result is None:
+            return []
+
+        overview = []
+        for item in result.get("items", []):
+            info = item.get("keyword_info") or {}
+            props = item.get("keyword_properties") or {}
+            intent = item.get("search_intent_info") or {}
+            overview.append(
+                {
+                    "keyword": item.get("keyword"),
+                    "search_volume": info.get("search_volume"),
+                    "cpc": info.get("cpc"),
+                    "competition": info.get("competition"),
+                    "competition_level": info.get("competition_level"),
+                    "keyword_difficulty": props.get("keyword_difficulty"),
+                    "main_intent": intent.get("main_intent"),
+                    "monthly_searches": info.get("monthly_searches"),
+                }
+            )
+
+        overview.sort(key=lambda x: x["search_volume"] or 0, reverse=True)
+
+        return overview
+
+    def get_keyword_suggestions(
+        self,
+        seed_keyword: str,
+        location_code: Optional[int] = None,
+        limit: int = 50,
+        language_code: Optional[str] = None,
+        worldwide: bool = False,
+    ) -> List[Dict[str, Any]]:
+        """
+        Get long-tail keywords that contain the seed phrase
+
+        Complements get_keyword_ideas(): suggestions are full-text matches on
+        the seed, which is what surfaces demand hiding under a long-tail seed
+        that has no volume of its own.
+
+        Args:
+            seed_keyword: Phrase the suggestions must contain
+            location_code: Location code
+            limit: Number of suggestions to return
+            language_code: Language code
+
+        Returns:
+            List of keywords with volume, CPC, competition and difficulty
+        """
+        payload = {
+            "keyword": seed_keyword,
+            "include_seed_keyword": True,
+            "limit": limit,
+            "order_by": ["keyword_info.search_volume,desc"],
+        }
+        payload.update(self._market(location_code, language_code, worldwide))
+        data = [payload]
+
+        response = self._post(
+            "/v3/dataforseo_labs/google/keyword_suggestions/live", data
+        )
+
+        if response["status_code"] != 20000:
+            return []
+
+        task = self._first_task(response)
+        if not task or task.get("status_code") != 20000:
+            return []
+
+        result = self._first_result(task)
+        if result is None:
+            return []
+
+        suggestions = []
+        for item in result.get("items", []):
+            info = item.get("keyword_info") or {}
+            props = item.get("keyword_properties") or {}
+            suggestions.append(
+                {
+                    "keyword": item.get("keyword"),
+                    "search_volume": info.get("search_volume"),
+                    "cpc": info.get("cpc"),
+                    "competition": info.get("competition"),
+                    "keyword_difficulty": props.get("keyword_difficulty"),
+                }
+            )
+
+        suggestions.sort(key=lambda x: x["search_volume"] or 0, reverse=True)
+
+        return suggestions
+
     def get_questions(
         self,
         keyword: str,

@@ -1,0 +1,148 @@
+{
+  "name": "Cross-chain USDT bridges",
+  "description": "Hypothesis research: cross-chain stablecoin swaps (USDT ERC20 <-> TRC20 and neighbouring pairs) executed through DEX liquidity, non-custodial and no-KYC. Surface-level demand and SERP scan, no site yet.",
+
+  "location_code": 2840,
+  "language_code": "en",
+
+  "bofu_keywords": [
+    "usdt erc20 to trc20",
+    "usdt trc20 to erc20",
+    "erc20 to trc20",
+    "trc20 to erc20",
+    "convert usdt erc20 to trc20",
+    "swap usdt erc20 to trc20",
+    "exchange usdt erc20 to trc20",
+    "bridge usdt erc20 to trc20",
+    "usdt bep20 to trc20",
+    "usdt trc20 to bep20",
+    "usdt bep20 to erc20",
+    "usdt erc20 to bep20",
+    "usdt polygon to trc20",
+    "usdt solana to trc20",
+    "usdt ton to trc20",
+    "usdt arbitrum to trc20",
+    "usdt base to trc20",
+    "usdt bridge",
+    "bridge usdt",
+    "cross chain usdt swap",
+    "cross chain bridge usdt",
+    "usdt cross chain transfer"
+  ],
+
+  "mofu_keywords": [
+    "how to change usdt network",
+    "change usdt network",
+    "usdt networks compared",
+    "usdt network comparison",
+    "erc20 vs trc20",
+    "trc20 vs erc20",
+    "usdt trc20 vs erc20 fees",
+    "cheapest usdt network",
+    "usdt transfer fees",
+    "wrong network usdt",
+    "sent usdt to wrong network",
+    "send usdt to wrong network",
+    "recover usdt sent to wrong network",
+    "usdt wrong network recovery",
+    "what is trc20",
+    "what is erc20 usdt",
+    "how to bridge usdt",
+    "how to swap usdt between networks"
+  ],
+
+  "alternative_keywords": [
+    "no kyc crypto swap",
+    "no kyc crypto exchange",
+    "no kyc usdt exchange",
+    "anonymous crypto swap",
+    "anonymous crypto exchange",
+    "non custodial crypto swap",
+    "non kyc crypto exchange",
+    "instant crypto swap no registration",
+    "no kyc bridge",
+    "decentralized cross chain swap",
+    "dex cross chain swap"
+  ],
+
+  "key_queries": [
+    "usdt erc20 to trc20",
+    "cross chain usdt swap",
+    "no kyc crypto swap"
+  ],
+
+  "serp_keywords": [
+    "usdt erc20 to trc20",
+    "erc20 to trc20",
+    "convert usdt erc20 to trc20",
+    "usdt bridge",
+    "cross chain usdt swap",
+    "usdt bep20 to trc20",
+    "no kyc crypto swap",
+    "anonymous crypto swap",
+    "non custodial crypto swap",
+    "how to change usdt network",
+    "sent usdt to wrong network",
+    "erc20 vs trc20"
+  ],
+
+  "suggestion_seeds": [
+    "erc20 to trc20",
+    "usdt bridge",
+    "no kyc swap",
+    "cross chain swap"
+  ],
+
+  "geo_scan_keywords": [
+    "usdt erc20 to trc20",
+    "erc20 to trc20",
+    "trc20 to erc20",
+    "usdt bridge",
+    "cross chain usdt swap",
+    "usdt bep20 to trc20",
+    "how to change usdt network",
+    "sent usdt to wrong network",
+    "erc20 vs trc20",
+    "no kyc crypto swap",
+    "anonymous crypto swap",
+    "non custodial crypto swap"
+  ],
+
+  "geo_scan_locations": [
+    { "code": 2356, "name": "India", "language": "en" },
+    { "code": 2566, "name": "Nigeria", "language": "en" },
+    { "code": 2608, "name": "Philippines", "language": "en" },
+    { "code": 2360, "name": "Indonesia", "language": "en" },
+    { "code": 2792, "name": "Turkey", "language": "en" },
+    { "code": 2643, "name": "Russia", "language": "en" },
+    { "code": 2826, "name": "United Kingdom", "language": "en" }
+  ],
+
+  "relevant_terms": [
+    "usdt",
+    "trc20",
+    "erc20",
+    "bep20",
+    "bridge",
+    "swap",
+    "exchange",
+    "convert",
+    "cross chain",
+    "no kyc",
+    "non custodial"
+  ],
+  "skip_terms": [
+    "price prediction",
+    "airdrop",
+    "mining",
+    "casino"
+  ],
+
+  "topic_patterns": {
+    "Pair swaps": ["to trc20", "to erc20", "to bep20", "swap", "convert", "exchange"],
+    "Bridges": ["bridge", "cross chain", "crosschain"],
+    "Trust and access": ["no kyc", "kyc", "anonymous", "non custodial", "decentralized"],
+    "Networks and fees": ["network", "fee", "fees", "gas", "cheapest", "vs"],
+    "Problems": ["wrong network", "recover", "stuck", "lost", "mistake"]
+  }
+}
