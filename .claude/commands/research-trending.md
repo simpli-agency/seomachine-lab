@@ -5,6 +5,16 @@ Identify topics gaining search interest NOW for time-sensitive content opportuni
 ## Usage
 `/research-trending`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## What This Command Does
 
 Analyzes search trends to find keywords experiencing rapid growth:
@@ -33,7 +43,7 @@ This will:
    - Search volume (30%)
    - Current position advantage (30%)
 6. Determine urgency level
-7. Generate report: `research/trending-YYYY-MM-DD.md`
+7. Generate report: `projects/<slug>/research/YYYY-MM-DD-trending.md`
 
 ## Output
 
@@ -118,7 +128,6 @@ Focus all resources on 2-3 critical urgency trends
 
 After running `/research-trending`:
 - Use `/research-serp [trending keyword]` for content requirements
-- Use `/write [keyword]` to create content quickly
 - Publish ASAP - timing is critical for trends
 
 ## Time & Cost

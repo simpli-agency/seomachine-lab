@@ -5,6 +5,16 @@ Categorize all content by traffic and rankings to prioritize optimization.
 ## Usage
 `/research-performance`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## What This Command Does
 
 Analyzes ALL your blog content and categorizes into 4 performance quadrants:
@@ -33,7 +43,7 @@ This will:
 3. Enrich with GSC ranking data
 4. Calculate traffic trends (180-day comparison)
 5. Categorize into performance quadrants
-6. Generate report: `research/performance-matrix-YYYY-MM-DD.md`
+6. Generate report: `projects/<slug>/research/YYYY-MM-DD-performance-matrix.md`
 
 ## Output
 

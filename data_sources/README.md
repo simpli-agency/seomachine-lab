@@ -7,7 +7,7 @@ This directory contains integrations for analytics and SEO data sources that pow
 Data sources provide real-time performance metrics for:
 - **Content Performance**: Which articles drive traffic and conversions
 - **SEO Opportunities**: Keywords ranking 11-20 ready to push to page 1
-- **Content Gaps**: Topics competitors rank for but Castos doesn't
+- **Content Gaps**: Topics competitors rank for but the project doesn't
 - **Update Priority**: Articles declining in traffic or outdated
 
 ## Supported Data Sources
@@ -85,14 +85,14 @@ pip install -r data_sources/requirements.txt
 3. Enable Google Analytics Data API
 4. Create service account credentials
 5. Download JSON key file
-6. Save as `data_sources/config/ga4_credentials.json`
+6. Save as `credentials/ga4-credentials.json`
 7. Add service account email to GA4 property (View access)
 
 #### Google Search Console
 1. Use same Google Cloud project
 2. Enable Search Console API
 3. Use same service account or create OAuth 2.0 credentials
-4. Save credentials as `data_sources/config/gsc_credentials.json`
+4. Save credentials as `credentials/gsc-credentials.json`
 5. Add service account to Search Console property (Owner or Full access)
 
 #### DataForSEO
@@ -106,30 +106,29 @@ pip install -r data_sources/requirements.txt
 
 ### 3. Configure Data Sources
 
-Copy example config:
+Credentials are shared across projects and live in the repo-root `.env`:
+
 ```bash
-cp data_sources/config/.env.example data_sources/config/.env
+cp .env.example .env
 ```
 
-Edit `.env` with your credentials:
 ```env
-# Google Analytics 4
-GA4_PROPERTY_ID=123456789
-GA4_CREDENTIALS_PATH=data_sources/config/ga4_credentials.json
-
-# Google Search Console
-GSC_SITE_URL=https://castos.com
-GSC_CREDENTIALS_PATH=data_sources/config/gsc_credentials.json
-
-# DataForSEO
+# DataForSEO (primary source)
 DATAFORSEO_LOGIN=your_login
 DATAFORSEO_PASSWORD=your_password
-DATAFORSEO_BASE_URL=https://api.dataforseo.com
 
-# Cache settings
-CACHE_ENABLED=true
-CACHE_TTL_HOURS=24
+# Optional default market, overridden per project
+DATAFORSEO_LOCATION_CODE=2840
+DATAFORSEO_LANGUAGE_CODE=en
+
+# Google service accounts
+GSC_CREDENTIALS_PATH=./credentials/gsc-credentials.json
+GA4_CREDENTIALS_PATH=./credentials/ga4-credentials.json
 ```
+
+Per-project settings - domain, GSC property URL, GA4 property id, market,
+competitors, keyword lists - go into `projects/<slug>/project.json`, not into
+`.env`. See the repo README for the project layout.
 
 ## Usage
 

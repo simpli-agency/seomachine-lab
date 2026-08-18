@@ -4,102 +4,98 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SEO Machine is an open-source Claude Code workspace for creating SEO-optimized blog content. It combines custom commands, specialized agents, and Python-based analytics to research, write, optimize, and publish articles for any business.
+SEO Machine Lab is a research workspace for SEO and search-visibility analysis across **many unrelated projects**. It is not tied to a single site or brand: DataForSEO is the primary data source, Google Search Console and GA4 are optional per project. There is no content production here - no writing, no publishing.
+
+Most runs happen headlessly on a VPS agent, so scripts must work non-interactively and read credentials from the environment.
+
+## Projects
+
+Every research run belongs to a project directory:
+
+```
+projects/
+  _general/          # research not tied to any project (default target)
+  _example/          # template - copy it to start a new project
+  <slug>/
+    project.json     # domain, GSC property, market, competitors, keywords
+    context.md       # optional free-form notes about the project
+    research/        # artifacts: YYYY-MM-DD-<kind>.md (committed to git)
+```
+
+`project.json` fields (all optional): `name`, `description`, `domain`, `gsc_site_url`, `ga4_property_id`, `blog_path`, `location_code`, `language_code`, `direct_competitors`, `content_competitors`, `bofu_keywords`, `mofu_keywords`, `alternative_keywords`, `key_queries`, `relevant_terms`, `skip_terms`, `topic_patterns`.
+
+**Credentials never go into `project.json`** - they are shared and live in `.env` / `credentials/`.
+
+### Working rules
+
+- Always establish which project a task belongs to before running anything. If none fits, use `_general`.
+- Pass `--project <slug>` to every script; without it the run falls back to `$SEO_PROJECT`, then `_general`.
+- Write artifacts to `projects/<slug>/research/` as `YYYY-MM-DD-<kind>.md`.
+- **Reports are written in Russian.** Keywords, metrics, URLs, domains and code identifiers stay in their original form. Code comments stay in English.
+- Starting a new project = copy `projects/_example/`, rename, fill in `project.json`.
 
 ## Setup
 
 ```bash
 pip install -r data_sources/requirements.txt
+cp .env.example .env   # fill in DataForSEO + Google credentials
+python3 test_dataforseo.py --project _general   # verify API connectivity
 ```
 
-API credentials are configured in `data_sources/config/.env` (GA4, GSC, DataForSEO, WordPress). GA4 service account credentials go in `credentials/ga4-credentials.json`.
+`.env` holds shared credentials (DataForSEO login/password, paths to Google service account JSON). `credentials/` and `.env` are gitignored - on the VPS they are provisioned out of band.
 
 ## Commands
 
-All commands are defined in `.claude/commands/` and invoked as slash commands:
+Slash commands in `.claude/commands/`:
 
-- `/research [topic]` - Keyword/competitor research, generates brief in `research/`
-- `/write [topic]` - Create full article in `drafts/`, auto-triggers optimization agents
-- `/rewrite [topic]` - Update existing content, saves to `rewrites/`
-- `/optimize [file]` - Final SEO polish pass
-- `/analyze-existing [URL or file]` - Content health audit
-- `/performance-review` - Analytics-driven content priorities
-- `/publish-draft [file]` - Publish to WordPress via REST API
-- `/article [topic]` - Simplified article creation
-- `/cluster [topic]` - Build complete topic cluster strategy with pillar + supporting articles + linking map
-- `/priorities` - Content prioritization matrix
-- `/research-serp`, `/research-gaps`, `/research-trending`, `/research-performance`, `/research-topics` - Specialized research commands
-- `/research-ai-citations [topic]` - AI citation audit: generates prompts, clusters them, audits which sources AI cites
-- `/repurpose [file]` - Adapts article for LinkedIn, Medium, Reddit, Quora distribution
-- `/landing-write`, `/landing-audit`, `/landing-research`, `/landing-publish`, `/landing-competitor` - Landing page commands
+- `/research [topic]` - keyword and competitor research, produces a brief
+- `/research-serp [keyword]` - SERP composition, intent, content length benchmarks
+- `/research-gaps` - keywords competitors rank for and the project does not
+- `/research-trending` - rising queries and trend signals
+- `/research-topics` - topic clusters and topical authority gaps
+- `/research-performance` - content performance matrix (needs GSC/GA4)
+- `/research-ai-citations [topic]` - which sources AI assistants cite for a topic
+- `/priorities` - prioritization matrix across research outputs
+- `/performance-review` - analytics-driven review (needs GSC/GA4)
 
-## Architecture
+Agents in `.claude/agents/`: `content-analyzer`, `keyword-mapper`, `cluster-strategist`, `performance`.
 
-### Command-Agent Model
-
-**Commands** (`.claude/commands/`) orchestrate workflows. **Agents** (`.claude/agents/`) are specialized roles invoked by commands. After `/write`, these agents auto-run: SEO Optimizer, Meta Creator, Internal Linker, Keyword Mapper.
-
-Key agents: `content-analyzer.md`, `seo-optimizer.md`, `meta-creator.md`, `internal-linker.md`, `keyword-mapper.md`, `editor.md`, `headline-generator.md`, `cro-analyst.md`, `performance.md`, `cluster-strategist.md`.
-
-### Python Analysis Pipeline
-
-Located in `data_sources/modules/`. The Content Analyzer chains:
-1. `search_intent_analyzer.py` - Query intent classification
-2. `keyword_analyzer.py` - Density, distribution, stuffing detection
-3. `content_length_comparator.py` - Benchmarks against top 10 SERP results
-4. `readability_scorer.py` - Flesch Reading Ease, grade level
-5. `seo_quality_rater.py` - Comprehensive 0-100 SEO score
-
-### Data Integrations
-
-- `google_analytics.py` - GA4 traffic/engagement data
-- `google_search_console.py` - Rankings and impressions
-- `dataforseo.py` - SERP positions, keyword metrics
-- `data_aggregator.py` - Combines all sources into unified analytics
-- `wordpress_publisher.py` - Publishes to WordPress with Yoast SEO metadata
-
-### Opportunity Scoring
-
-`opportunity_scorer.py` uses 8 weighted factors: Volume (25%), Position (20%), Intent (20%), Competition (15%), Cluster (10%), CTR (5%), Freshness (5%), Trend (5%).
-
-## Running Python Scripts
+## Python
 
 ```bash
-# Research & analysis scripts (run from repo root)
-python3 research_quick_wins.py
-python3 research_competitor_gaps.py
-python3 research_performance_matrix.py
-python3 research_priorities_comprehensive.py
-python3 research_serp_analysis.py
-python3 research_topic_clusters.py
-python3 research_trending.py
-python3 seo_baseline_analysis.py
-python3 seo_bofu_rankings.py
-python3 seo_competitor_analysis.py
+# every script takes --project
+python3 research_quick_wins.py --project acme
+python3 research_competitor_gaps.py --project acme
+python3 research_serp_analysis.py "keyword phrase" --project acme
+python3 research_topic_clusters.py --project acme
+python3 research_trending.py --project acme
+python3 research_performance_matrix.py --project acme
+python3 research_priorities_comprehensive.py --project acme
+python3 seo_baseline_analysis.py --project acme
+python3 seo_bofu_rankings.py --project acme
+python3 seo_competitor_analysis.py --project acme
 
-# Test API connectivity
-python3 test_dataforseo.py
+python3 -m unittest discover -s tests
 ```
 
-## Content Pipeline
+`data_sources/modules/project_config.py` resolves the active project and hands each client its settings:
 
-`topics/` (ideas) → `research/` (briefs) → `drafts/` (articles) → `review-required/` (pending review) → `published/` (final)
+- `PROJECT.gsc_site_url` → `GoogleSearchConsole(site_url=...)`
+- `PROJECT.ga4_property_id` → `GoogleAnalytics(property_id=...)`
+- `PROJECT.dataforseo_kwargs()` → `DataForSEO(location_code=..., language_code=...)`
+- `PROJECT.report_path("kind")` → dated path inside the project's research directory
 
-Rewrites go to `rewrites/`. Landing pages go to `landing-pages/`. Audits go to `audits/`. Repurposed content goes to `repurposed/`.
+### Modules
 
-## Context Files
+- `dataforseo.py` - SERP data, rankings, keyword ideas, questions, domain metrics. Market defaults come from the project (class defaults: 2840/USA, `en`).
+- `google_search_console.py` - rankings, impressions, CTR
+- `google_analytics.py` - GA4 traffic and engagement
+- `data_aggregator.py` - combines sources
+- `opportunity_scorer.py` - 8 weighted factors: Volume 25%, Position 20%, Intent 20%, Competition 15%, Cluster 10%, CTR 5%, Freshness 5%, Trend 5%
+- `search_intent_analyzer.py`, `keyword_analyzer.py`, `content_length_comparator.py`, `readability_scorer.py`, `seo_quality_rater.py`, `competitor_gap_analyzer.py`, `engagement_analyzer.py`
 
-`context/` contains brand guidelines that inform all content generation:
-- `brand-voice.md` - Tone, messaging pillars
-- `style-guide.md` - Grammar, formatting standards
-- `seo-guidelines.md` - Keyword and structure rules
-- `internal-links-map.md` - Key pages for internal linking
-- `features.md` - Product features
-- `competitor-analysis.md` - Competitive intelligence
-- `cro-best-practices.md` - Conversion optimization guidelines
-- `ai-citation-targets.md` - Directories/platforms where your brand should be cited by AI tools
-- `reddit-strategy.md` - Reddit engagement strategy for AI SEO and community visibility
+## Conventions
 
-## WordPress Integration
-
-Publishing uses the WordPress REST API with a custom MU-plugin (`wordpress/seo-machine-yoast-rest.php`) that exposes Yoast SEO fields. Articles are published in WordPress block format (HTML comments in Markdown files).
+- Code and comments in English; research reports in Russian.
+- Do not hardcode a domain, market or keyword set into a script - it belongs in `project.json`.
+- New scripts follow the same pattern: import `project_from_args`, resolve `PROJECT` at module level, write output through `PROJECT.report_path()`.

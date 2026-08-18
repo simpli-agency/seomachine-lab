@@ -5,6 +5,16 @@ Analyze topical authority by clustering keywords into related topics.
 ## Usage
 `/research-topics`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## What This Command Does
 
 Groups all your ranking keywords into topic clusters and identifies:
@@ -35,7 +45,7 @@ This will:
 3. Calculate authority score for each cluster
 4. Identify coverage gaps using DataForSEO
 5. Prioritize weak clusters with high demand
-6. Generate report: `research/topic-clusters-YYYY-MM-DD.md`
+6. Generate report: `projects/<slug>/research/YYYY-MM-DD-topic-clusters.md`
 
 ## Output
 
@@ -99,7 +109,6 @@ After running `/research-topics`:
 - Select weak cluster to build
 - Use `/research-serp [gap keyword]` for each gap
 - Create pillar page first, then cluster content
-- Use `/write [keyword]` for each piece
 
 ## Example Output
 

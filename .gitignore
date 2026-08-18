@@ -45,26 +45,8 @@ tmp/
 *.backup
 *~
 
-# Keep directory structure but ignore content in working directories
-# Allow .gitkeep files to preserve empty directories
-topics/*
-!topics/.gitkeep
-!topics/example-topic-idea.md
-
-research/*
-!research/.gitkeep
-
-drafts/*
-!drafts/.gitkeep
-
-published/*
-!published/.gitkeep
-
-rewrites/*
-!rewrites/.gitkeep
-
-# Don't ignore context files - these should be committed after customization
-# !context/
+# Research artifacts under projects/ ARE committed - they are the output of
+# this repo. Only credentials and caches stay out.
 
 # Node modules if using any tools
 node_modules/

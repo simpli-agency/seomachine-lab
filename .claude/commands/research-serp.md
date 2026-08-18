@@ -5,6 +5,16 @@ Deep SERP analysis for a specific keyword to understand what Google wants.
 ## Usage
 `/research-serp "keyword phrase"`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## What This Command Does
 
 Analyzes the top 10 ranking results for a keyword to provide detailed content requirements:
@@ -34,7 +44,7 @@ This will:
 6. Analyze search intent
 7. Assess competitive difficulty
 8. Generate content brief
-9. Create report: `research/serp-analysis-[keyword].md`
+9. Create report: `projects/<slug>/research/serp-analysis-[keyword].md`
 
 ## Output
 
@@ -84,7 +94,6 @@ Check if SERP patterns have changed, update to match current expectations
 
 After running `/research-serp`:
 - Use the content brief to guide writing
-- Use `/write [keyword]` with insights from SERP analysis
 - Ensure content matches recommended structure and length
 
 ## Time & Cost

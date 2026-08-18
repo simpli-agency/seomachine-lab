@@ -10,6 +10,16 @@ Generate high-commercial-intent prompts for a topic, cluster them, and create an
 - `/research-ai-citations "email marketing platform"`
 - `/research-ai-citations "CRM for small businesses"`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## Why This Matters
 
 Traditional SEO research asks: "What keywords do people search on Google?"
@@ -145,7 +155,7 @@ Generate a prioritized action plan:
 
 ## Output
 
-Save to: `research/ai-citations-[topic-slug]-[YYYY-MM-DD].md`
+Save to: `projects/<slug>/research/[YYYY-MM-DD]-ai-citations-[topic-slug].md`
 
 ```markdown
 # AI Citation Audit: [Topic]
@@ -168,16 +178,13 @@ Save to: `research/ai-citations-[topic-slug]-[YYYY-MM-DD].md`
 [Prioritized actions from Step 5]
 
 ## Update ai-citation-targets.md?
-[Note any changes that should be made to context/ai-citation-targets.md based on findings]
+[Note any changes that should be made to projects/<slug>/context.md based on findings]
 ```
 
 ## Integration with Other Commands
 
-- **Before `/article`**: Run `/research-ai-citations` first to understand which prompts the article should target and which sources to reference
-- **After `/publish-draft`**: Run `/repurpose` to distribute the article across citation surfaces identified here
 - **Quarterly**: Re-run for core topic clusters to track changes in AI citation patterns
 
 ## Required Context Files
-- @context/ai-citation-targets.md - Existing citation surface inventory
-- @context/competitor-analysis.md - Competitor landscape
-- @context/features.md - Product feature set (for accurate prompt generation)
+- `projects/<slug>/context.md` - Optional project notes (positioning, citation surfaces)
+- `projects/<slug>/project.json` - Competitors and target keywords

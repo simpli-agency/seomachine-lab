@@ -5,6 +5,16 @@ Use this command to analyze content performance data and generate a prioritized 
 ## Usage
 `/performance-review [days]`
 
+## Project Context
+
+This repo runs research for many unrelated projects. Before doing anything:
+
+1. Determine the target project. The user names it, or the last-used project applies. If no project fits, use `_general`.
+2. Read `projects/<slug>/project.json` for domain, GSC property, market (`location_code`/`language_code`), competitors and keyword lists. Read `projects/<slug>/context.md` if it exists.
+3. Pass `--project <slug>` to every Python script you run.
+4. Write every artifact to `projects/<slug>/research/`, named `YYYY-MM-DD-<kind>.md`.
+5. Write the report in Russian. Keep keywords, metrics, URLs and code identifiers in their original form.
+
 ## What This Command Does
 1. Fetches data from Google Analytics, Google Search Console, and DataForSEO
 2. Analyzes performance trends and opportunities
@@ -147,11 +157,11 @@ Goals and measurement criteria for next review period
 
 ## File Management
 After generating the report, automatically saves to:
-- **File Location**: `research/performance-review-[YYYY-MM-DD].md`
+- **File Location**: `projects/<slug>/research/YYYY-MM-DD-performance-review.md`
 - **File Format**: Markdown with tables, metrics, and action items
 - **Naming Convention**: `performance-review-` + ISO date
 
-Example: `research/performance-review-2025-10-15.md`
+Example: `projects/<slug>/research/2025-10-15-performance-review.md`
 
 ## Integration with Other Commands
 
@@ -162,13 +172,11 @@ The Performance Agent output directly informs other commands:
 1. **Quick Win Identified**: "podcast monetization" at position 13
    ```
    /analyze-existing /blog/podcast-monetization-guide
-   /optimize drafts/podcast-monetization-guide.md
    ```
 
 2. **Declining Content**: Article lost 35% traffic
    ```
    /analyze-existing /blog/podcast-equipment-guide
-   /rewrite podcast equipment guide
    ```
 
 3. **Low CTR**: High impressions, 2.5% CTR
@@ -180,13 +188,11 @@ The Performance Agent output directly informs other commands:
 4. **Trending Topic**: "AI podcast tools" +150% growth
    ```
    /research AI podcast tools
-   /write AI podcast tools
    ```
 
 5. **Competitor Gap**: competitor.com ranks #3, your company not ranking
    ```
    /research podcast editing workflow
-   /write podcast editing workflow
    ```
 
 ## Frequency Recommendations
@@ -276,7 +282,6 @@ After full review, drill into specific pages:
 ```
 # From performance review, identify problem page
 /analyze-existing /blog/specific-article
-/rewrite specific article
 ```
 
 ### Compare Periods
@@ -326,23 +331,20 @@ A successful performance review should:
 # Month start: Run performance review
 /performance-review 30
 
-# Review report: research/performance-review-2025-10-15.md
+# Review report: projects/<slug>/research/2025-10-15-performance-review.md
 # Identify top 5 priorities
 
 # Week 1: Quick wins
 /analyze-existing /blog/top-quick-win-article
-/optimize drafts/top-quick-win-article.md
 
 # Week 2: Declining content
 /analyze-existing /blog/declining-article
-/rewrite declining article
 
 # Week 3: Meta improvements
 # Update meta elements for 5 low-CTR pages
 
 # Week 4: Trending topic
 /research [trending topic from report]
-/write [trending topic]
 
 # Month end: Review results, run new performance review
 /performance-review 30
