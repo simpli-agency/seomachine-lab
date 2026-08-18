@@ -1,0 +1,57 @@
+{
+  "name": "Example Project",
+  "description": "Template for a new project. Copy this directory, rename it, fill in the values, delete what you do not need.",
+
+  "domain": "example.com",
+  "gsc_site_url": "https://example.com/",
+  "ga4_property_id": "",
+  "blog_path": "/blog/",
+
+  "location_code": 2840,
+  "language_code": "en",
+
+  "direct_competitors": [
+    "competitor1.com",
+    "competitor2.com"
+  ],
+  "content_competitors": [
+    "industrysite1.com"
+  ],
+
+  "bofu_keywords": [
+    "product category",
+    "best product category",
+    "competitor1 alternatives"
+  ],
+  "mofu_keywords": [
+    "how to use product category",
+    "product category best practices"
+  ],
+  "alternative_keywords": [
+    "competitor1 alternatives",
+    "competitor2 alternatives"
+  ],
+  "key_queries": [
+    "product category",
+    "brand name"
+  ],
+
+  "relevant_terms": [
+    "industry term 1",
+    "platform",
+    "software",
+    "pricing",
+    "review"
+  ],
+  "skip_terms": [
+    "net worth",
+    "biography"
+  ],
+
+  "topic_patterns": {
+    "Product Features": ["feature", "tool", "platform", "service", "software"],
+    "Pricing": ["price", "pricing", "cost", "plan", "free", "trial"],
+    "Tutorials": ["how to", "guide", "tutorial", "step", "setup"],
+    "Comparisons": ["vs", "versus", "compare", "comparison", "alternative", "best"]
+  }
+}

@@ -23,6 +23,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
 from modules.google_search_console import GoogleSearchConsole
 from modules.google_analytics import GoogleAnalytics
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 # Performance thresholds
@@ -41,14 +45,14 @@ def main():
     # Initialize clients
     print("\n1. Initializing data sources...")
     try:
-        gsc = GoogleSearchConsole()
+        gsc = GoogleSearchConsole(site_url=PROJECT.gsc_site_url)
         print("   ✓ Google Search Console connected")
     except Exception as e:
         print(f"   ✗ GSC Error: {e}")
         return
 
     try:
-        ga = GoogleAnalytics()
+        ga = GoogleAnalytics(property_id=PROJECT.ga4_property_id)
         print("   ✓ Google Analytics 4 connected")
     except Exception as e:
         print(f"   ✗ GA4 Error: {e}")
@@ -203,14 +207,14 @@ def main():
         print(f"   Action: {p['action']}")
 
     # Write report
-    print(f"\n\n4. Writing report to research/performance-matrix-{datetime.now().strftime('%Y-%m-%d')}.md...")
+    print(f"\n\n4. Writing report to {PROJECT.rel(PROJECT.report_path('performance-matrix'))}...")
     write_markdown_report(performance_matrix, stars, overperformers, underperformers, declining)
 
     print("\n" + "=" * 80)
     print("✅ PERFORMANCE MATRIX ANALYSIS COMPLETE")
     print("=" * 80)
     print(f"\nNext steps:")
-    print(f"1. Review detailed report: research/performance-matrix-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('performance-matrix'))}")
     print(f"2. Start with CRITICAL priority items")
     print(f"3. Fix underperformer titles/meta descriptions first (quick wins)")
     print(f"4. Refresh declining content or redirect")
@@ -323,7 +327,7 @@ def write_markdown_report(
 ):
     """Write detailed markdown report"""
     date_str = datetime.now().strftime('%Y-%m-%d')
-    filename = f"research/performance-matrix-{date_str}.md"
+    filename = PROJECT.report_path("performance-matrix", date=date_str)
 
     with open(filename, 'w') as f:
         f.write(f"# Content Performance Matrix\n\n")

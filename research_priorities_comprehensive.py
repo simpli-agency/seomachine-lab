@@ -21,6 +21,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
 from modules.google_analytics import GoogleAnalytics
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 def main():
@@ -59,7 +63,7 @@ def main():
         # Capture quick wins data (would need to modify research_quick_wins to return data)
         print("Running quick wins research...")
         # For now, indicate it's running
-        print("✓ Quick wins analysis complete (see research/quick-wins-YYYY-MM-DD.md)")
+        print("✓ Quick wins analysis complete (see the quick-wins report in the project research directory)")
         results['quick_wins'] = 'completed'
     except Exception as e:
         print(f"⚠ Quick wins analysis failed: {e}")
@@ -80,7 +84,7 @@ def main():
         else:
             print("Running competitor gap analysis...")
             # Would run competitor gaps
-            print("✓ Competitor gaps analysis complete (see research/competitor-gaps-YYYY-MM-DD.md)")
+            print("✓ Competitor gaps analysis complete (see the competitor-gaps report in the project research directory)")
             results['competitor_gaps'] = 'completed'
     except KeyboardInterrupt:
         print("\nSkipping competitor gap analysis")
@@ -95,7 +99,7 @@ def main():
     print("=" * 80)
     try:
         print("Running performance matrix analysis...")
-        print("✓ Performance matrix complete (see research/performance-matrix-YYYY-MM-DD.md)")
+        print("✓ Performance matrix complete (see the performance-matrix report in the project research directory)")
         results['performance_matrix'] = 'completed'
     except Exception as e:
         print(f"⚠ Performance matrix failed: {e}")
@@ -107,7 +111,7 @@ def main():
     print("=" * 80)
     try:
         print("Running topic cluster analysis...")
-        print("✓ Topic clusters complete (see research/topic-clusters-YYYY-MM-DD.md)")
+        print("✓ Topic clusters complete (see the topic-clusters report in the project research directory)")
         results['topic_clusters'] = 'completed'
     except Exception as e:
         print(f"⚠ Topic clusters failed: {e}")
@@ -119,7 +123,7 @@ def main():
     print("=" * 80)
     try:
         print("Running trending analysis...")
-        print("✓ Trending topics complete (see research/trending-YYYY-MM-DD.md)")
+        print("✓ Trending topics complete (see the trending report in the project research directory)")
         results['trending'] = 'completed'
     except Exception as e:
         print(f"⚠ Trending analysis failed: {e}")
@@ -137,18 +141,18 @@ def main():
     print("✅ COMPREHENSIVE RESEARCH COMPLETE")
     print("=" * 80)
     print(f"\n📁 Reports Generated:")
-    print(f"   - research/quick-wins-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"   - {PROJECT.rel(PROJECT.report_path('quick-wins'))}")
 
     if results.get('competitor_gaps') == 'completed':
-        print(f"   - research/competitor-gaps-{datetime.now().strftime('%Y-%m-%d')}.md")
+        print(f"   - {PROJECT.rel(PROJECT.report_path('competitor-gaps'))}")
 
-    print(f"   - research/performance-matrix-{datetime.now().strftime('%Y-%m-%d')}.md")
-    print(f"   - research/topic-clusters-{datetime.now().strftime('%Y-%m-%d')}.md")
-    print(f"   - research/trending-{datetime.now().strftime('%Y-%m-%d')}.md")
-    print(f"   - research/ROADMAP-{datetime.now().strftime('%Y-%m-%d')}.md (★ START HERE)")
+    print(f"   - {PROJECT.rel(PROJECT.report_path('performance-matrix'))}")
+    print(f"   - {PROJECT.rel(PROJECT.report_path('topic-clusters'))}")
+    print(f"   - {PROJECT.rel(PROJECT.report_path('trending'))}")
+    print(f"   - {PROJECT.rel(PROJECT.report_path('ROADMAP'))} (★ START HERE)")
 
     print(f"\n🎯 Next Steps:")
-    print(f"   1. Open research/ROADMAP-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"   1. Open {PROJECT.rel(PROJECT.report_path('ROADMAP'))}")
     print(f"   2. Review prioritized action plan")
     print(f"   3. Start with Week 1 priorities")
     print(f"   4. Use /write or /analyze-existing for each item")
@@ -278,7 +282,7 @@ def generate_unified_roadmap(results: Dict[str, str]) -> Dict[str, Any]:
 def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
     """Write unified roadmap report"""
     date_str = datetime.now().strftime('%Y-%m-%d')
-    filename = f"research/ROADMAP-{date_str}.md"
+    filename = PROJECT.report_path("ROADMAP", date=date_str)
 
     with open(filename, 'w') as f:
         f.write(f"# Content Strategy Roadmap\n\n")
@@ -322,7 +326,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
             f.write(f"\n**Action Steps:**\n")
 
             if item['source'] == 'Trending':
-                f.write(f"1. Open research/trending-{date_str}.md\n")
+                f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('trending', date=date_str))}\n")
                 f.write(f"2. Identify CRITICAL urgency trends\n")
                 f.write(f"3. For each trend:\n")
                 f.write(f"   - If position ≤30: Update existing content immediately\n")
@@ -330,7 +334,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
                 f.write(f"4. Publish within 3-7 days\n")
 
             elif item['source'] == 'Performance Matrix':
-                f.write(f"1. Open research/performance-matrix-{date_str}.md\n")
+                f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('performance-matrix', date=date_str))}\n")
                 f.write(f"2. Go to 'Underperformers' section\n")
                 f.write(f"3. For each underperformer:\n")
                 f.write(f"   - Rewrite title tag (add year, numbers, power words)\n")
@@ -339,7 +343,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
                 f.write(f"4. Monitor CTR improvement after 2 weeks\n")
 
             elif item['source'] == 'Quick Wins':
-                f.write(f"1. Open research/quick-wins-{date_str}.md\n")
+                f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('quick-wins', date=date_str))}\n")
                 f.write(f"2. Select top 3 keywords (priority: CRITICAL)\n")
                 f.write(f"3. For each keyword:\n")
                 f.write(f"   - Run `/research-serp [keyword]` for content requirements\n")
@@ -364,7 +368,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
             if item['source'] == 'Competitor Gaps':
                 if results.get('competitor_gaps') == 'completed':
                     f.write(f"**Action Steps:**\n")
-                    f.write(f"1. Open research/competitor-gaps-{date_str}.md\n")
+                    f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('competitor-gaps', date=date_str))}\n")
                     f.write(f"2. Select top 5 gaps (Priority: CRITICAL/HIGH)\n")
                     f.write(f"3. For each gap:\n")
                     f.write(f"   - Run `/research-serp [keyword]` for content brief\n")
@@ -380,7 +384,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
 
             elif item['source'] == 'Performance Matrix':
                 f.write(f"**Action Steps:**\n")
-                f.write(f"1. Open research/performance-matrix-{date_str}.md\n")
+                f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('performance-matrix', date=date_str))}\n")
                 f.write(f"2. Go to 'Declining' section\n")
                 f.write(f"3. Identify 'Stars' that are declining\n")
                 f.write(f"4. For each:\n")
@@ -404,7 +408,7 @@ def write_roadmap_report(roadmap: Dict[str, Any], results: Dict[str, str]):
 
             if item['source'] == 'Topic Clusters':
                 f.write(f"**Action Steps:**\n")
-                f.write(f"1. Open research/topic-clusters-{date_str}.md\n")
+                f.write(f"1. Open {PROJECT.rel(PROJECT.report_path('topic-clusters', date=date_str))}\n")
                 f.write(f"2. Select top 2-3 weak clusters with high demand\n")
                 f.write(f"3. For each cluster:\n")
                 f.write(f"   - Create comprehensive pillar page (3000+ words)\n")

@@ -14,6 +14,10 @@ load_dotenv()
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
 from modules.dataforseo import DataForSEO
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 def test_connection():
     """Test basic connection to DataForSEO API"""
@@ -36,14 +40,17 @@ def test_connection():
     try:
         # Initialize client
         print("\n1. Initializing DataForSEO client...")
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ Client initialized successfully")
 
         # Test 1: Simple ranking check
-        print("\n2. Testing ranking check for 'podcast hosting'...")
+        probe_domain = PROJECT.domain or "wikipedia.org"
+        probe_keyword = (PROJECT.keywords("key_queries") or ["seo tools"])[0]
+
+        print(f"\n2. Testing ranking check for '{probe_keyword}'...")
         rankings = dfs.get_rankings(
-            domain="castos.com",
-            keywords=["podcast hosting"]
+            domain=probe_domain,
+            keywords=[probe_keyword]
         )
 
         if rankings:
@@ -57,8 +64,8 @@ def test_connection():
             print("   ⚠ No ranking data returned")
 
         # Test 2: Get keyword ideas
-        print("\n3. Testing keyword ideas for 'podcast'...")
-        ideas = dfs.get_keyword_ideas("podcast", limit=5)
+        print(f"\n3. Testing keyword ideas for '{probe_keyword}'...")
+        ideas = dfs.get_keyword_ideas(probe_keyword, limit=5)
 
         if ideas:
             print(f"   ✓ Found {len(ideas)} keyword ideas")
@@ -70,8 +77,8 @@ def test_connection():
             print("   ⚠ No keyword ideas returned")
 
         # Test 3: Get related questions
-        print("\n4. Testing related questions for 'podcast hosting'...")
-        questions = dfs.get_questions("podcast hosting", limit=5)
+        print(f"\n4. Testing related questions for '{probe_keyword}'...")
+        questions = dfs.get_questions(probe_keyword, limit=5)
 
         if questions:
             print(f"   ✓ Found {len(questions)} questions")

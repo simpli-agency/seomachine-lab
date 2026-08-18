@@ -1,0 +1,6 @@
+{
+  "name": "General research",
+  "description": "Ad-hoc research not tied to any specific project. Default target when --project is omitted.",
+  "location_code": 2840,
+  "language_code": "en"
+}

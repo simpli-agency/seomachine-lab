@@ -25,6 +25,8 @@ def load_research_quick_wins_module():
     opportunity_scorer.OpportunityType = object
     search_intent = types.ModuleType("modules.search_intent_analyzer")
     search_intent.SearchIntentAnalyzer = object
+    project_config = types.ModuleType("modules.project_config")
+    project_config.project_from_args = lambda *args, **kwargs: None
 
     injected = {
         "dotenv": fake_dotenv,
@@ -34,6 +36,7 @@ def load_research_quick_wins_module():
         "modules.google_analytics": google_analytics,
         "modules.opportunity_scorer": opportunity_scorer,
         "modules.search_intent_analyzer": search_intent,
+        "modules.project_config": project_config,
     }
     previous = {name: sys.modules.get(name) for name in injected}
     sys.modules.update(injected)

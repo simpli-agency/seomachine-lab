@@ -23,20 +23,14 @@ from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
 from modules.opportunity_scorer import OpportunityScorer, OpportunityType
 from modules.search_intent_analyzer import SearchIntentAnalyzer
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
-def load_competitors():
-    """Load competitor lists from config file."""
-    config_path = os.path.join(os.path.dirname(__file__), 'config', 'competitors.json')
-    if os.path.exists(config_path):
-        with open(config_path) as f:
-            config = json.load(f)
-        return config.get('direct_competitors', []), config.get('content_competitors', [])
-    print("WARNING: config/competitors.json not found. See config/competitors.example.json")
-    return [], []
-
-
-DIRECT_COMPETITORS, CONTENT_COMPETITORS = load_competitors()
+DIRECT_COMPETITORS = PROJECT.direct_competitors
+CONTENT_COMPETITORS = PROJECT.content_competitors
 
 
 def main():
@@ -50,14 +44,14 @@ def main():
     # Initialize clients
     print("\n1. Initializing data sources...")
     try:
-        gsc = GoogleSearchConsole()
+        gsc = GoogleSearchConsole(site_url=PROJECT.gsc_site_url)
         print("   ✓ Google Search Console connected")
     except Exception as e:
         print(f"   ✗ GSC Error: {e}")
         return
 
     try:
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ DataForSEO connected")
     except Exception as e:
         print(f"   ✗ DataForSEO Error: {e}")
@@ -239,14 +233,14 @@ def main():
         print(f"Priority: {gap['priority']}")
 
     # Write report
-    print(f"\n5. Writing report to research/competitor-gaps-{datetime.now().strftime('%Y-%m-%d')}.md...")
+    print(f"\n5. Writing report to {PROJECT.rel(PROJECT.report_path('competitor-gaps'))}...")
     write_markdown_report(top_gaps, len(competitor_gaps))
 
     print("\n" + "=" * 80)
     print("✅ COMPETITOR GAP ANALYSIS COMPLETE")
     print("=" * 80)
     print(f"\nNext steps:")
-    print(f"1. Review detailed report: research/competitor-gaps-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('competitor-gaps'))}")
     print(f"2. Prioritize top 5-10 gaps based on your content strategy")
     print(f"3. Create comprehensive content for each gap")
     print(f"4. Use /write [keyword] command to generate content briefs")
@@ -276,21 +270,9 @@ def is_branded_keyword(keyword: str, domain: str) -> bool:
     return False
 
 
-_relevant_terms_cache = None
-
-
 def _load_relevant_terms() -> List[str]:
-    """Load relevant_terms from config once and cache for the process lifetime."""
-    global _relevant_terms_cache
-    if _relevant_terms_cache is None:
-        config_path = os.path.join(os.path.dirname(__file__), 'config', 'competitors.json')
-        if os.path.exists(config_path):
-            with open(config_path) as f:
-                config = json.load(f)
-            _relevant_terms_cache = [t.lower() for t in config.get('relevant_terms', [])]
-        else:
-            _relevant_terms_cache = []
-    return _relevant_terms_cache
+    """Relevant terms from the project config, lowercased."""
+    return [t.lower() for t in PROJECT.get("relevant_terms", [])]
 
 
 def is_relevant_keyword(keyword: str) -> bool:
@@ -374,7 +356,7 @@ def calculate_commercial_intent_from_serp(intent_result: Dict[str, Any]) -> floa
 def write_markdown_report(gaps: List[Dict[str, Any]], total_found: int):
     """Write detailed markdown report"""
     date_str = datetime.now().strftime('%Y-%m-%d')
-    filename = f"research/competitor-gaps-{date_str}.md"
+    filename = PROJECT.report_path("competitor-gaps", date=date_str)
 
     with open(filename, 'w') as f:
         f.write(f"# Competitor Content Gap Analysis\n\n")

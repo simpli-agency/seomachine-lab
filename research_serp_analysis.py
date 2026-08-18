@@ -7,6 +7,7 @@ Analyzes content patterns, lengths, types, and SERP features
 to create a detailed content brief.
 """
 
+import argparse
 import os
 import sys
 import re
@@ -25,16 +26,32 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 from modules.dataforseo import DataForSEO
 from modules.search_intent_analyzer import SearchIntentAnalyzer
 from modules.content_length_comparator import ContentLengthComparator
+from modules.project_config import add_project_argument, load_project, project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__, add_help=False)
+
+
+def parse_args():
+    """Parse the keyword and the project flag"""
+    parser = argparse.ArgumentParser(description="SERP analysis for a single keyword")
+    add_project_argument(parser)
+    parser.add_argument("keyword", nargs="?", help="Keyword phrase to analyze")
+    return parser.parse_args()
 
 
 def main():
     """Main entry point for SERP analysis"""
-    if len(sys.argv) < 2:
-        print("Usage: python research_serp_analysis.py \"keyword phrase\"")
-        print("\nExample: python research_serp_analysis.py \"your target keyword\"")
+    global PROJECT
+
+    args = parse_args()
+    PROJECT = load_project(args.project)
+    if not args.keyword:
+        print('Usage: python research_serp_analysis.py "keyword phrase" [--project SLUG]')
+        print('\nExample: python research_serp_analysis.py "your target keyword" --project acme')
         return
 
-    keyword = sys.argv[1]
+    keyword = args.keyword
 
     print("=" * 80)
     print(f"SERP ANALYSIS: {keyword}")
@@ -46,7 +63,7 @@ def main():
     # Initialize
     print("\n1. Initializing analysis tools...")
     try:
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ DataForSEO connected")
     except Exception as e:
         print(f"   ✗ DataForSEO Error: {e}")
@@ -198,14 +215,14 @@ def main():
     analysis['content_brief'] = content_brief
 
     # Write report
-    print(f"\n8. Writing report to research/serp-analysis-{sanitize_filename(keyword)}.md...")
+    print(f"\n8. Writing report to {PROJECT.rel(PROJECT.report_path('serp-analysis', suffix=sanitize_filename(keyword)))}...")
     write_markdown_report(keyword, analysis)
 
     print("\n" + "=" * 80)
     print("✅ SERP ANALYSIS COMPLETE")
     print("=" * 80)
     print(f"\nNext steps:")
-    print(f"1. Review detailed report: research/serp-analysis-{sanitize_filename(keyword)}.md")
+    print(f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('serp-analysis', suffix=sanitize_filename(keyword)))}")
     print(f"2. Use the content brief to create your article")
     print(f"3. Ensure your content meets/exceeds the recommended word count")
     print(f"4. Match the dominant content type identified")
@@ -265,14 +282,8 @@ def assess_difficulty(domains: List[str]) -> str:
         'wired.com', 'theverge.com', 'reddit.com', 'hubspot.com'
     ]
 
-    # Medium authority (industry-specific) - loaded from config
-    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'competitors.json')
-    medium_authority = []
-    if os.path.exists(config_path):
-        import json
-        with open(config_path) as f:
-            config = json.load(f)
-        medium_authority = config.get('direct_competitors', []) + config.get('content_competitors', [])
+    # Medium authority (industry-specific) - from the project config
+    medium_authority = PROJECT.direct_competitors + PROJECT.content_competitors
 
     high_count = sum(1 for d in domains if any(ha in d for ha in high_authority))
     medium_count = sum(1 for d in domains if any(ma in d for ma in medium_authority))
@@ -431,7 +442,7 @@ def sanitize_filename(keyword: str) -> str:
 def write_markdown_report(keyword: str, analysis: Dict[str, Any]):
     """Write detailed markdown report"""
     safe_keyword = sanitize_filename(keyword)
-    filename = f"research/serp-analysis-{safe_keyword}.md"
+    filename = PROJECT.report_path("serp-analysis", suffix=safe_keyword)
 
     with open(filename, 'w') as f:
         f.write(f"# SERP Analysis: {keyword}\n\n")

@@ -22,6 +22,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
 from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 # Try to import sklearn for clustering (optional)
 try:
@@ -44,14 +48,14 @@ def main():
     # Initialize
     print("\n1. Initializing data sources...")
     try:
-        gsc = GoogleSearchConsole()
+        gsc = GoogleSearchConsole(site_url=PROJECT.gsc_site_url)
         print("   ✓ Google Search Console connected")
     except Exception as e:
         print(f"   ✗ GSC Error: {e}")
         return
 
     try:
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ DataForSEO connected")
         has_dfs = True
     except Exception as e:
@@ -179,14 +183,14 @@ def main():
         print(f"   Total Clicks: {cluster['total_clicks']:,}/month")
 
     # Write report
-    print(f"\n\n5. Writing report to research/topic-clusters-{datetime.now().strftime('%Y-%m-%d')}.md...")
+    print(f"\n\n5. Writing report to {PROJECT.rel(PROJECT.report_path('topic-clusters'))}...")
     write_markdown_report(cluster_analysis)
 
     print("\n" + "=" * 80)
     print("✅ TOPIC CLUSTER ANALYSIS COMPLETE")
     print("=" * 80)
     print(f"\nNext steps:")
-    print(f"1. Review detailed report: research/topic-clusters-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('topic-clusters'))}")
     print(f"2. Focus on weak clusters with high demand")
     print(f"3. Create content for identified coverage gaps")
     print(f"4. Build comprehensive topic clusters around weak areas")
@@ -237,15 +241,9 @@ def cluster_keywords_ml(keywords: List[Dict]) -> Dict[int, Dict]:
 def cluster_keywords_simple(keywords: List[Dict]) -> Dict[int, Dict]:
     """Simple keyword clustering based on common terms"""
 
-    # Define topic patterns - customize these for your industry
-    # Load from config if available
-    config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'competitors.json')
-    if os.path.exists(config_path):
-        import json
-        with open(config_path) as f:
-            config = json.load(f)
-        topic_patterns = config.get('topic_patterns', {})
-    else:
+    # Topic patterns come from the project config; fall back to generic ones.
+    topic_patterns = PROJECT.get("topic_patterns", {})
+    if not topic_patterns:
         # Default generic patterns - customize for your niche
         topic_patterns = {
             'Product Features': ['feature', 'tool', 'platform', 'service', 'software'],
@@ -422,7 +420,7 @@ def find_cluster_gaps(
 def write_markdown_report(clusters: List[Dict]):
     """Write detailed markdown report"""
     date_str = datetime.now().strftime('%Y-%m-%d')
-    filename = f"research/topic-clusters-{date_str}.md"
+    filename = PROJECT.report_path("topic-clusters", date=date_str)
 
     with open(filename, 'w') as f:
         f.write(f"# Topic Cluster Analysis\n\n")

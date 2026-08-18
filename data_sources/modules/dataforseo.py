@@ -14,17 +14,38 @@ from datetime import datetime
 class DataForSEO:
     """DataForSEO API client"""
 
-    def __init__(self, login: Optional[str] = None, password: Optional[str] = None):
+    # Class-level defaults for the target market. Instances override them from
+    # the constructor args or the environment; a project config can set both.
+    location_code = 2840  # USA
+    language_code = "en"
+
+    def __init__(
+        self,
+        login: Optional[str] = None,
+        password: Optional[str] = None,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+    ):
         """
         Initialize DataForSEO client
 
         Args:
             login: API login (defaults to env var)
             password: API password (defaults to env var)
+            location_code: Default DataForSEO location code for every call
+                (defaults to env var DATAFORSEO_LOCATION_CODE, then 2840/USA)
+            language_code: Default language code for every call
+                (defaults to env var DATAFORSEO_LANGUAGE_CODE, then "en")
         """
         self.login = login or os.getenv("DATAFORSEO_LOGIN")
         self.password = password or os.getenv("DATAFORSEO_PASSWORD")
         self.base_url = os.getenv("DATAFORSEO_BASE_URL", "https://api.dataforseo.com")
+        resolved_location = location_code or os.getenv("DATAFORSEO_LOCATION_CODE")
+        if resolved_location:
+            self.location_code = int(resolved_location)
+        resolved_language = language_code or os.getenv("DATAFORSEO_LANGUAGE_CODE")
+        if resolved_language:
+            self.language_code = resolved_language
 
         if not self.login or not self.password:
             raise ValueError("DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD must be set")
@@ -39,6 +60,14 @@ class DataForSEO:
 
         self.session = requests.Session()
         self.session.headers.update(self.headers)
+
+    def _loc(self, location_code: Optional[int] = None) -> int:
+        """Resolve a location code, falling back to the client default"""
+        return int(location_code) if location_code is not None else self.location_code
+
+    def _lang(self, language_code: Optional[str] = None) -> str:
+        """Resolve a language code, falling back to the client default"""
+        return language_code or self.language_code
 
     def _post(self, endpoint: str, data: List[Dict]) -> Dict:
         """Make POST request to DataForSEO API"""
@@ -67,8 +96,8 @@ class DataForSEO:
         self,
         domain: str,
         keywords: List[str],
-        location_code: int = 2840,  # USA
-        language_code: str = "en",
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get ranking positions for specific keywords
@@ -76,7 +105,7 @@ class DataForSEO:
         Args:
             domain: Your domain (e.g., "castos.com")
             keywords: List of keywords to check
-            location_code: DataForSEO location code (2840 = USA)
+            location_code: DataForSEO location code (defaults to client setting)
             language_code: Language code
 
         Returns:
@@ -87,8 +116,8 @@ class DataForSEO:
             tasks.append(
                 {
                     "keyword": keyword,
-                    "location_code": location_code,
-                    "language_code": language_code,
+                    "location_code": self._loc(location_code),
+                    "language_code": self._lang(language_code),
                     "device": "desktop",
                     "os": "windows",
                 }
@@ -134,7 +163,11 @@ class DataForSEO:
         return results
 
     def get_serp_data(
-        self, keyword: str, location_code: int = 2840, limit: int = 100
+        self,
+        keyword: str,
+        location_code: Optional[int] = None,
+        limit: int = 100,
+        language_code: Optional[str] = None,
     ) -> Dict[str, Any]:
         """
         Get complete SERP data for a keyword
@@ -150,8 +183,8 @@ class DataForSEO:
         data = [
             {
                 "keyword": keyword,
-                "location_code": location_code,
-                "language_code": "en",
+                "location_code": self._loc(location_code),
+                "language_code": self._lang(language_code),
                 "device": "desktop",
                 "os": "windows",
                 "depth": limit,
@@ -209,6 +242,8 @@ class DataForSEO:
         competitor_domain: str,
         keywords: List[str],
         your_domain: Optional[str] = None,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> Dict[str, Any]:
         """
         Analyze competitor rankings vs yours
@@ -226,8 +261,8 @@ class DataForSEO:
             tasks.append(
                 {
                     "keyword": keyword,
-                    "location_code": 2840,
-                    "language_code": "en",
+                    "location_code": self._loc(location_code),
+                    "language_code": self._lang(language_code),
                     "device": "desktop",
                 }
             )
@@ -280,7 +315,11 @@ class DataForSEO:
         }
 
     def get_keyword_ideas(
-        self, seed_keyword: str, location_code: int = 2840, limit: int = 100
+        self,
+        seed_keyword: str,
+        location_code: Optional[int] = None,
+        limit: int = 100,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get related keyword ideas
@@ -296,8 +335,8 @@ class DataForSEO:
         data = [
             {
                 "keyword": seed_keyword,
-                "location_code": location_code,
-                "language_code": "en",
+                "location_code": self._loc(location_code),
+                "language_code": self._lang(language_code),
                 "include_serp_info": True,
                 "limit": limit,
             }
@@ -340,7 +379,11 @@ class DataForSEO:
         return keywords
 
     def get_questions(
-        self, keyword: str, location_code: int = 2840, limit: int = 50
+        self,
+        keyword: str,
+        location_code: Optional[int] = None,
+        limit: int = 50,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get question-based queries related to keyword
@@ -356,8 +399,8 @@ class DataForSEO:
         data = [
             {
                 "keyword": keyword,
-                "location_code": location_code,
-                "language_code": "en",
+                "location_code": self._loc(location_code),
+                "language_code": self._lang(language_code),
                 "limit": limit,
             }
         ]
@@ -413,7 +456,12 @@ class DataForSEO:
 
         return questions
 
-    def get_domain_metrics(self, domain: str) -> Dict[str, Any]:
+    def get_domain_metrics(
+        self,
+        domain: str,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """
         Get domain overview metrics
 
@@ -423,7 +471,13 @@ class DataForSEO:
         Returns:
             Dict with domain metrics
         """
-        data = [{"target": domain, "location_code": 2840, "language_code": "en"}]
+        data = [
+            {
+                "target": domain,
+                "location_code": self._loc(location_code),
+                "language_code": self._lang(language_code),
+            }
+        ]
 
         response = self._post("/v3/dataforseo_labs/google/domain_metrics/live", data)
 
@@ -451,7 +505,12 @@ class DataForSEO:
         }
 
     def check_ranking_history(
-        self, domain: str, keyword: str, months_back: int = 3
+        self,
+        domain: str,
+        keyword: str,
+        months_back: int = 3,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get ranking history for a keyword (requires historical data)
@@ -471,8 +530,8 @@ class DataForSEO:
             {
                 "target": domain,
                 "keyword": keyword,
-                "location_code": 2840,
-                "language_code": "en",
+                "location_code": self._loc(location_code),
+                "language_code": self._lang(language_code),
             }
         ]
 

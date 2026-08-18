@@ -21,6 +21,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
 from modules.search_intent_analyzer import SearchIntentAnalyzer
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 def main():
@@ -34,14 +38,14 @@ def main():
     # Initialize
     print("\n1. Initializing data sources...")
     try:
-        gsc = GoogleSearchConsole()
+        gsc = GoogleSearchConsole(site_url=PROJECT.gsc_site_url)
         print("   ✓ Google Search Console connected")
     except Exception as e:
         print(f"   ✗ GSC Error: {e}")
         return
 
     try:
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ DataForSEO connected")
         has_dfs = True
     except Exception as e:
@@ -149,14 +153,14 @@ def main():
         print(f"Urgency: {trend['urgency']}")
 
     # Write report
-    print(f"\n\n4. Writing report to research/trending-{datetime.now().strftime('%Y-%m-%d')}.md...")
+    print(f"\n\n4. Writing report to {PROJECT.rel(PROJECT.report_path('trending'))}...")
     write_markdown_report(enriched_trends)
 
     print("\n" + "=" * 80)
     print("✅ TRENDING ANALYSIS COMPLETE")
     print("=" * 80)
     print(f"\nNext steps:")
-    print(f"1. Review detailed report: research/trending-{datetime.now().strftime('%Y-%m-%d')}.md")
+    print(f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('trending'))}")
     print(f"2. Act quickly on CRITICAL urgency trends (within 1 week)")
     print(f"3. Create time-sensitive content for top trends")
     print(f"4. Monitor trend continuation over next few weeks")
@@ -245,7 +249,7 @@ def calculate_urgency(growth_percent: float) -> str:
 def write_markdown_report(trends: List[Dict]):
     """Write detailed markdown report"""
     date_str = datetime.now().strftime('%Y-%m-%d')
-    filename = f"research/trending-{date_str}.md"
+    filename = PROJECT.report_path("trending", date=date_str)
 
     with open(filename, 'w') as f:
         f.write(f"# Trending Topic Opportunities\n\n")

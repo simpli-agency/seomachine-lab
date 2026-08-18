@@ -4,7 +4,7 @@ SEO Baseline Analysis
 Pulls comprehensive data from DataForSEO, GSC, and GA4 to establish
 current position for high buyer-intent keywords.
 
-Configure keywords in config/competitors.json under "bofu_keywords" and "mofu_keywords".
+Configure keywords in the project config under "bofu_keywords" and "mofu_keywords".
 """
 
 import os
@@ -15,29 +15,23 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-load_dotenv('data_sources/config/.env')
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources', 'modules'))
 
 from dataforseo import DataForSEO
 from google_search_console import GoogleSearchConsole
+from project_config import project_from_args
 
-
-def load_config():
-    """Load keyword configuration from config file."""
-    config_path = os.path.join(os.path.dirname(__file__), 'config', 'competitors.json')
-    if os.path.exists(config_path):
-        with open(config_path) as f:
-            return json.load(f)
-    print("WARNING: config/competitors.json not found. See config/competitors.example.json")
-    return {}
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 def main():
-    config = load_config()
-    site_domain = os.getenv('GSC_SITE_URL', 'yoursite.com').replace('https://', '').replace('http://', '').rstrip('/')
-    company_name = os.getenv('COMPANY_NAME', 'Your Company')
+    config = PROJECT.data
+    site_domain = (PROJECT.domain or PROJECT.gsc_site_url or 'yoursite.com')
+    site_domain = site_domain.replace('https://', '').replace('http://', '').rstrip('/')
+    company_name = PROJECT.name
 
     print("=" * 70)
     print(f"{company_name.upper()} SEO BASELINE ANALYSIS")
@@ -66,7 +60,7 @@ def main():
     mofu_keywords = config.get('mofu_keywords', [])
 
     if not bofu_keywords and not mofu_keywords:
-        print("No keywords configured. Add 'bofu_keywords' and 'mofu_keywords' to config/competitors.json")
+        print("No keywords configured. Add 'bofu_keywords' and 'mofu_keywords' to the project config")
         print("See config/competitors.example.json for format.")
         return
 

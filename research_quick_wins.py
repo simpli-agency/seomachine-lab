@@ -22,6 +22,10 @@ from modules.dataforseo import DataForSEO
 from modules.google_analytics import GoogleAnalytics
 from modules.opportunity_scorer import OpportunityScorer, OpportunityType
 from modules.search_intent_analyzer import SearchIntentAnalyzer
+from modules.project_config import project_from_args
+
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 def get_first_ranking(rankings):
@@ -53,21 +57,21 @@ def main():
     # Initialize clients
     print("\n1. Initializing data sources...")
     try:
-        gsc = GoogleSearchConsole()
+        gsc = GoogleSearchConsole(site_url=PROJECT.gsc_site_url)
         print("   ✓ Google Search Console connected")
     except Exception as e:
         print(f"   ✗ GSC Error: {e}")
         return
 
     try:
-        dfs = DataForSEO()
+        dfs = DataForSEO(**PROJECT.dataforseo_kwargs())
         print("   ✓ DataForSEO connected")
     except Exception as e:
         print(f"   ⚠ DataForSEO Error: {e}")
         dfs = None
 
     try:
-        ga = GoogleAnalytics()
+        ga = GoogleAnalytics(property_id=PROJECT.ga4_property_id)
         print("   ✓ Google Analytics 4 connected")
     except Exception as e:
         print(f"   ⚠ GA4 Error: {e}")
@@ -288,7 +292,7 @@ def main():
 
     # Write to markdown file
     print(
-        f"\n\n4. Writing report to research/quick-wins-{datetime.now().strftime('%Y-%m-%d')}.md..."
+        f"\n\n4. Writing report to {PROJECT.rel(PROJECT.report_path('quick-wins'))}..."
     )
     write_markdown_report(detailed_opportunities)
 
@@ -297,7 +301,7 @@ def main():
     print("=" * 80)
     print(f"\nNext steps:")
     print(
-        f"1. Review detailed report: research/quick-wins-{datetime.now().strftime('%Y-%m-%d')}.md"
+        f"1. Review detailed report: {PROJECT.rel(PROJECT.report_path('quick-wins'))}"
     )
     print(f"2. Prioritize top 3-5 keywords to target first")
     print(f"3. Update content-priorities.md with findings")
@@ -345,7 +349,7 @@ def generate_recommendation(kw):
 def write_markdown_report(opportunities):
     """Write detailed markdown report"""
     date_str = datetime.now().strftime("%Y-%m-%d")
-    filename = f"research/quick-wins-{date_str}.md"
+    filename = PROJECT.report_path("quick-wins", date=date_str)
 
     with open(filename, "w") as f:
         f.write(f"# Quick Win Opportunities\n\n")

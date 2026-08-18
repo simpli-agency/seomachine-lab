@@ -3,7 +3,7 @@
 Competitor SEO Analysis
 Compares your site vs configured competitors on key keywords.
 
-Configure competitors in config/competitors.json.
+Configure competitors in the project config.
 """
 
 import os
@@ -13,27 +13,21 @@ from dotenv import load_dotenv
 from collections import defaultdict
 
 load_dotenv()
-load_dotenv('data_sources/config/.env')
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources', 'modules'))
 
 from dataforseo import DataForSEO
+from project_config import project_from_args
 
-
-def load_config():
-    """Load configuration from config file."""
-    config_path = os.path.join(os.path.dirname(__file__), 'config', 'competitors.json')
-    if os.path.exists(config_path):
-        with open(config_path) as f:
-            return json.load(f)
-    print("WARNING: config/competitors.json not found. See config/competitors.example.json")
-    return {}
+# Active project: --project flag, else $SEO_PROJECT, else _general
+PROJECT = project_from_args(__doc__)
 
 
 def main():
-    config = load_config()
-    site_domain = os.getenv('GSC_SITE_URL', 'yoursite.com').replace('https://', '').replace('http://', '').rstrip('/')
-    company_name = os.getenv('COMPANY_NAME', 'Your Company')
+    config = PROJECT.data
+    site_domain = (PROJECT.domain or PROJECT.gsc_site_url or 'yoursite.com')
+    site_domain = site_domain.replace('https://', '').replace('http://', '').rstrip('/')
+    company_name = PROJECT.name
 
     # Build competitors dict: our site + configured competitors
     competitors = {site_domain: company_name}
@@ -54,7 +48,7 @@ def main():
     relevant_terms = config.get('relevant_terms', [])
 
     if not bofu_keywords:
-        print("\nNo bofu_keywords configured in config/competitors.json")
+        print("\nNo bofu_keywords configured in the project config")
         return
 
     # =========================================================================
