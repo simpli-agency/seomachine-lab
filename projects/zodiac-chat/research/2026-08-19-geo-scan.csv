@@ -1,0 +1,22 @@
+country,location_code,keyword,search_volume,keyword_difficulty,cpc
+United Kingdom,2826,daily horoscope,49500,54,0.98
+United Kingdom,2826,zodiac compatibility,1600,20,1.2
+United Kingdom,2826,ai astrology,260,13,2.12
+United Kingdom,2826,ask astrologer online,10,,
+India,2356,ai astrology,135000,12,0.21
+India,2356,daily horoscope,60500,80,0.11
+India,2356,astrology chat,2900,75,0.32
+India,2356,zodiac compatibility,1600,27,0.09
+India,2356,ask astrologer online,10,43,0.8
+Canada,2124,daily horoscope,90500,52,1.68
+Canada,2124,zodiac compatibility,1600,31,1.63
+Canada,2124,ai astrology,480,3,1.91
+Canada,2124,astrology chat,110,40,5.27
+Canada,2124,ask astrologer online,10,,
+Australia,2036,daily horoscope,22200,58,0.67
+Australia,2036,zodiac compatibility,720,24,1.81
+Australia,2036,ai astrology,210,5,3.12
+Australia,2036,astrology chat,70,4,5.69
+Australia,2036,ask astrologer online,10,,
+Philippines,2608,daily horoscope,4400,78,0.91
+Philippines,2608,zodiac compatibility,1300,34,0.28

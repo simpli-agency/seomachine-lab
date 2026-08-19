@@ -1,0 +1,200 @@
+{
+  "name": "Zodiac Chat AI",
+  "description": "Freemium AI astrology/horoscope chat generator (zodiac-chat.com). Surface/mid-depth research: what user intent exists around zodiac/astrology/horoscope chat, which adjacent keyword clusters are reachable, KD and traffic potential, and whether the niche is worth investing in.",
+
+  "domain": "zodiac-chat.com",
+  "gsc_site_url": "sc-domain:zodiac-chat.com",
+  "ga4_property_id": "",
+
+  "location_code": 2840,
+  "language_code": "en",
+
+  "direct_competitors": [
+    "astrogpt.ai",
+    "theastro.chat",
+    "kundligpt.com",
+    "jyotinow.com",
+    "astroo.ai"
+  ],
+  "content_competitors": [
+    "zodiacsign.com",
+    "horoscope.com",
+    "astro-seek.com",
+    "cafeastrology.com",
+    "costarastrology.com",
+    "asknebula.com",
+    "astrotalk.com"
+  ],
+
+  "bofu_keywords": [
+    "zodiac chat",
+    "zodiac chatbot",
+    "astrology chat",
+    "astrology chatbot",
+    "horoscope chat",
+    "horoscope chatbot",
+    "ai astrology",
+    "ai horoscope",
+    "ai astrologer",
+    "ai astrology chat",
+    "ai horoscope generator",
+    "free astrology chat",
+    "ask astrologer online",
+    "ask an astrologer",
+    "talk to an astrologer",
+    "astrology app",
+    "horoscope app",
+    "best astrology app",
+    "birth chart chat",
+    "natal chart chat",
+    "ai birth chart reading",
+    "ai tarot reading",
+    "tarot chat"
+  ],
+
+  "mofu_keywords": [
+    "zodiac compatibility",
+    "zodiac signs compatibility",
+    "zodiac compatibility chart",
+    "zodiac sign compatibility test",
+    "love compatibility zodiac",
+    "zodiac love compatibility",
+    "astrology compatibility",
+    "birth chart compatibility",
+    "natal chart compatibility",
+    "synastry chart",
+    "synastry calculator",
+    "zodiac signs",
+    "zodiac sign dates",
+    "zodiac signs dates",
+    "zodiac signs meaning",
+    "zodiac personality",
+    "zodiac traits",
+    "zodiac sign traits",
+    "zodiac sign personality traits",
+    "daily horoscope",
+    "horoscope today",
+    "free daily horoscope",
+    "weekly horoscope",
+    "monthly horoscope",
+    "birth chart",
+    "birth chart calculator",
+    "natal chart",
+    "natal chart calculator",
+    "free birth chart reading",
+    "rising sign calculator",
+    "moon sign calculator",
+    "big three astrology",
+    "what is my zodiac sign",
+    "astrology reading",
+    "free astrology reading",
+    "horoscope compatibility"
+  ],
+
+  "alternative_keywords": [
+    "co-star app",
+    "co star astrology",
+    "the pattern app",
+    "chani app",
+    "cafe astrology",
+    "astro seek",
+    "astrotalk",
+    "sanctuary astrology",
+    "nebula horoscope",
+    "astrology.com",
+    "best ai astrology app",
+    "free astrology chat online",
+    "online astrologer free chat",
+    "astrology chat with astrologer free"
+  ],
+
+  "key_queries": [
+    "zodiac chat",
+    "astrology chat",
+    "ai astrology",
+    "zodiac compatibility",
+    "daily horoscope"
+  ],
+
+  "serp_keywords": [
+    "zodiac compatibility",
+    "zodiac signs compatibility",
+    "zodiac signs",
+    "zodiac sign dates",
+    "daily horoscope",
+    "astrology chat",
+    "ai astrology",
+    "ai horoscope",
+    "astrology chatbot",
+    "birth chart compatibility",
+    "ask astrologer online",
+    "free astrology chat"
+  ],
+
+  "suggestion_seeds": [
+    "zodiac chat",
+    "astrology chat",
+    "ai astrology",
+    "zodiac compatibility",
+    "daily horoscope",
+    "birth chart"
+  ],
+
+  "geo_scan_locations": [
+    { "code": 2826, "name": "United Kingdom", "language": "en" },
+    { "code": 2356, "name": "India", "language": "en" },
+    { "code": 2124, "name": "Canada", "language": "en" },
+    { "code": 2036, "name": "Australia", "language": "en" },
+    { "code": 2608, "name": "Philippines", "language": "en" }
+  ],
+
+  "geo_scan_keywords": [
+    "zodiac chat",
+    "astrology chat",
+    "ai astrology",
+    "zodiac compatibility",
+    "daily horoscope",
+    "ask astrologer online"
+  ],
+
+  "relevant_terms": [
+    "zodiac",
+    "astrology",
+    "horoscope",
+    "chat",
+    "chatbot",
+    "ai",
+    "compatibility",
+    "birth chart",
+    "natal chart",
+    "synastry",
+    "sign",
+    "tarot",
+    "reading",
+    "app",
+    "free"
+  ],
+
+  "skip_terms": [
+    "tattoo",
+    "necklace",
+    "jewelry",
+    "wallpaper",
+    "shirt",
+    "meme",
+    "cake",
+    "nail",
+    "makeup",
+    "coloring page"
+  ],
+
+  "topic_patterns": {
+    "Compatibility": ["compatibility", "match", "synastry", "love", "relationship", "couple"],
+    "Sign reference": ["sign", "dates", "traits", "personality", "meaning", "element"],
+    "Horoscope": ["horoscope", "daily", "weekly", "monthly", "today", "tomorrow"],
+    "AI and chat": ["ai", "chat", "chatbot", "bot", "gpt", "generator", "ask"],
+    "Charts": ["birth chart", "natal", "rising", "moon sign", "calculator", "big three"],
+    "Apps and brands": ["app", "co-star", "co star", "pattern", "chani", "astrotalk", "nebula", "sanctuary"],
+    "Tarot": ["tarot", "cards", "reading", "psychic"]
+  }
+}

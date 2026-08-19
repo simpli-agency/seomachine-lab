@@ -1,0 +1,5521 @@
+{
+  "project": "zodiac-chat",
+  "generated_at": "2026-08-19T17:22:32",
+  "location_code": 2840,
+  "language_code": "en",
+  "domains": {
+    "zodiac-chat.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 1,
+        "items": [
+          {
+            "keyword": "zodiac ai",
+            "search_volume": 90,
+            "cpc": 6.659999847412109,
+            "keyword_difficulty": 4,
+            "position": 58,
+            "url": "https://zodiac-chat.com/",
+            "etv": 0.1889999955892563
+          }
+        ]
+      }
+    },
+    "astrogpt.ai": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 223,
+        "items": [
+          {
+            "keyword": "astrology astrologer",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 74,
+            "position": 20,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 1582.4000244140625
+          },
+          {
+            "keyword": "astrologer",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 71,
+            "position": 53,
+            "url": "https://astrogpt.ai/",
+            "etv": 772.7999877929688
+          },
+          {
+            "keyword": "astrology astrologers",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 82,
+            "position": 48,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 772.7999877929688
+          },
+          {
+            "keyword": "calculator horoscope",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 53,
+            "position": 51,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 346.5
+          },
+          {
+            "keyword": "astroom ai",
+            "search_volume": 2400,
+            "cpc": 3.319999933242798,
+            "keyword_difficulty": 7,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 233.52000427246094
+          },
+          {
+            "keyword": "astro chart free",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 66,
+            "position": 71,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 155.39999389648438
+          },
+          {
+            "keyword": "free horoscope calculator",
+            "search_volume": 40500,
+            "cpc": 1.149999976158142,
+            "keyword_difficulty": 66,
+            "position": 54,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 85.05000305175781
+          },
+          {
+            "keyword": "horoscope calculator free",
+            "search_volume": 40500,
+            "cpc": 1.149999976158142,
+            "keyword_difficulty": 63,
+            "position": 67,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 85.05000305175781
+          },
+          {
+            "keyword": "astrology website",
+            "search_volume": 27100,
+            "cpc": 4.679999828338623,
+            "keyword_difficulty": 71,
+            "position": 34,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 56.90999984741211
+          },
+          {
+            "keyword": "astrology ai",
+            "search_volume": 1300,
+            "cpc": 3.809999942779541,
+            "keyword_difficulty": 17,
+            "position": 6,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 43.939998626708984
+          },
+          {
+            "keyword": "ai powered astrology apps",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 19,
+            "position": 7,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 41.27199935913086
+          },
+          {
+            "keyword": "ai horoscope",
+            "search_volume": 210,
+            "cpc": 2.8600001335144043,
+            "keyword_difficulty": 3,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 34.02000045776367
+          },
+          {
+            "keyword": "best ai for astrology",
+            "search_volume": 210,
+            "cpc": 3.5999999046325684,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 34.02000045776367
+          },
+          {
+            "keyword": "ai astrology reading",
+            "search_volume": 110,
+            "cpc": 3.8600001335144043,
+            "keyword_difficulty": 16,
+            "position": 1,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 33.439998626708984
+          },
+          {
+            "keyword": "horoscope ai",
+            "search_volume": 110,
+            "cpc": 3.2799999713897705,
+            "keyword_difficulty": 3,
+            "position": 2,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 33.439998626708984
+          },
+          {
+            "keyword": "ai for astrology",
+            "search_volume": 90,
+            "cpc": 3.5799999237060547,
+            "keyword_difficulty": 10,
+            "position": 1,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 27.360000610351562
+          },
+          {
+            "keyword": "online astrology tools",
+            "search_volume": 3600,
+            "cpc": null,
+            "keyword_difficulty": 30,
+            "position": 14,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 27
+          },
+          {
+            "keyword": "astrology gpt",
+            "search_volume": 480,
+            "cpc": 5.28000020980835,
+            "keyword_difficulty": 1,
+            "position": 5,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 22.511999130249023
+          },
+          {
+            "keyword": "online astrology tool",
+            "search_volume": 3600,
+            "cpc": null,
+            "keyword_difficulty": 66,
+            "position": 18,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 15.479999542236328
+          },
+          {
+            "keyword": "ai astrology",
+            "search_volume": 1000,
+            "cpc": 3.680000066757202,
+            "keyword_difficulty": 22,
+            "position": 14,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 15
+          },
+          {
+            "keyword": "ai astrology free",
+            "search_volume": 90,
+            "cpc": 2.119999885559082,
+            "keyword_difficulty": 7,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 14.579999923706055
+          },
+          {
+            "keyword": "ai birth chart reading free",
+            "search_volume": 90,
+            "cpc": 2.130000114440918,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 14.579999923706055
+          },
+          {
+            "keyword": "astrology birth chart analysis free",
+            "search_volume": 6600,
+            "cpc": 1.5699999332427979,
+            "keyword_difficulty": 59,
+            "position": 53,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 13.859999656677246
+          },
+          {
+            "keyword": "natal chart free analysis",
+            "search_volume": 6600,
+            "cpc": 1.5699999332427979,
+            "keyword_difficulty": 61,
+            "position": 50,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 13.859999656677246
+          },
+          {
+            "keyword": "astrology tools",
+            "search_volume": 5400,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 47,
+            "position": 25,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 12.960000038146973
+          },
+          {
+            "keyword": "astro ask",
+            "search_volume": 1300,
+            "cpc": 3.440000057220459,
+            "keyword_difficulty": 79,
+            "position": 13,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 11.829999923706055
+          },
+          {
+            "keyword": "astrology tool",
+            "search_volume": 5400,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 59,
+            "position": 29,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 11.34000015258789
+          },
+          {
+            "keyword": "best astrology ai",
+            "search_volume": 70,
+            "cpc": 3.8499999046325684,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 11.34000015258789
+          },
+          {
+            "keyword": "natal chart reader",
+            "search_volume": 5400,
+            "cpc": 2.809999942779541,
+            "keyword_difficulty": 66,
+            "position": 61,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 11.34000015258789
+          },
+          {
+            "keyword": "ai astrology free chat",
+            "search_volume": 170,
+            "cpc": 3.509999990463257,
+            "keyword_difficulty": 6,
+            "position": 5,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 11.20300006866455
+          },
+          {
+            "keyword": "astrologer chatgpt",
+            "search_volume": 320,
+            "cpc": 4.360000133514404,
+            "keyword_difficulty": 14,
+            "position": 10,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 10.815999984741211
+          },
+          {
+            "keyword": "ai astrology website free",
+            "search_volume": 110,
+            "cpc": 1.9800000190734863,
+            "keyword_difficulty": 6,
+            "position": 4,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 10.70300006866455
+          },
+          {
+            "keyword": "astro chart ai",
+            "search_volume": 210,
+            "cpc": 2.950000047683716,
+            "keyword_difficulty": 46,
+            "position": 5,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 9.848999977111816
+          },
+          {
+            "keyword": "astrology platform",
+            "search_volume": 1300,
+            "cpc": null,
+            "keyword_difficulty": 61,
+            "position": 15,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 9.75
+          },
+          {
+            "keyword": "astrological programs",
+            "search_volume": 4400,
+            "cpc": 6.130000114440918,
+            "keyword_difficulty": 30,
+            "position": 55,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 9.239999771118164
+          },
+          {
+            "keyword": "astrology programs",
+            "search_volume": 4400,
+            "cpc": 6.130000114440918,
+            "keyword_difficulty": 33,
+            "position": 73,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 9.239999771118164
+          },
+          {
+            "keyword": "ai horoscope reader",
+            "search_volume": 30,
+            "cpc": 2.8600001335144043,
+            "keyword_difficulty": 10,
+            "position": 2,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 9.119999885559082
+          },
+          {
+            "keyword": "ai astrology chart",
+            "search_volume": 260,
+            "cpc": 6.529999732971191,
+            "keyword_difficulty": 19,
+            "position": 6,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 8.788000106811523
+          },
+          {
+            "keyword": "ai powered astrology app",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 46,
+            "position": 16,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 8.008000373840332
+          },
+          {
+            "keyword": "chatgpt astrology",
+            "search_volume": 880,
+            "cpc": 2.869999885559082,
+            "keyword_difficulty": 15,
+            "position": 15,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 8.008000373840332
+          },
+          {
+            "keyword": "ai birth chart",
+            "search_volume": 170,
+            "cpc": 4.230000019073486,
+            "keyword_difficulty": 46,
+            "position": 5,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 7.9730000495910645
+          },
+          {
+            "keyword": "astrology chart ai",
+            "search_volume": 210,
+            "cpc": 2.950000047683716,
+            "keyword_difficulty": 21,
+            "position": 6,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 7.0980000495910645
+          },
+          {
+            "keyword": "free ai astrology",
+            "search_volume": 70,
+            "cpc": 4.869999885559082,
+            "keyword_difficulty": 12,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.810999870300293
+          },
+          {
+            "keyword": "ask questions astrology free",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 6,
+            "position": 6,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.565999984741211
+          },
+          {
+            "keyword": "best ai astrology",
+            "search_volume": 40,
+            "cpc": 3.4600000381469727,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.480000019073486
+          },
+          {
+            "keyword": "astrology chatgpt",
+            "search_volume": 320,
+            "cpc": 4.360000133514404,
+            "keyword_difficulty": 1,
+            "position": 11,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.303999900817871
+          },
+          {
+            "keyword": "astrological reader",
+            "search_volume": 2900,
+            "cpc": 5.519999980926514,
+            "keyword_difficulty": 62,
+            "position": 36,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.090000152587891
+          },
+          {
+            "keyword": "astrology reader",
+            "search_volume": 2900,
+            "cpc": 5.519999980926514,
+            "keyword_difficulty": 59,
+            "position": 55,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 6.090000152587891
+          },
+          {
+            "keyword": "free astrology ai",
+            "search_volume": 90,
+            "cpc": 2.4100000858306885,
+            "keyword_difficulty": 10,
+            "position": 5,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 5.930999755859375
+          },
+          {
+            "keyword": "star astro",
+            "search_volume": 390,
+            "cpc": 0.8999999761581421,
+            "keyword_difficulty": 46,
+            "position": 13,
+            "url": "https://www.astrogpt.ai/",
+            "etv": 5.849999904632568
+          }
+        ]
+      }
+    },
+    "theastro.chat": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 122,
+        "items": [
+          {
+            "keyword": "astroom ai",
+            "search_volume": 2400,
+            "cpc": 3.319999933242798,
+            "keyword_difficulty": 7,
+            "position": 11,
+            "url": "https://theastro.chat/",
+            "etv": 21.84000015258789
+          },
+          {
+            "keyword": "astrology bot",
+            "search_volume": 1600,
+            "cpc": null,
+            "keyword_difficulty": 5,
+            "position": 19,
+            "url": "https://theastro.chat/",
+            "etv": 8.15999984741211
+          },
+          {
+            "keyword": "astrology ai",
+            "search_volume": 1300,
+            "cpc": 3.809999942779541,
+            "keyword_difficulty": 17,
+            "position": 16,
+            "url": "https://theastro.chat/",
+            "etv": 7.28000020980835
+          },
+          {
+            "keyword": "astrology ai chatbot",
+            "search_volume": 140,
+            "cpc": 4.929999828338623,
+            "keyword_difficulty": 12,
+            "position": 6,
+            "url": "https://theastro.chat/",
+            "etv": 6.565999984741211
+          },
+          {
+            "keyword": "astro ask",
+            "search_volume": 1300,
+            "cpc": 3.440000057220459,
+            "keyword_difficulty": 79,
+            "position": 19,
+            "url": "https://theastro.chat/",
+            "etv": 5.590000152587891
+          },
+          {
+            "keyword": "ask astro",
+            "search_volume": 1300,
+            "cpc": 3.440000057220459,
+            "keyword_difficulty": 9,
+            "position": 32,
+            "url": "https://theastro.chat/",
+            "etv": 2.7300000190734863
+          },
+          {
+            "keyword": "authority astrology",
+            "search_volume": 1300,
+            "cpc": 1.5099999904632568,
+            "keyword_difficulty": 0,
+            "position": 39,
+            "url": "https://theastro.chat/",
+            "etv": 2.7300000190734863
+          },
+          {
+            "keyword": "ai astrology",
+            "search_volume": 1000,
+            "cpc": 3.680000066757202,
+            "keyword_difficulty": 22,
+            "position": 29,
+            "url": "https://theastro.chat/",
+            "etv": 2.0999999046325684
+          },
+          {
+            "keyword": "ai fortune teller",
+            "search_volume": 1000,
+            "cpc": 4.440000057220459,
+            "keyword_difficulty": 0,
+            "position": 68,
+            "url": "https://theastro.chat/",
+            "etv": 2.0999999046325684
+          },
+          {
+            "keyword": "love horoscope accurate",
+            "search_volume": 1000,
+            "cpc": 2.0999999046325684,
+            "keyword_difficulty": 6,
+            "position": 47,
+            "url": "https://theastro.chat/how-accurate-are-daily-love-forecasts/",
+            "etv": 2.0999999046325684
+          },
+          {
+            "keyword": "ai powered astrology app",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 46,
+            "position": 42,
+            "url": "https://theastro.chat/",
+            "etv": 1.8480000495910645
+          },
+          {
+            "keyword": "ai powered astrology apps",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 19,
+            "position": 41,
+            "url": "https://theastro.chat/",
+            "etv": 1.8480000495910645
+          },
+          {
+            "keyword": "chatgpt astrology",
+            "search_volume": 880,
+            "cpc": 2.869999885559082,
+            "keyword_difficulty": 15,
+            "position": 44,
+            "url": "https://theastro.chat/",
+            "etv": 1.8480000495910645
+          },
+          {
+            "keyword": "astro ai chat",
+            "search_volume": 110,
+            "cpc": null,
+            "keyword_difficulty": 3,
+            "position": 10,
+            "url": "https://theastro.chat/",
+            "etv": 1.649999976158142
+          },
+          {
+            "keyword": "fortune teller for free",
+            "search_volume": 720,
+            "cpc": 4.519999980926514,
+            "keyword_difficulty": 0,
+            "position": 63,
+            "url": "https://theastro.chat/",
+            "etv": 1.5120000839233398
+          },
+          {
+            "keyword": "astrology ai free",
+            "search_volume": 70,
+            "cpc": 2.6600000858306885,
+            "keyword_difficulty": 9,
+            "position": 9,
+            "url": "https://theastro.chat/",
+            "etv": 1.378999948501587
+          },
+          {
+            "keyword": "ai astrology chart",
+            "search_volume": 260,
+            "cpc": 6.529999732971191,
+            "keyword_difficulty": 19,
+            "position": 17,
+            "url": "https://theastro.chat/",
+            "etv": 1.3259999752044678
+          },
+          {
+            "keyword": "ai astrology free chat",
+            "search_volume": 170,
+            "cpc": 3.509999990463257,
+            "keyword_difficulty": 6,
+            "position": 14,
+            "url": "https://theastro.chat/",
+            "etv": 1.274999976158142
+          },
+          {
+            "keyword": "astrologer free",
+            "search_volume": 590,
+            "cpc": 2.190000057220459,
+            "keyword_difficulty": 49,
+            "position": 41,
+            "url": "https://theastro.chat/",
+            "etv": 1.2389999628067017
+          },
+          {
+            "keyword": "astrologer chat",
+            "search_volume": 480,
+            "cpc": 5.739999771118164,
+            "keyword_difficulty": 51,
+            "position": 39,
+            "url": "https://theastro.chat/",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "astrology free chat",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 57,
+            "position": 38,
+            "url": "https://theastro.chat/",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "free astrology chat",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 41,
+            "position": 28,
+            "url": "https://theastro.chat/",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "astro chart ai",
+            "search_volume": 210,
+            "cpc": 2.950000047683716,
+            "keyword_difficulty": 46,
+            "position": 20,
+            "url": "https://theastro.chat/",
+            "etv": 0.902999997138977
+          },
+          {
+            "keyword": "astrology bot x",
+            "search_volume": 210,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 18,
+            "url": "https://theastro.chat/",
+            "etv": 0.902999997138977
+          },
+          {
+            "keyword": "astrology reading online",
+            "search_volume": 390,
+            "cpc": 12.979999542236328,
+            "keyword_difficulty": 66,
+            "position": 58,
+            "url": "https://theastro.chat/",
+            "etv": 0.8190000057220459
+          },
+          {
+            "keyword": "star astro",
+            "search_volume": 390,
+            "cpc": 0.8999999761581421,
+            "keyword_difficulty": 46,
+            "position": 52,
+            "url": "https://theastro.chat/",
+            "etv": 0.8190000057220459
+          },
+          {
+            "keyword": "numerology ai",
+            "search_volume": 40,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 10,
+            "url": "https://theastro.chat/numerology-ai/",
+            "etv": 0.7879999876022339
+          },
+          {
+            "keyword": "free astrology ai",
+            "search_volume": 90,
+            "cpc": 2.4100000858306885,
+            "keyword_difficulty": 10,
+            "position": 14,
+            "url": "https://theastro.chat/",
+            "etv": 0.675000011920929
+          },
+          {
+            "keyword": "fortune teller ai",
+            "search_volume": 320,
+            "cpc": 3.8899998664855957,
+            "keyword_difficulty": 0,
+            "position": 63,
+            "url": "https://theastro.chat/",
+            "etv": 0.671999990940094
+          },
+          {
+            "keyword": "how to draw astro bot",
+            "search_volume": 320,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 68,
+            "url": "https://theastro.chat/",
+            "etv": 0.671999990940094
+          },
+          {
+            "keyword": "whatsapp astro",
+            "search_volume": 260,
+            "cpc": null,
+            "keyword_difficulty": 11,
+            "position": 26,
+            "url": "https://theastro.chat/",
+            "etv": 0.5979999899864197
+          },
+          {
+            "keyword": "astrochat",
+            "search_volume": 170,
+            "cpc": 8.119999885559082,
+            "keyword_difficulty": 23,
+            "position": 20,
+            "url": "https://theastro.chat/",
+            "etv": 0.5609999895095825
+          },
+          {
+            "keyword": "ask the genie astrology",
+            "search_volume": 260,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 47,
+            "url": "https://theastro.chat/",
+            "etv": 0.5460000038146973
+          },
+          {
+            "keyword": "free ai fortune teller",
+            "search_volume": 260,
+            "cpc": 5.920000076293945,
+            "keyword_difficulty": 0,
+            "position": 48,
+            "url": "https://theastro.chat/",
+            "etv": 0.5460000038146973
+          },
+          {
+            "keyword": "ai birth chart reading",
+            "search_volume": 70,
+            "cpc": 3.819999933242798,
+            "keyword_difficulty": 46,
+            "position": 15,
+            "url": "https://theastro.chat/",
+            "etv": 0.5249999761581421
+          },
+          {
+            "keyword": "astrotalk free chat",
+            "search_volume": 210,
+            "cpc": 5.929999828338623,
+            "keyword_difficulty": 50,
+            "position": 23,
+            "url": "https://theastro.chat/",
+            "etv": 0.4830000102519989
+          },
+          {
+            "keyword": "ai astrology website free",
+            "search_volume": 110,
+            "cpc": 1.9800000190734863,
+            "keyword_difficulty": 6,
+            "position": 18,
+            "url": "https://theastro.chat/",
+            "etv": 0.4729999899864197
+          },
+          {
+            "keyword": "ai birth chart",
+            "search_volume": 170,
+            "cpc": 4.230000019073486,
+            "keyword_difficulty": 46,
+            "position": 21,
+            "url": "https://theastro.chat/",
+            "etv": 0.45899999141693115
+          },
+          {
+            "keyword": "ai birth chart reading free",
+            "search_volume": 90,
+            "cpc": 2.130000114440918,
+            "keyword_difficulty": 59,
+            "position": 19,
+            "url": "https://theastro.chat/",
+            "etv": 0.45899999141693115
+          },
+          {
+            "keyword": "ai horoscope",
+            "search_volume": 210,
+            "cpc": 2.8600001335144043,
+            "keyword_difficulty": 3,
+            "position": 39,
+            "url": "https://theastro.chat/",
+            "etv": 0.4410000145435333
+          },
+          {
+            "keyword": "astro advice",
+            "search_volume": 210,
+            "cpc": 7.730000019073486,
+            "keyword_difficulty": 78,
+            "position": 26,
+            "url": "https://theastro.chat/",
+            "etv": 0.4410000145435333
+          },
+          {
+            "keyword": "astrology chart ai",
+            "search_volume": 210,
+            "cpc": 2.950000047683716,
+            "keyword_difficulty": 21,
+            "position": 25,
+            "url": "https://theastro.chat/",
+            "etv": 0.4410000145435333
+          },
+          {
+            "keyword": "best ai for astrology",
+            "search_volume": 210,
+            "cpc": 3.5999999046325684,
+            "keyword_difficulty": 0,
+            "position": 37,
+            "url": "https://theastro.chat/",
+            "etv": 0.4410000145435333
+          },
+          {
+            "keyword": "tell my fortune",
+            "search_volume": 210,
+            "cpc": 6.349999904632568,
+            "keyword_difficulty": 7,
+            "position": 69,
+            "url": "https://theastro.chat/",
+            "etv": 0.4410000145435333
+          },
+          {
+            "keyword": "free ai astrology",
+            "search_volume": 70,
+            "cpc": 4.869999885559082,
+            "keyword_difficulty": 12,
+            "position": 16,
+            "url": "https://theastro.chat/",
+            "etv": 0.3919999897480011
+          },
+          {
+            "keyword": "ai astrology free",
+            "search_volume": 90,
+            "cpc": 2.119999885559082,
+            "keyword_difficulty": 7,
+            "position": 19,
+            "url": "https://theastro.chat/",
+            "etv": 0.3869999945163727
+          },
+          {
+            "keyword": "ai astrology app",
+            "search_volume": 170,
+            "cpc": 3.9600000381469727,
+            "keyword_difficulty": 19,
+            "position": 39,
+            "url": "https://theastro.chat/",
+            "etv": 0.3569999933242798
+          },
+          {
+            "keyword": "ai astrology birth chart",
+            "search_volume": 170,
+            "cpc": null,
+            "keyword_difficulty": 42,
+            "position": 28,
+            "url": "https://theastro.chat/",
+            "etv": 0.3569999933242798
+          },
+          {
+            "keyword": "chat with an astrologer for free",
+            "search_volume": 170,
+            "cpc": 4,
+            "keyword_difficulty": 13,
+            "position": 38,
+            "url": "https://theastro.chat/",
+            "etv": 0.3569999933242798
+          },
+          {
+            "keyword": "chat with astrologer online free",
+            "search_volume": 170,
+            "cpc": 4,
+            "keyword_difficulty": 15,
+            "position": 45,
+            "url": "https://theastro.chat/",
+            "etv": 0.3569999933242798
+          }
+        ]
+      }
+    },
+    "kundligpt.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 477,
+        "items": [
+          {
+            "keyword": "astrology ai",
+            "search_volume": 1300,
+            "cpc": 3.809999942779541,
+            "keyword_difficulty": 17,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 395.20001220703125
+          },
+          {
+            "keyword": "ai astrology",
+            "search_volume": 1000,
+            "cpc": 3.680000066757202,
+            "keyword_difficulty": 22,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 304
+          },
+          {
+            "keyword": "kundli gpt",
+            "search_volume": 720,
+            "cpc": null,
+            "keyword_difficulty": 3,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 218.8800048828125
+          },
+          {
+            "keyword": "astrology free chat",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 57,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 145.9199981689453
+          },
+          {
+            "keyword": "kundli",
+            "search_volume": 8100,
+            "cpc": 0.8299999833106995,
+            "keyword_difficulty": 52,
+            "position": 10,
+            "url": "https://kundligpt.com/",
+            "etv": 121.5
+          },
+          {
+            "keyword": "kundali gpt",
+            "search_volume": 320,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 97.27999877929688
+          },
+          {
+            "keyword": "ai astrology free chat",
+            "search_volume": 170,
+            "cpc": 3.509999990463257,
+            "keyword_difficulty": 6,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 51.68000030517578
+          },
+          {
+            "keyword": "astrology bot",
+            "search_volume": 1600,
+            "cpc": null,
+            "keyword_difficulty": 5,
+            "position": 9,
+            "url": "https://kundligpt.com/",
+            "etv": 40.959999084472656
+          },
+          {
+            "keyword": "ai astrology website free",
+            "search_volume": 110,
+            "cpc": 1.9800000190734863,
+            "keyword_difficulty": 6,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 33.439998626708984
+          },
+          {
+            "keyword": "chatgpt astrology",
+            "search_volume": 880,
+            "cpc": 2.869999885559082,
+            "keyword_difficulty": 15,
+            "position": 9,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 29.743999481201172
+          },
+          {
+            "keyword": "ai astrology free",
+            "search_volume": 90,
+            "cpc": 2.119999885559082,
+            "keyword_difficulty": 7,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 27.360000610351562
+          },
+          {
+            "keyword": "free astrology ai",
+            "search_volume": 90,
+            "cpc": 2.4100000858306885,
+            "keyword_difficulty": 10,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 27.360000610351562
+          },
+          {
+            "keyword": "ask a free question astrology",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 10,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask a question astrology free",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 9,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask an astrologer a free question",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 16,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask astrologer free question",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask astrology question free",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 20,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask free astrology question",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 6,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask free question astrology",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 15,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask free question from astrologer",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 7,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ask questions astrology free",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 6,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "astrology ask a question free",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 10,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "astrology free question asking",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 5,
+            "position": 3,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "free astrology ask a question",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 19,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 22.68000030517578
+          },
+          {
+            "keyword": "ai powered astrology app",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 46,
+            "position": 10,
+            "url": "https://kundligpt.com/",
+            "etv": 22.527999877929688
+          },
+          {
+            "keyword": "ai astrology prediction",
+            "search_volume": 70,
+            "cpc": 2.1500000953674316,
+            "keyword_difficulty": 5,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 21.280000686645508
+          },
+          {
+            "keyword": "ai astrology predictions",
+            "search_volume": 70,
+            "cpc": 2.1500000953674316,
+            "keyword_difficulty": 6,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 21.280000686645508
+          },
+          {
+            "keyword": "free ai astrology",
+            "search_volume": 70,
+            "cpc": 4.869999885559082,
+            "keyword_difficulty": 12,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 21.280000686645508
+          },
+          {
+            "keyword": "kundali ai",
+            "search_volume": 70,
+            "cpc": null,
+            "keyword_difficulty": 13,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 21.280000686645508
+          },
+          {
+            "keyword": "kundli ai",
+            "search_volume": 70,
+            "cpc": 0.07999999821186066,
+            "keyword_difficulty": 15,
+            "position": 1,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 21.280000686645508
+          },
+          {
+            "keyword": "astrologer chatgpt",
+            "search_volume": 320,
+            "cpc": 4.360000133514404,
+            "keyword_difficulty": 14,
+            "position": 5,
+            "url": "https://kundligpt.com/",
+            "etv": 21.08799934387207
+          },
+          {
+            "keyword": "best ai for astrology",
+            "search_volume": 210,
+            "cpc": 3.5999999046325684,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://kundligpt.com/",
+            "etv": 20.433000564575195
+          },
+          {
+            "keyword": "quincunxes",
+            "search_volume": 3600,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 19,
+            "url": "https://kundligpt.com/western-aspects/quincunx/",
+            "etv": 18.360000610351562
+          },
+          {
+            "keyword": "kundali",
+            "search_volume": 8100,
+            "cpc": 0.8299999833106995,
+            "keyword_difficulty": 52,
+            "position": 26,
+            "url": "https://kundligpt.com/",
+            "etv": 17.010000228881836
+          },
+          {
+            "keyword": "vedic astrology ai",
+            "search_volume": 170,
+            "cpc": 1.7300000190734863,
+            "keyword_difficulty": 27,
+            "position": 3,
+            "url": "https://kundligpt.com/",
+            "etv": 16.541000366210938
+          },
+          {
+            "keyword": "astrosage kundli",
+            "search_volume": 3600,
+            "cpc": 0.9800000190734863,
+            "keyword_difficulty": 16,
+            "position": 18,
+            "url": "https://kundligpt.com/",
+            "etv": 15.479999542236328
+          },
+          {
+            "keyword": "ai vedic astrology",
+            "search_volume": 50,
+            "cpc": 2.200000047683716,
+            "keyword_difficulty": 29,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 15.199999809265137
+          },
+          {
+            "keyword": "your future prediction",
+            "search_volume": 590,
+            "cpc": 5.730000019073486,
+            "keyword_difficulty": 21,
+            "position": 10,
+            "url": "https://kundligpt.com/",
+            "etv": 15.104000091552734
+          },
+          {
+            "keyword": "analyze birth chart free",
+            "search_volume": 6600,
+            "cpc": 1.5699999332427979,
+            "keyword_difficulty": 31,
+            "position": 74,
+            "url": "https://kundligpt.com/",
+            "etv": 13.859999656677246
+          },
+          {
+            "keyword": "free online birth chart analysis",
+            "search_volume": 6600,
+            "cpc": 1.5699999332427979,
+            "keyword_difficulty": 59,
+            "position": 39,
+            "url": "https://kundligpt.com/",
+            "etv": 13.859999656677246
+          },
+          {
+            "keyword": "kundali reading",
+            "search_volume": 210,
+            "cpc": 0.9599999785423279,
+            "keyword_difficulty": 41,
+            "position": 4,
+            "url": "https://kundligpt.com/",
+            "etv": 13.83899974822998
+          },
+          {
+            "keyword": "kundli reading",
+            "search_volume": 210,
+            "cpc": 0.9599999785423279,
+            "keyword_difficulty": 41,
+            "position": 4,
+            "url": "https://kundligpt.com/",
+            "etv": 13.83899974822998
+          },
+          {
+            "keyword": "astrology ai free",
+            "search_volume": 70,
+            "cpc": 2.6600000858306885,
+            "keyword_difficulty": 9,
+            "position": 2,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 11.34000015258789
+          },
+          {
+            "keyword": "kundli free online",
+            "search_volume": 1000,
+            "cpc": 0.38999998569488525,
+            "keyword_difficulty": 43,
+            "position": 10,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 11.300000190734863
+          },
+          {
+            "keyword": "a1 astrology",
+            "search_volume": 110,
+            "cpc": 1.1800000667572021,
+            "keyword_difficulty": 42,
+            "position": 4,
+            "url": "https://kundligpt.com/",
+            "etv": 10.70300006866455
+          },
+          {
+            "keyword": "online astrology tool",
+            "search_volume": 3600,
+            "cpc": null,
+            "keyword_difficulty": 66,
+            "position": 21,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 9.720000267028809
+          },
+          {
+            "keyword": "ask a question for free astrology",
+            "search_volume": 140,
+            "cpc": 4.28000020980835,
+            "keyword_difficulty": 1,
+            "position": 5,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 9.22599983215332
+          },
+          {
+            "keyword": "astrology ai chatbot",
+            "search_volume": 140,
+            "cpc": 4.929999828338623,
+            "keyword_difficulty": 12,
+            "position": 5,
+            "url": "https://kundligpt.com/chat/",
+            "etv": 9.22599983215332
+          },
+          {
+            "keyword": "free astrology chat ai",
+            "search_volume": 30,
+            "cpc": null,
+            "keyword_difficulty": 6,
+            "position": 1,
+            "url": "https://kundligpt.com/",
+            "etv": 9.119999885559082
+          },
+          {
+            "keyword": "ai for astrology",
+            "search_volume": 90,
+            "cpc": 3.5799999237060547,
+            "keyword_difficulty": 10,
+            "position": 4,
+            "url": "https://kundligpt.com/",
+            "etv": 8.756999969482422
+          }
+        ]
+      }
+    },
+    "jyotinow.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 145,
+        "items": [
+          {
+            "keyword": "astrology ai",
+            "search_volume": 1300,
+            "cpc": 3.809999942779541,
+            "keyword_difficulty": 17,
+            "position": 4,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 85.66999816894531
+          },
+          {
+            "keyword": "astrology free chat",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 57,
+            "position": 3,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 77.76000213623047
+          },
+          {
+            "keyword": "ai astrology",
+            "search_volume": 1000,
+            "cpc": 3.680000066757202,
+            "keyword_difficulty": 22,
+            "position": 5,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 65.9000015258789
+          },
+          {
+            "keyword": "rising horoscope calculator",
+            "search_volume": 27100,
+            "cpc": 0.7099999785423279,
+            "keyword_difficulty": 19,
+            "position": 68,
+            "url": "https://jyotinow.com/tools/rising-sign",
+            "etv": 56.90999984741211
+          },
+          {
+            "keyword": "panchang of today",
+            "search_volume": 4400,
+            "cpc": null,
+            "keyword_difficulty": 20,
+            "position": 31,
+            "url": "https://jyotinow.com/panchang",
+            "etv": 9.239999771118164
+          },
+          {
+            "keyword": "free astrology chat app",
+            "search_volume": 50,
+            "cpc": 5.199999809265137,
+            "keyword_difficulty": 57,
+            "position": 3,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 8.100000381469727
+          },
+          {
+            "keyword": "indian horoscope today",
+            "search_volume": 3600,
+            "cpc": null,
+            "keyword_difficulty": 63,
+            "position": 65,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 7.559999942779541
+          },
+          {
+            "keyword": "singh rashifal",
+            "search_volume": 2900,
+            "cpc": null,
+            "keyword_difficulty": 6,
+            "position": 69,
+            "url": "https://jyotinow.com/rashifal/leo",
+            "etv": 6.090000152587891
+          },
+          {
+            "keyword": "vedic astrology ai",
+            "search_volume": 170,
+            "cpc": 1.7300000190734863,
+            "keyword_difficulty": 27,
+            "position": 6,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 5.745999813079834
+          },
+          {
+            "keyword": "vedic horoscope today",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 17,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 3.671999931335449
+          },
+          {
+            "keyword": "today vedic horoscope",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 18,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 3.0959999561309814
+          },
+          {
+            "keyword": "vedic astrology today",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 20,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 3.0959999561309814
+          },
+          {
+            "keyword": "rahu in 5th house in astrology",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 19,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 2.687999963760376
+          },
+          {
+            "keyword": "free astro chat",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 13,
+            "position": 7,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 2.559999942779541
+          },
+          {
+            "keyword": "vedic horoscope for today",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 20,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 2.375999927520752
+          },
+          {
+            "keyword": "ai horoscope",
+            "search_volume": 210,
+            "cpc": 2.8600001335144043,
+            "keyword_difficulty": 3,
+            "position": 12,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 2.372999906539917
+          },
+          {
+            "keyword": "free ai astrology",
+            "search_volume": 70,
+            "cpc": 4.869999885559082,
+            "keyword_difficulty": 12,
+            "position": 7,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 2.365999937057495
+          },
+          {
+            "keyword": "ai astrology reading",
+            "search_volume": 110,
+            "cpc": 3.8600001335144043,
+            "keyword_difficulty": 16,
+            "position": 10,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 2.1670000553131104
+          },
+          {
+            "keyword": "ai fortune teller",
+            "search_volume": 1000,
+            "cpc": 4.440000057220459,
+            "keyword_difficulty": 0,
+            "position": 98,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 2.0999999046325684
+          },
+          {
+            "keyword": "daily vedic horoscope",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 20,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 1.944000005722046
+          },
+          {
+            "keyword": "ai astrology free chat",
+            "search_volume": 170,
+            "cpc": 3.509999990463257,
+            "keyword_difficulty": 6,
+            "position": 12,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.9210000038146973
+          },
+          {
+            "keyword": "ai powered astrology app",
+            "search_volume": 880,
+            "cpc": null,
+            "keyword_difficulty": 46,
+            "position": 64,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.8480000495910645
+          },
+          {
+            "keyword": "free astrology services",
+            "search_volume": 880,
+            "cpc": 6.179999828338623,
+            "keyword_difficulty": 53,
+            "position": 52,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.8480000495910645
+          },
+          {
+            "keyword": "ai astrology free",
+            "search_volume": 90,
+            "cpc": 2.119999885559082,
+            "keyword_difficulty": 7,
+            "position": 9,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.7730000019073486
+          },
+          {
+            "keyword": "vedic horoscope daily",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 21,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 1.7279999256134033
+          },
+          {
+            "keyword": "horoscope marriage prediction",
+            "search_volume": 50,
+            "cpc": 2.4600000381469727,
+            "keyword_difficulty": 4,
+            "position": 6,
+            "url": "https://jyotinow.com/marriage-prediction",
+            "etv": 1.690000057220459
+          },
+          {
+            "keyword": "daily horoscope vedic",
+            "search_volume": 720,
+            "cpc": 2.4700000286102295,
+            "keyword_difficulty": 43,
+            "position": 27,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 1.5120000839233398
+          },
+          {
+            "keyword": "today in panchang",
+            "search_volume": 720,
+            "cpc": null,
+            "keyword_difficulty": 15,
+            "position": 36,
+            "url": "https://jyotinow.com/panchang",
+            "etv": 1.5120000839233398
+          },
+          {
+            "keyword": "free past life reading",
+            "search_volume": 320,
+            "cpc": 2.6100001335144043,
+            "keyword_difficulty": 0,
+            "position": 19,
+            "url": "https://jyotinow.com/karma-report",
+            "etv": 1.375999927520752
+          },
+          {
+            "keyword": "free astrology ai",
+            "search_volume": 90,
+            "cpc": 2.4100000858306885,
+            "keyword_difficulty": 10,
+            "position": 10,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.350000023841858
+          },
+          {
+            "keyword": "rahu is in 5th house",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 22,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.2960000038146973
+          },
+          {
+            "keyword": "free astrologer chat app",
+            "search_volume": 50,
+            "cpc": 5.199999809265137,
+            "keyword_difficulty": 36,
+            "position": 9,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.2799999713897705
+          },
+          {
+            "keyword": "free astrology chat apps",
+            "search_volume": 50,
+            "cpc": 5.199999809265137,
+            "keyword_difficulty": 42,
+            "position": 9,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.2799999713897705
+          },
+          {
+            "keyword": "marriage prediction from birth chart",
+            "search_volume": 50,
+            "cpc": 2.4600000381469727,
+            "keyword_difficulty": 0,
+            "position": 8,
+            "url": "https://jyotinow.com/marriage-prediction",
+            "etv": 1.2799999713897705
+          },
+          {
+            "keyword": "ai astrology website free",
+            "search_volume": 110,
+            "cpc": 1.9800000190734863,
+            "keyword_difficulty": 6,
+            "position": 12,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.2430000305175781
+          },
+          {
+            "keyword": "astro ai chat",
+            "search_volume": 110,
+            "cpc": null,
+            "keyword_difficulty": 3,
+            "position": 12,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.2430000305175781
+          },
+          {
+            "keyword": "rashi for today",
+            "search_volume": 590,
+            "cpc": null,
+            "keyword_difficulty": 49,
+            "position": 109,
+            "url": "https://jyotinow.com/daily-horoscope",
+            "etv": 1.2389999628067017
+          },
+          {
+            "keyword": "sun in 1st house",
+            "search_volume": 590,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 35,
+            "url": "https://jyotinow.com/placements/sun-in-1st-house",
+            "etv": 1.2389999628067017
+          },
+          {
+            "keyword": "sun in first house",
+            "search_volume": 590,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 32,
+            "url": "https://jyotinow.com/placements/sun-in-1st-house",
+            "etv": 1.2389999628067017
+          },
+          {
+            "keyword": "free talk with astrologer",
+            "search_volume": 480,
+            "cpc": 3.7200000286102295,
+            "keyword_difficulty": 23,
+            "position": 26,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.055999994277954
+          },
+          {
+            "keyword": "5th house rahu",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 50,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "free fortune teller",
+            "search_volume": 480,
+            "cpc": 4.170000076293945,
+            "keyword_difficulty": 6,
+            "position": 109,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "free vedic horoscopes",
+            "search_volume": 480,
+            "cpc": 0.7799999713897705,
+            "keyword_difficulty": 51,
+            "position": 29,
+            "url": "https://jyotinow.com/horoscope",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "online fortune teller free",
+            "search_volume": 480,
+            "cpc": 5.110000133514404,
+            "keyword_difficulty": 24,
+            "position": 108,
+            "url": "https://jyotinow.com/ai-astrologer-chat",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "rahu 5th house",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 51,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "rahu in 5th house",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 59,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "rahu in fifth house",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 49,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "rahu in the 5th house",
+            "search_volume": 480,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 60,
+            "url": "https://jyotinow.com/placements/rahu-in-5th-house",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "rising calculator",
+            "search_volume": 480,
+            "cpc": 0.6899999976158142,
+            "keyword_difficulty": 39,
+            "position": 58,
+            "url": "https://jyotinow.com/tools/rising-sign",
+            "etv": 1.0080000162124634
+          },
+          {
+            "keyword": "when will i get married astrology prediction free",
+            "search_volume": 110,
+            "cpc": 3.200000047683716,
+            "keyword_difficulty": 15,
+            "position": 14,
+            "url": "https://jyotinow.com/marriage-prediction",
+            "etv": 1.0010000467300415
+          }
+        ]
+      }
+    },
+    "astroo.ai": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 817,
+        "items": [
+          {
+            "keyword": "birth chart love compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 11,
+            "position": 12,
+            "url": "https://astroo.ai/blog/birth-chart-love-compatibility",
+            "etv": 250.86000061035156
+          },
+          {
+            "keyword": "birth chart synastry",
+            "search_volume": 18100,
+            "cpc": 2.1600000858306885,
+            "keyword_difficulty": 13,
+            "position": 18,
+            "url": "https://astroo.ai/synastry",
+            "etv": 92.30999755859375
+          },
+          {
+            "keyword": "astroom ai",
+            "search_volume": 2400,
+            "cpc": 3.319999933242798,
+            "keyword_difficulty": 7,
+            "position": 7,
+            "url": "https://astroo.ai/",
+            "etv": 61.439998626708984
+          },
+          {
+            "keyword": "chart astrology compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 30,
+            "position": 22,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 53.279998779296875
+          },
+          {
+            "keyword": "houses horoscope",
+            "search_volume": 22200,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 27,
+            "position": 27,
+            "url": "https://astroo.ai/blog/1-to-12-houses-in-astrology-calculator",
+            "etv": 51.060001373291016
+          },
+          {
+            "keyword": "relationship astrology chart",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 16,
+            "position": 24,
+            "url": "https://astroo.ai/blog/birth-chart-love-compatibility",
+            "etv": 51.060001373291016
+          },
+          {
+            "keyword": "astrology calendar",
+            "search_volume": 5400,
+            "cpc": 0.14000000059604645,
+            "keyword_difficulty": 29,
+            "position": 14,
+            "url": "https://astroo.ai/calendar",
+            "etv": 49.13999938964844
+          },
+          {
+            "keyword": "astrology chart relationship",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 16,
+            "position": 24,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 48.84000015258789
+          },
+          {
+            "keyword": "astrology event today",
+            "search_volume": 2400,
+            "cpc": null,
+            "keyword_difficulty": 33,
+            "position": 10,
+            "url": "https://astroo.ai/calendar",
+            "etv": 47.279998779296875
+          },
+          {
+            "keyword": "birth chart and compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 25,
+            "position": 64,
+            "url": "https://astroo.ai/synastry",
+            "etv": 46.619998931884766
+          },
+          {
+            "keyword": "my houses",
+            "search_volume": 22200,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 31,
+            "position": 40,
+            "url": "https://astroo.ai/blog/1-to-12-houses-in-astrology-calculator",
+            "etv": 46.619998931884766
+          },
+          {
+            "keyword": "astrology what is my rising sign",
+            "search_volume": 18100,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 37,
+            "position": 51,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "synastry birth chart",
+            "search_volume": 18100,
+            "cpc": 2.1600000858306885,
+            "keyword_difficulty": 13,
+            "position": 45,
+            "url": "https://astroo.ai/synastry",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "synastry chart",
+            "search_volume": 18100,
+            "cpc": 2.1600000858306885,
+            "keyword_difficulty": 18,
+            "position": 49,
+            "url": "https://astroo.ai/synastry",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "what is my rising ascendant",
+            "search_volume": 18100,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 37,
+            "position": 50,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "what is my rising sign",
+            "search_volume": 18100,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 16,
+            "position": 42,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "what is my signs rising",
+            "search_volume": 18100,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 14,
+            "position": 56,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 38.0099983215332
+          },
+          {
+            "keyword": "love compatibility chart zodiac",
+            "search_volume": 8100,
+            "cpc": 1.090000033378601,
+            "keyword_difficulty": 26,
+            "position": 20,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 34.83000183105469
+          },
+          {
+            "keyword": "how do i find out my rising sign",
+            "search_volume": 14800,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 33,
+            "position": 62,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 31.079999923706055
+          },
+          {
+            "keyword": "how do.i find out my rising sign",
+            "search_volume": 14800,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 16,
+            "position": 46,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 31.079999923706055
+          },
+          {
+            "keyword": "how to find my rising sign",
+            "search_volume": 14800,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 15,
+            "position": 44,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 31.079999923706055
+          },
+          {
+            "keyword": "how to find rising sign",
+            "search_volume": 14800,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 10,
+            "position": 60,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 31.079999923706055
+          },
+          {
+            "keyword": "symbol planet",
+            "search_volume": 6600,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 0,
+            "position": 19,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 28.3799991607666
+          },
+          {
+            "keyword": "astrology planets symbols",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 11,
+            "position": 19,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 24.639999389648438
+          },
+          {
+            "keyword": "astrology romantic compatibility",
+            "search_volume": 1600,
+            "cpc": 1.5199999809265137,
+            "keyword_difficulty": 33,
+            "position": 11,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 24
+          },
+          {
+            "keyword": "planets symbols astrology",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 11,
+            "position": 19,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 22.440000534057617
+          },
+          {
+            "keyword": "planet symbolism",
+            "search_volume": 6600,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 9,
+            "position": 24,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 21.780000686645508
+          },
+          {
+            "keyword": "astro transit chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 14,
+            "position": 25,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "astrological compatibility love",
+            "search_volume": 9900,
+            "cpc": 2.0799999237060547,
+            "keyword_difficulty": 36,
+            "position": 31,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "astrological transits chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 7,
+            "position": 42,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "birth chart with transits",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 7,
+            "position": 43,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "natal chart transit",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 7,
+            "position": 34,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transit astrology chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 6,
+            "position": 31,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transit charts",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 5,
+            "position": 27,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transit natal chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 9,
+            "position": 36,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transits astrology chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 6,
+            "position": 36,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transits birth chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 10,
+            "position": 45,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transits chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 10,
+            "position": 29,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "transits natal chart",
+            "search_volume": 9900,
+            "cpc": 2.5199999809265137,
+            "keyword_difficulty": 7,
+            "position": 35,
+            "url": "https://astroo.ai/transit",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "what my rising sign",
+            "search_volume": 9900,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 11,
+            "position": 32,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "what's my rising sign",
+            "search_volume": 9900,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 16,
+            "position": 41,
+            "url": "https://astroo.ai/blog/what-is-my-rising-sign",
+            "etv": 20.790000915527344
+          },
+          {
+            "keyword": "astrology events this month",
+            "search_volume": 210,
+            "cpc": null,
+            "keyword_difficulty": 21,
+            "position": 4,
+            "url": "https://astroo.ai/calendar",
+            "etv": 20.433000564575195
+          },
+          {
+            "keyword": "what the prettiest zodiac sign",
+            "search_volume": 1300,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 15,
+            "url": "https://astroo.ai/blog/the-prettiest-zodiac-sign",
+            "etv": 19.5
+          },
+          {
+            "keyword": "zodiac signs compatibility table",
+            "search_volume": 8100,
+            "cpc": 1.090000033378601,
+            "keyword_difficulty": 34,
+            "position": 26,
+            "url": "https://astroo.ai/blog/astrology-relationship-compatibility-guide",
+            "etv": 19.440000534057617
+          },
+          {
+            "keyword": "planet symbol astrology",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 14,
+            "position": 18,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 18.920000076293945
+          },
+          {
+            "keyword": "planet symbols in astrology",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 11,
+            "position": 21,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 18.920000076293945
+          },
+          {
+            "keyword": "planetary symbols astrology",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 20,
+            "position": 20,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 18.920000076293945
+          },
+          {
+            "keyword": "symbols for planets in astrology",
+            "search_volume": 4400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 7,
+            "position": 21,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 18.920000076293945
+          },
+          {
+            "keyword": "personal daily horoscope",
+            "search_volume": 2400,
+            "cpc": 5.630000114440918,
+            "keyword_difficulty": 29,
+            "position": 14,
+            "url": "https://astroo.ai/daily",
+            "etv": 18
+          },
+          {
+            "keyword": "planetary symbol",
+            "search_volume": 6600,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 9,
+            "position": 26,
+            "url": "https://astroo.ai/blog/what-astrology-planet-symbols-mean",
+            "etv": 17.81999969482422
+          }
+        ]
+      }
+    },
+    "zodiacsign.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 97863,
+        "items": [
+          {
+            "keyword": "geminis",
+            "search_volume": 20400000,
+            "cpc": 0.6499999761581421,
+            "keyword_difficulty": 64,
+            "position": 11,
+            "url": "https://www.zodiacsign.com/zodiac-signs/gemini/",
+            "etv": 401880
+          },
+          {
+            "keyword": "astrological sign zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 37,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "astrological signs zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 42,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "sign astrology",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 32,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "zodiac horoscope sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 68,
+            "position": 1,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "zodiac sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "zodiac signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "zodiac signs of astrology",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 44,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 204592
+          },
+          {
+            "keyword": "sagittarius",
+            "search_volume": 368000,
+            "cpc": 0.5400000214576721,
+            "keyword_difficulty": 50,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/sagittarius/",
+            "etv": 111872
+          },
+          {
+            "keyword": "signs for the zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 39,
+            "position": 5,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 109026
+          },
+          {
+            "keyword": "star sign of zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 35,
+            "position": 4,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 109026
+          },
+          {
+            "keyword": "zodiac and astrological signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 44,
+            "position": 4,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 109026
+          },
+          {
+            "keyword": "aquarius",
+            "search_volume": 301000,
+            "cpc": 0.9300000071525574,
+            "keyword_difficulty": 44,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/aquarius/",
+            "etv": 91504
+          },
+          {
+            "keyword": "capricorn",
+            "search_volume": 301000,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/capricorn/",
+            "etv": 91504
+          },
+          {
+            "keyword": "pisces",
+            "search_volume": 301000,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 50,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/pisces/",
+            "etv": 91504
+          },
+          {
+            "keyword": "astrology of scorpio",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 51,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/scorpio/",
+            "etv": 74784
+          },
+          {
+            "keyword": "astrology signs and dating",
+            "search_volume": 246000,
+            "cpc": 0.25,
+            "keyword_difficulty": 21,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 74784
+          },
+          {
+            "keyword": "scorpio",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 33,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/scorpio/",
+            "etv": 74784
+          },
+          {
+            "keyword": "scorpio in astrology",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/scorpio/",
+            "etv": 74784
+          },
+          {
+            "keyword": "virgo",
+            "search_volume": 246000,
+            "cpc": 0.28999999165534973,
+            "keyword_difficulty": 55,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/virgo/",
+            "etv": 74784
+          },
+          {
+            "keyword": "zodiacs",
+            "search_volume": 246000,
+            "cpc": 0.41999998688697815,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 74784
+          },
+          {
+            "keyword": "sign zodiac signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 68,
+            "position": 5,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 65482.8984375
+          },
+          {
+            "keyword": "libra",
+            "search_volume": 201000,
+            "cpc": 1.7999999523162842,
+            "keyword_difficulty": 38,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/libra/",
+            "etv": 61104
+          },
+          {
+            "keyword": "astrological signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 43,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology about aries",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 37,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/aries/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology about cancer",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 34,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology and signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 41,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology and zodiac signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 68,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology by zodiac sign",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 68,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology horoscope signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 69,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 31,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "cancer and zodiac",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 16,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "cancer horoscope sign",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "cancer sign zodiac",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 21,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "cancer signs zodiac",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 29,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "cancer zodiac",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 30,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope signs astrology",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 32,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope zodiac aries",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 46,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/aries/",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope zodiac sign",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 71,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope zodiac signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 71,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "sign horoscope",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 75,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 50160
+          },
+          {
+            "keyword": "zodiac and cancer",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 29,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "zodiac cancer astrology",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/cancer/",
+            "etv": 50160
+          },
+          {
+            "keyword": "aries",
+            "search_volume": 301000,
+            "cpc": 0.7799999713897705,
+            "keyword_difficulty": 35,
+            "position": 5,
+            "url": "https://www.zodiacsign.com/zodiac-signs/aries/",
+            "etv": 48762
+          },
+          {
+            "keyword": "birth signs of the zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 69,
+            "position": 6,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "zodiac birth sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 31,
+            "position": 7,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "zodiac signs and",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 36,
+            "position": 6,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "zodiac signs signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 37,
+            "position": 7,
+            "url": "https://www.zodiacsign.com/",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "astrology of libra",
+            "search_volume": 135000,
+            "cpc": 0.9200000166893005,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/libra/",
+            "etv": 41040
+          },
+          {
+            "keyword": "leo horoscope zodiac signs",
+            "search_volume": 135000,
+            "cpc": 0.5,
+            "keyword_difficulty": 54,
+            "position": 2,
+            "url": "https://www.zodiacsign.com/zodiac-signs/leo/",
+            "etv": 41040
+          }
+        ]
+      }
+    },
+    "horoscope.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 91599,
+        "items": [
+          {
+            "keyword": "horoscope",
+            "search_volume": 1500000,
+            "cpc": 1.5399999618530273,
+            "keyword_difficulty": 75,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/index.aspx",
+            "etv": 456000
+          },
+          {
+            "keyword": "daily horoscope for today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 60,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 111872
+          },
+          {
+            "keyword": "daily horoscopes for today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 111872
+          },
+          {
+            "keyword": "daily horoscope",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 91504
+          },
+          {
+            "keyword": "horoscope daily horoscope",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 91504
+          },
+          {
+            "keyword": "horoscope of the day",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 58,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 91504
+          },
+          {
+            "keyword": "horoscopes for the day",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx",
+            "etv": 91504
+          },
+          {
+            "keyword": "horoscope and virgo",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 51,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6",
+            "etv": 61104
+          },
+          {
+            "keyword": "horoscope virgo",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6",
+            "etv": 61104
+          },
+          {
+            "keyword": "virgo horoscope",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6",
+            "etv": 61104
+          },
+          {
+            "keyword": "virgo zodiac horoscope",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 54,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6",
+            "etv": 61104
+          },
+          {
+            "keyword": "horoscopes",
+            "search_volume": 1500000,
+            "cpc": 1.5399999618530273,
+            "keyword_difficulty": 37,
+            "position": 7,
+            "url": "https://www.horoscope.com/us/index.aspx",
+            "etv": 50700
+          },
+          {
+            "keyword": "aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 57,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=1",
+            "etv": 50160
+          },
+          {
+            "keyword": "aries horoscopes",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 43,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=1",
+            "etv": 50160
+          },
+          {
+            "keyword": "gemini and horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0399999618530273,
+            "keyword_difficulty": 43,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=3",
+            "etv": 50160
+          },
+          {
+            "keyword": "gemini horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0399999618530273,
+            "keyword_difficulty": 46,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=3",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope for gemini",
+            "search_volume": 165000,
+            "cpc": 1.0399999618530273,
+            "keyword_difficulty": 36,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=3",
+            "etv": 50160
+          },
+          {
+            "keyword": "pisces horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0800000429153442,
+            "keyword_difficulty": 43,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=12",
+            "etv": 50160
+          },
+          {
+            "keyword": "taurus horoscope",
+            "search_volume": 165000,
+            "cpc": 0.7699999809265137,
+            "keyword_difficulty": 54,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=2",
+            "etv": 50160
+          },
+          {
+            "keyword": "taurus horoscopes",
+            "search_volume": 165000,
+            "cpc": 0.7699999809265137,
+            "keyword_difficulty": 55,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=2",
+            "etv": 50160
+          },
+          {
+            "keyword": "zodiac aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 43,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=1",
+            "etv": 50160
+          },
+          {
+            "keyword": "geminis",
+            "search_volume": 20400000,
+            "cpc": 0.6499999761581421,
+            "keyword_difficulty": 64,
+            "position": 29,
+            "url": "https://www.horoscope.com/zodiac-signs/gemini",
+            "etv": 42840
+          },
+          {
+            "keyword": "cancer horoscope",
+            "search_volume": 135000,
+            "cpc": 0.5699999928474426,
+            "keyword_difficulty": 52,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 41040
+          },
+          {
+            "keyword": "cancer horoscopes",
+            "search_volume": 135000,
+            "cpc": 0.5699999928474426,
+            "keyword_difficulty": 29,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 41040
+          },
+          {
+            "keyword": "capricorn and horoscope",
+            "search_volume": 135000,
+            "cpc": 0.949999988079071,
+            "keyword_difficulty": 41,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10",
+            "etv": 41040
+          },
+          {
+            "keyword": "capricorn horoscope",
+            "search_volume": 135000,
+            "cpc": 0.949999988079071,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10",
+            "etv": 41040
+          },
+          {
+            "keyword": "horoscope cancer zodiac",
+            "search_volume": 135000,
+            "cpc": 0.5699999928474426,
+            "keyword_difficulty": 48,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 41040
+          },
+          {
+            "keyword": "horoscope leo",
+            "search_volume": 135000,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 36,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5",
+            "etv": 41040
+          },
+          {
+            "keyword": "horoscope/libra",
+            "search_volume": 135000,
+            "cpc": 0.9200000166893005,
+            "keyword_difficulty": 36,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=7",
+            "etv": 41040
+          },
+          {
+            "keyword": "leo and horoscope",
+            "search_volume": 135000,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 38,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5",
+            "etv": 41040
+          },
+          {
+            "keyword": "leo horoscope",
+            "search_volume": 135000,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 43,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5",
+            "etv": 41040
+          },
+          {
+            "keyword": "leo zodiac sign horoscope",
+            "search_volume": 135000,
+            "cpc": 0.5,
+            "keyword_difficulty": 47,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5",
+            "etv": 41040
+          },
+          {
+            "keyword": "libra horoscope",
+            "search_volume": 135000,
+            "cpc": 0.9200000166893005,
+            "keyword_difficulty": 45,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=7",
+            "etv": 41040
+          },
+          {
+            "keyword": "scorpio and horoscope",
+            "search_volume": 135000,
+            "cpc": 1.1200000047683716,
+            "keyword_difficulty": 35,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=8",
+            "etv": 41040
+          },
+          {
+            "keyword": "scorpio horoscope",
+            "search_volume": 135000,
+            "cpc": 1.1200000047683716,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=8",
+            "etv": 41040
+          },
+          {
+            "keyword": "zodiac cancer horoscope",
+            "search_volume": 135000,
+            "cpc": 0.5699999928474426,
+            "keyword_difficulty": 42,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 41040
+          },
+          {
+            "keyword": "aquarius horoscope",
+            "search_volume": 110000,
+            "cpc": 0.9300000071525574,
+            "keyword_difficulty": 39,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=11",
+            "etv": 33440
+          },
+          {
+            "keyword": "sag horoscope",
+            "search_volume": 110000,
+            "cpc": 0.49000000953674316,
+            "keyword_difficulty": 34,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9",
+            "etv": 33440
+          },
+          {
+            "keyword": "sagittarius horoscope",
+            "search_volume": 110000,
+            "cpc": 0.49000000953674316,
+            "keyword_difficulty": 48,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9",
+            "etv": 33440
+          },
+          {
+            "keyword": "cancer horoscope sign today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 29,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer horoscope today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 18,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer sign horoscope today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 29,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer sign today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer sign today horoscope",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer star sign today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 18,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer zodiac horoscope for today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 33,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer zodiac horoscope today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "cancer zodiac today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 15,
+            "position": 2,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          },
+          {
+            "keyword": "horoscope / leo today",
+            "search_volume": 90500,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 21,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5",
+            "etv": 27512
+          },
+          {
+            "keyword": "horoscope for the day cancer",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 31,
+            "position": 1,
+            "url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=4",
+            "etv": 27512
+          }
+        ]
+      }
+    },
+    "astro-seek.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 116460,
+        "items": [
+          {
+            "keyword": "astro seek",
+            "search_volume": 201000,
+            "cpc": 3.2799999713897705,
+            "keyword_difficulty": 11,
+            "position": 1,
+            "url": "https://www.astro-seek.com/",
+            "etv": 61104
+          },
+          {
+            "keyword": "astro-seek",
+            "search_volume": 201000,
+            "cpc": 3.2799999713897705,
+            "keyword_difficulty": 10,
+            "position": 1,
+            "url": "https://www.astro-seek.com/",
+            "etv": 61104
+          },
+          {
+            "keyword": "birth chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 65,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 39852
+          },
+          {
+            "keyword": "birth chart and horoscope",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 39852
+          },
+          {
+            "keyword": "natal chart horoscope",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 66,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 39852
+          },
+          {
+            "keyword": "moon phases today",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 62,
+            "position": 6,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 29655
+          },
+          {
+            "keyword": "birth astrology chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 26730
+          },
+          {
+            "keyword": "birth chart astrology calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 26730
+          },
+          {
+            "keyword": "birth chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 26730
+          },
+          {
+            "keyword": "calculate birth chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 61,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 26730
+          },
+          {
+            "keyword": "natal chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 26730
+          },
+          {
+            "keyword": "astrology forecast today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 56,
+            "position": 5,
+            "url": "https://horoscopes.astro-seek.com/free-personal-daily-horoscope",
+            "etv": 24251.19921875
+          },
+          {
+            "keyword": "horoscopes by birth",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 59,
+            "position": 4,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 23935.80078125
+          },
+          {
+            "keyword": "free horoscopes birth chart",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 22496
+          },
+          {
+            "keyword": "astro-charts",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 62,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 21870
+          },
+          {
+            "keyword": "chart horoscope",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 63,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 21870
+          },
+          {
+            "keyword": "mercury retrograde 2025",
+            "search_volume": 135000,
+            "cpc": null,
+            "keyword_difficulty": 24,
+            "position": 4,
+            "url": "https://horoscopes.astro-seek.com/mercury-retrograde-astrology-calendar-2025",
+            "etv": 21870
+          },
+          {
+            "keyword": "dashas",
+            "search_volume": 60500,
+            "cpc": null,
+            "keyword_difficulty": 10,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/vimshottari-dasha-vedic-astrology-online-calculator",
+            "etv": 18392
+          },
+          {
+            "keyword": "astrology chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "calculate astrology chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "calculate my birth chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "calculator horoscope",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 53,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "horoscope birth chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 55,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "horoscope calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "horoscope natal chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "zodiac chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "lunar cycle today",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 79,
+            "position": 9,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 15210
+          },
+          {
+            "keyword": "moon cycle today",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 79,
+            "position": 8,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 15210
+          },
+          {
+            "keyword": "moon phase today",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 79,
+            "position": 8,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 15210
+          },
+          {
+            "keyword": "retrogrades",
+            "search_volume": 49500,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 29,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/retrograde-planets-astrology-calendar-",
+            "etv": 15048
+          },
+          {
+            "keyword": "astro chart",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 66,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 13135.5
+          },
+          {
+            "keyword": "astrology chart",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 60,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 13135.5
+          },
+          {
+            "keyword": "mercury retrogrades 2025",
+            "search_volume": 135000,
+            "cpc": null,
+            "keyword_difficulty": 35,
+            "position": 5,
+            "url": "https://horoscopes.astro-seek.com/mercury-retrograde-astrology-calendar-2025",
+            "etv": 13135.5
+          },
+          {
+            "keyword": "free birth chart wheel calculator",
+            "search_volume": 40500,
+            "cpc": 1.149999976158142,
+            "keyword_difficulty": 52,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 12312
+          },
+          {
+            "keyword": "astrology birth chart free",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 11988
+          },
+          {
+            "keyword": "chart astrology",
+            "search_volume": 74000,
+            "cpc": 1.3700000047683716,
+            "keyword_difficulty": 67,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 11988
+          },
+          {
+            "keyword": "free astrology birth chart",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 11988
+          },
+          {
+            "keyword": "free horoscope and birth chart",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 11988
+          },
+          {
+            "keyword": "horoscope natal",
+            "search_volume": 74000,
+            "cpc": 1.3700000047683716,
+            "keyword_difficulty": 68,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 11988
+          },
+          {
+            "keyword": "natal chart",
+            "search_volume": 74000,
+            "cpc": 1.3700000047683716,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 11988
+          },
+          {
+            "keyword": "natal horoscope",
+            "search_volume": 74000,
+            "cpc": 1.3700000047683716,
+            "keyword_difficulty": 69,
+            "position": 3,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 11988
+          },
+          {
+            "keyword": "horoscope of birth",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 60,
+            "position": 6,
+            "url": "https://horoscopes.astro-seek.com/",
+            "etv": 11537.400390625
+          },
+          {
+            "keyword": "today's lunar cycle",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 79,
+            "position": 9,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 11520
+          },
+          {
+            "keyword": "today's lunar phase",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 74,
+            "position": 10,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 11520
+          },
+          {
+            "keyword": "tonight's moon phase",
+            "search_volume": 450000,
+            "cpc": 1.8600000143051147,
+            "keyword_difficulty": 62,
+            "position": 9,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 11520
+          },
+          {
+            "keyword": "birth chart calculator astrology",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 4,
+            "url": "https://horoscopes.astro-seek.com/birth-chart-horoscope-online",
+            "etv": 10873.5
+          },
+          {
+            "keyword": "birth chart vedic",
+            "search_volume": 33100,
+            "cpc": 1.809999942779541,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/sidereal-astrology-chart-calculator",
+            "etv": 10062.400390625
+          },
+          {
+            "keyword": "moon in today",
+            "search_volume": 33100,
+            "cpc": 3.309999942779541,
+            "keyword_difficulty": 62,
+            "position": 2,
+            "url": "https://mooncalendar.astro-seek.com/",
+            "etv": 10062.400390625
+          },
+          {
+            "keyword": "natal chart vedic astrology",
+            "search_volume": 33100,
+            "cpc": 1.809999942779541,
+            "keyword_difficulty": 22,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/sidereal-astrology-chart-calculator",
+            "etv": 10062.400390625
+          },
+          {
+            "keyword": "vedic astrology birth chart",
+            "search_volume": 33100,
+            "cpc": 1.809999942779541,
+            "keyword_difficulty": 13,
+            "position": 1,
+            "url": "https://horoscopes.astro-seek.com/sidereal-astrology-chart-calculator",
+            "etv": 10062.400390625
+          }
+        ]
+      }
+    },
+    "cafeastrology.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 98895,
+        "items": [
+          {
+            "keyword": "sun sign of the zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 33,
+            "position": 2,
+            "url": "https://cafeastrology.com/whats-my-sun-sign.html",
+            "etv": 204592
+          },
+          {
+            "keyword": "birth chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 65,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "birth chart and horoscope",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 60,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "birth chart natal chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 52,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "horoscope birth chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 66,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "horoscopes by birth",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "natal chart horoscope",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 66,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 74784
+          },
+          {
+            "keyword": "virgo astrology horoscope",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 35,
+            "position": 1,
+            "url": "https://cafeastrology.com/virgodailyhoroscope.html",
+            "etv": 61104
+          },
+          {
+            "keyword": "astrology forecast today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 56,
+            "position": 3,
+            "url": "https://cafeastrology.com/astrologyforecasts.html",
+            "etv": 59616
+          },
+          {
+            "keyword": "aries horoscope aries",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 41,
+            "position": 2,
+            "url": "https://cafeastrology.com/ariesdailyhoroscope.html",
+            "etv": 50160
+          },
+          {
+            "keyword": "astro chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 66,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 34,
+            "position": 1,
+            "url": "https://cafeastrology.com/ariesdailyhoroscope.html",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "birth astrology chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 60,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "birth chart astrology calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 60,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "birth chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "birth chart calculator astrology",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "calculate astrology chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "calculate birth chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 61,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "calculate my birth chart",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "calculator horoscope",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 53,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "horoscope natal chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "natal chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "zodiac chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 50160
+          },
+          {
+            "keyword": "geminis",
+            "search_volume": 20400000,
+            "cpc": 0.6499999761581421,
+            "keyword_difficulty": 64,
+            "position": 38,
+            "url": "https://cafeastrology.com/zodiacgemini.html",
+            "etv": 42840
+          },
+          {
+            "keyword": "astrological chart",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 63,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 41040
+          },
+          {
+            "keyword": "astrology cancer horoscope",
+            "search_volume": 135000,
+            "cpc": 0.5699999928474426,
+            "keyword_difficulty": 44,
+            "position": 1,
+            "url": "https://cafeastrology.com/cancerdailyhoroscope.html",
+            "etv": 41040
+          },
+          {
+            "keyword": "astrology chart",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 60,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 41040
+          },
+          {
+            "keyword": "birth chart for astrology",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 62,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 41040
+          },
+          {
+            "keyword": "chart horoscope",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 63,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 41040
+          },
+          {
+            "keyword": "horoscope capricorn astrology",
+            "search_volume": 135000,
+            "cpc": 0.949999988079071,
+            "keyword_difficulty": 52,
+            "position": 1,
+            "url": "https://cafeastrology.com/capricorndailyhoroscope.html",
+            "etv": 41040
+          },
+          {
+            "keyword": "libra astrology horoscope",
+            "search_volume": 135000,
+            "cpc": 0.9200000166893005,
+            "keyword_difficulty": 36,
+            "position": 1,
+            "url": "https://cafeastrology.com/libradailyhoroscope.html",
+            "etv": 41040
+          },
+          {
+            "keyword": "natal chart in astrology",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 52,
+            "position": 2,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 41040
+          },
+          {
+            "keyword": "horoscope of birth",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 60,
+            "position": 2,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 39852
+          },
+          {
+            "keyword": "astrology",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 83,
+            "position": 3,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 35806.3984375
+          },
+          {
+            "keyword": "cafe astrology",
+            "search_volume": 110000,
+            "cpc": 2.630000114440918,
+            "keyword_difficulty": 10,
+            "position": 1,
+            "url": "https://cafeastrology.com/",
+            "etv": 33440
+          },
+          {
+            "keyword": "café astrology",
+            "search_volume": 110000,
+            "cpc": 2.630000114440918,
+            "keyword_difficulty": 18,
+            "position": 1,
+            "url": "https://cafeastrology.com/",
+            "etv": 33440
+          },
+          {
+            "keyword": "horoscope aquarius astrology",
+            "search_volume": 110000,
+            "cpc": 0.9300000071525574,
+            "keyword_difficulty": 38,
+            "position": 1,
+            "url": "https://cafeastrology.com/aquariusdailyhoroscope.html",
+            "etv": 33440
+          },
+          {
+            "keyword": "horoscope ram",
+            "search_volume": 301000,
+            "cpc": 0.7799999713897705,
+            "keyword_difficulty": 4,
+            "position": 5,
+            "url": "https://cafeastrology.com/zodiacaries.html",
+            "etv": 29287.30078125
+          },
+          {
+            "keyword": "cancer astrology today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 32,
+            "position": 1,
+            "url": "https://cafeastrology.com/cancerdailyhoroscope.html",
+            "etv": 27512
+          },
+          {
+            "keyword": "aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 57,
+            "position": 5,
+            "url": "https://cafeastrology.com/ariesdailyhoroscope.html",
+            "etv": 26730
+          },
+          {
+            "keyword": "astrology pisces horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0800000429153442,
+            "keyword_difficulty": 35,
+            "position": 2,
+            "url": "https://cafeastrology.com/piscesdailyhoroscope.html",
+            "etv": 26730
+          },
+          {
+            "keyword": "horoscope birth chart calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 55,
+            "position": 2,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 26730
+          },
+          {
+            "keyword": "horoscope calculator",
+            "search_volume": 165000,
+            "cpc": 0.9700000286102295,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 26730
+          },
+          {
+            "keyword": "horoscope taurus astrology",
+            "search_volume": 165000,
+            "cpc": 0.7699999809265137,
+            "keyword_difficulty": 44,
+            "position": 2,
+            "url": "https://cafeastrology.com/taurusdailyhoroscope.html",
+            "etv": 26730
+          },
+          {
+            "keyword": "zodiac aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 43,
+            "position": 4,
+            "url": "https://cafeastrology.com/ariesdailyhoroscope.html",
+            "etv": 26730
+          },
+          {
+            "keyword": "horoscope by natal chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 61,
+            "position": 3,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 23935.80078125
+          },
+          {
+            "keyword": "scorpio in astrology",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 48,
+            "position": 5,
+            "url": "https://cafeastrology.com/zodiacscorpio.html",
+            "etv": 23935.80078125
+          },
+          {
+            "keyword": "astrological birth chart free",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 52,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 22496
+          },
+          {
+            "keyword": "astrology birth chart free",
+            "search_volume": 74000,
+            "cpc": 1.4199999570846558,
+            "keyword_difficulty": 59,
+            "position": 1,
+            "url": "https://astro.cafeastrology.com/natal.php",
+            "etv": 22496
+          }
+        ]
+      }
+    },
+    "costarastrology.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 36299,
+        "items": [
+          {
+            "keyword": "geminis",
+            "search_volume": 20400000,
+            "cpc": 0.6499999761581421,
+            "keyword_difficulty": 64,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs/gemini-sign",
+            "etv": 3304800
+          },
+          {
+            "keyword": "tauruses",
+            "search_volume": 246000,
+            "cpc": 2.240000009536743,
+            "keyword_difficulty": 39,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/taurus-sign",
+            "etv": 74784
+          },
+          {
+            "keyword": "star sign of zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 35,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 65482.8984375
+          },
+          {
+            "keyword": "astrology virgo",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/virgo-sign",
+            "etv": 61104
+          },
+          {
+            "keyword": "libras",
+            "search_volume": 201000,
+            "cpc": 1.7999999523162842,
+            "keyword_difficulty": 28,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs/libra-sign",
+            "etv": 61104
+          },
+          {
+            "keyword": "astrology and cancer",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/cancer-sign",
+            "etv": 50160
+          },
+          {
+            "keyword": "astrology cancer zodiac",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 44,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/cancer-sign",
+            "etv": 50160
+          },
+          {
+            "keyword": "leos",
+            "search_volume": 301000,
+            "cpc": 1.7200000286102295,
+            "keyword_difficulty": 34,
+            "position": 3,
+            "url": "https://www.costarastrology.com/zodiac-signs/leo-sign",
+            "etv": 48762
+          },
+          {
+            "keyword": "astrological signs zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 42,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "star signs star signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 44350.69921875
+          },
+          {
+            "keyword": "astrology of scorpio",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 51,
+            "position": 3,
+            "url": "https://www.costarastrology.com/zodiac-signs/scorpio-sign",
+            "etv": 39852
+          },
+          {
+            "keyword": "scorpios",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 36,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs/scorpio-sign",
+            "etv": 39852
+          },
+          {
+            "keyword": "virgos",
+            "search_volume": 246000,
+            "cpc": 0.28999999165534973,
+            "keyword_difficulty": 43,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/virgo-sign",
+            "etv": 39852
+          },
+          {
+            "keyword": "sagittarius",
+            "search_volume": 368000,
+            "cpc": 0.5400000214576721,
+            "keyword_difficulty": 50,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/sagittarius-sign",
+            "etv": 35806.3984375
+          },
+          {
+            "keyword": "sign star sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 31563.69921875
+          },
+          {
+            "keyword": "sign zodiac signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 68,
+            "position": 7,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 31563.69921875
+          },
+          {
+            "keyword": "zodiac and astrological signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 44,
+            "position": 7,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 31563.69921875
+          },
+          {
+            "keyword": "zodiac birth sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 31,
+            "position": 8,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 31563.69921875
+          },
+          {
+            "keyword": "aquarius",
+            "search_volume": 301000,
+            "cpc": 0.9300000071525574,
+            "keyword_difficulty": 44,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs/aquarius-sign",
+            "etv": 29287.30078125
+          },
+          {
+            "keyword": "aries",
+            "search_volume": 301000,
+            "cpc": 0.7799999713897705,
+            "keyword_difficulty": 35,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs/aries-sign",
+            "etv": 29287.30078125
+          },
+          {
+            "keyword": "capricorn",
+            "search_volume": 301000,
+            "cpc": 0.7300000190734863,
+            "keyword_difficulty": 48,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/capricorn-sign",
+            "etv": 29287.30078125
+          },
+          {
+            "keyword": "astrology about aries",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 37,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs/aries-sign",
+            "etv": 26730
+          },
+          {
+            "keyword": "scorpio",
+            "search_volume": 246000,
+            "cpc": 0.7599999904632568,
+            "keyword_difficulty": 33,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs/scorpio-sign",
+            "etv": 23935.80078125
+          },
+          {
+            "keyword": "virgo",
+            "search_volume": 246000,
+            "cpc": 0.28999999165534973,
+            "keyword_difficulty": 55,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs/virgo-sign",
+            "etv": 23935.80078125
+          },
+          {
+            "keyword": "astrological sign zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 37,
+            "position": 9,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 22747.400390625
+          },
+          {
+            "keyword": "signs for the zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 39,
+            "position": 9,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 22747.400390625
+          },
+          {
+            "keyword": "zodiac sign",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 8,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 22747.400390625
+          },
+          {
+            "keyword": "zodiac signs signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 37,
+            "position": 10,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 22747.400390625
+          },
+          {
+            "keyword": "gemini sign",
+            "search_volume": 74000,
+            "cpc": 0.49000000953674316,
+            "keyword_difficulty": 36,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/gemini-sign",
+            "etv": 22496
+          },
+          {
+            "keyword": "astrological chart",
+            "search_volume": 135000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 63,
+            "position": 2,
+            "url": "https://www.costarastrology.com/natal-chart",
+            "etv": 21870
+          },
+          {
+            "keyword": "leo zodiac sign horoscope",
+            "search_volume": 135000,
+            "cpc": 0.5,
+            "keyword_difficulty": 47,
+            "position": 2,
+            "url": "https://www.costarastrology.com/zodiac-signs/leo-sign",
+            "etv": 21870
+          },
+          {
+            "keyword": "pisces",
+            "search_volume": 301000,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 50,
+            "position": 7,
+            "url": "https://www.costarastrology.com/zodiac-signs/pisces-sign",
+            "etv": 19835.900390625
+          },
+          {
+            "keyword": "astrology of virgo",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 56,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/virgo-sign",
+            "etv": 19557.30078125
+          },
+          {
+            "keyword": "libra",
+            "search_volume": 201000,
+            "cpc": 1.7999999523162842,
+            "keyword_difficulty": 38,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs/libra-sign",
+            "etv": 19557.30078125
+          },
+          {
+            "keyword": "costar",
+            "search_volume": 110000,
+            "cpc": 0.800000011920929,
+            "keyword_difficulty": 59,
+            "position": 2,
+            "url": "https://www.costarastrology.com/",
+            "etv": 17820
+          },
+          {
+            "keyword": "sign astrology",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 32,
+            "position": 9,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 17228.80078125
+          },
+          {
+            "keyword": "zodiac signs",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 38,
+            "position": 11,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 17228.80078125
+          },
+          {
+            "keyword": "zodiac signs of astrology",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 44,
+            "position": 11,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 17228.80078125
+          },
+          {
+            "keyword": "birth chart natal chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 52,
+            "position": 5,
+            "url": "https://www.costarastrology.com/how-does-astrology-work/what-is-a-natal-chart",
+            "etv": 16211.400390625
+          },
+          {
+            "keyword": "horoscope signs and dates",
+            "search_volume": 246000,
+            "cpc": 0.25,
+            "keyword_difficulty": 36,
+            "position": 7,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16211.400390625
+          },
+          {
+            "keyword": "astrological sign",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 38,
+            "position": 7,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrological signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 43,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrology about cancer",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 34,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/cancer-sign",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrology and signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 41,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrology by zodiac sign",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 68,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrology for zodiac signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 75,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "astrology horoscope signs",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 69,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "birth signs astrology",
+            "search_volume": 165000,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 37,
+            "position": 6,
+            "url": "https://www.costarastrology.com/zodiac-signs",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "gemini and horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0399999618530273,
+            "keyword_difficulty": 43,
+            "position": 4,
+            "url": "https://www.costarastrology.com/zodiac-signs/gemini-sign",
+            "etv": 16054.5
+          },
+          {
+            "keyword": "aries zodiac sign",
+            "search_volume": 90500,
+            "cpc": 0.8399999737739563,
+            "keyword_difficulty": 35,
+            "position": 5,
+            "url": "https://www.costarastrology.com/zodiac-signs/aries-sign",
+            "etv": 14661
+          }
+        ]
+      }
+    },
+    "asknebula.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 25177,
+        "items": [
+          {
+            "keyword": "nebula",
+            "search_volume": 246000,
+            "cpc": 5.880000114440918,
+            "keyword_difficulty": 44,
+            "position": 3,
+            "url": "https://www.asknebula.com/",
+            "etv": 39852
+          },
+          {
+            "keyword": "taurus horoscope today",
+            "search_volume": 60500,
+            "cpc": 0.550000011920929,
+            "keyword_difficulty": 30,
+            "position": 6,
+            "url": "https://www.asknebula.com/horoscope/daily/taurus",
+            "etv": 3986.949951171875
+          },
+          {
+            "keyword": "cancer and gemini compatibility",
+            "search_volume": 14800,
+            "cpc": 0.23999999463558197,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://www.asknebula.com/zodiac-compatibility/gemini/cancer",
+            "etv": 2397.60009765625
+          },
+          {
+            "keyword": "pisces horoscope today",
+            "search_volume": 60500,
+            "cpc": 1.409999966621399,
+            "keyword_difficulty": 19,
+            "position": 9,
+            "url": "https://www.asknebula.com/horoscope/daily/pisces",
+            "etv": 1548.800048828125
+          },
+          {
+            "keyword": "pisces daily love horoscope today",
+            "search_volume": 8100,
+            "cpc": 2.299999952316284,
+            "keyword_difficulty": 22,
+            "position": 3,
+            "url": "https://www.asknebula.com/horoscope/daily/pisces",
+            "etv": 1312.199951171875
+          },
+          {
+            "keyword": "aries compatibility",
+            "search_volume": 12100,
+            "cpc": 0.20999999344348907,
+            "keyword_difficulty": 17,
+            "position": 5,
+            "url": "https://www.asknebula.com/zodiac-compatibility/aries",
+            "etv": 1177.3299560546875
+          },
+          {
+            "keyword": "scorpio horoscope today",
+            "search_volume": 74000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 18,
+            "position": 11,
+            "url": "https://www.asknebula.com/horoscope/daily/scorpio",
+            "etv": 1110
+          },
+          {
+            "keyword": "zodiac compatibility birth chart",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 19,
+            "position": 5,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 1041.1800537109375
+          },
+          {
+            "keyword": "aquarius horoscope today",
+            "search_volume": 40500,
+            "cpc": 0.8100000023841858,
+            "keyword_difficulty": 24,
+            "position": 9,
+            "url": "https://www.asknebula.com/horoscope/daily/aquarius",
+            "etv": 1036.800048828125
+          },
+          {
+            "keyword": "cancer horoscope today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 18,
+            "position": 13,
+            "url": "https://www.asknebula.com/horoscope/daily/cancer",
+            "etv": 1022.6500244140625
+          },
+          {
+            "keyword": "cancer and capricorn compatibility",
+            "search_volume": 14800,
+            "cpc": 0.18000000715255737,
+            "keyword_difficulty": 1,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility/cancer/capricorn",
+            "etv": 975.3200073242188
+          },
+          {
+            "keyword": "leo and capricorn love compatibility",
+            "search_volume": 14800,
+            "cpc": 0.49000000953674316,
+            "keyword_difficulty": 0,
+            "position": 6,
+            "url": "https://www.asknebula.com/zodiac-compatibility/leo/capricorn",
+            "etv": 975.3200073242188
+          },
+          {
+            "keyword": "pisces and horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0800000429153442,
+            "keyword_difficulty": 50,
+            "position": 17,
+            "url": "https://www.asknebula.com/horoscope/daily/pisces",
+            "etv": 973.5
+          },
+          {
+            "keyword": "sagittarius horoscope today",
+            "search_volume": 40500,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 19,
+            "position": 10,
+            "url": "https://www.asknebula.com/horoscope/daily/sagittarius",
+            "etv": 797.8499755859375
+          },
+          {
+            "keyword": "aries astrology compatibility",
+            "search_volume": 12100,
+            "cpc": 0.20999999344348907,
+            "keyword_difficulty": 6,
+            "position": 6,
+            "url": "https://www.asknebula.com/zodiac-compatibility/aries",
+            "etv": 797.3900146484375
+          },
+          {
+            "keyword": "libra zodiac compatibility",
+            "search_volume": 12100,
+            "cpc": 0.3799999952316284,
+            "keyword_difficulty": 4,
+            "position": 6,
+            "url": "https://www.asknebula.com/zodiac-compatibility/libra",
+            "etv": 797.3900146484375
+          },
+          {
+            "keyword": "pisces love horoscope daily",
+            "search_volume": 8100,
+            "cpc": 2.299999952316284,
+            "keyword_difficulty": 22,
+            "position": 5,
+            "url": "https://www.asknebula.com/horoscope/daily/pisces",
+            "etv": 788.1300048828125
+          },
+          {
+            "keyword": "astrology forecast today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 56,
+            "position": 60,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 772.7999877929688
+          },
+          {
+            "keyword": "daily horoscope for today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 60,
+            "position": 37,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 772.7999877929688
+          },
+          {
+            "keyword": "daily horoscopes for today",
+            "search_volume": 368000,
+            "cpc": 0.6399999856948853,
+            "keyword_difficulty": 59,
+            "position": 65,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 772.7999877929688
+          },
+          {
+            "keyword": "astrology zodiac compatibility",
+            "search_volume": 22200,
+            "cpc": 0.550000011920929,
+            "keyword_difficulty": 33,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 750.3599853515625
+          },
+          {
+            "keyword": "horoscope compatibility birth chart",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 28,
+            "position": 6,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 750.3599853515625
+          },
+          {
+            "keyword": "star chart compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 30,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 750.3599853515625
+          },
+          {
+            "keyword": "ask nebula",
+            "search_volume": 2400,
+            "cpc": 13.779999732971191,
+            "keyword_difficulty": 42,
+            "position": 1,
+            "url": "https://www.asknebula.com/",
+            "etv": 729.5999755859375
+          },
+          {
+            "keyword": "left ear itch spiritual meaning",
+            "search_volume": 2400,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://www.asknebula.com/blog/left-ear-itching-spiritual-meaning",
+            "etv": 729.5999755859375
+          },
+          {
+            "keyword": "left ear itchy spiritual meaning",
+            "search_volume": 2400,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://www.asknebula.com/blog/left-ear-itching-spiritual-meaning",
+            "etv": 729.5999755859375
+          },
+          {
+            "keyword": "aries compatible signs",
+            "search_volume": 4400,
+            "cpc": 0.07000000029802322,
+            "keyword_difficulty": 6,
+            "position": 4,
+            "url": "https://www.asknebula.com/zodiac-compatibility/aries",
+            "etv": 712.7999877929688
+          },
+          {
+            "keyword": "meaning of gnats",
+            "search_volume": 4400,
+            "cpc": null,
+            "keyword_difficulty": 6,
+            "position": 4,
+            "url": "https://www.asknebula.com/blog/gnats-spiritual-meaning",
+            "etv": 712.7999877929688
+          },
+          {
+            "keyword": "cancer gemini compatibility",
+            "search_volume": 14800,
+            "cpc": 0.23999999463558197,
+            "keyword_difficulty": 0,
+            "position": 8,
+            "url": "https://www.asknebula.com/zodiac-compatibility/gemini/cancer",
+            "etv": 694.1199951171875
+          },
+          {
+            "keyword": "moon orange",
+            "search_volume": 9900,
+            "cpc": null,
+            "keyword_difficulty": 1,
+            "position": 8,
+            "url": "https://www.asknebula.com/blog/orange-moon-spiritual-meaning",
+            "etv": 652.4099731445312
+          },
+          {
+            "keyword": "daily horoscope",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 62,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "daily horoscopes",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 59,
+            "position": 70,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "horoscope daily horoscope",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 44,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "horoscope of the day",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 58,
+            "position": 65,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "horoscopes for the day",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 71,
+            "position": 60,
+            "url": "https://www.asknebula.com/horoscope/daily",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "pisces",
+            "search_volume": 301000,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 50,
+            "position": 47,
+            "url": "https://www.asknebula.com/zodiac-sign/pisces",
+            "etv": 632.0999755859375
+          },
+          {
+            "keyword": "asknebula",
+            "search_volume": 1900,
+            "cpc": 12.739999771118164,
+            "keyword_difficulty": 18,
+            "position": 1,
+            "url": "https://www.asknebula.com/",
+            "etv": 577.5999755859375
+          },
+          {
+            "keyword": "nebula login",
+            "search_volume": 1900,
+            "cpc": 13.0600004196167,
+            "keyword_difficulty": 30,
+            "position": 1,
+            "url": "https://www.asknebula.com/app/login",
+            "etv": 577.5999755859375
+          },
+          {
+            "keyword": "nebula psychic",
+            "search_volume": 1900,
+            "cpc": 17.700000762939453,
+            "keyword_difficulty": 42,
+            "position": 1,
+            "url": "https://www.asknebula.com/",
+            "etv": 577.5999755859375
+          },
+          {
+            "keyword": "astrology chart compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 27,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 568.3200073242188
+          },
+          {
+            "keyword": "birth chart compatibility astro",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 26,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 568.3200073242188
+          },
+          {
+            "keyword": "horoscope chart compatibility",
+            "search_volume": 22200,
+            "cpc": 2.140000104904175,
+            "keyword_difficulty": 27,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 568.3200073242188
+          },
+          {
+            "keyword": "compatibility of aries",
+            "search_volume": 12100,
+            "cpc": 0.20999999344348907,
+            "keyword_difficulty": 7,
+            "position": 7,
+            "url": "https://www.asknebula.com/zodiac-compatibility/aries",
+            "etv": 567.489990234375
+          },
+          {
+            "keyword": "zodiac and cancer",
+            "search_volume": 165000,
+            "cpc": 0.5099999904632568,
+            "keyword_difficulty": 29,
+            "position": 22,
+            "url": "https://www.asknebula.com/zodiac-compatibility/cancer",
+            "etv": 544.5
+          },
+          {
+            "keyword": "pisces love horoscope today",
+            "search_volume": 8100,
+            "cpc": 2.299999952316284,
+            "keyword_difficulty": 18,
+            "position": 6,
+            "url": "https://www.asknebula.com/horoscope/daily/pisces",
+            "etv": 533.7899780273438
+          },
+          {
+            "keyword": "queen of rods reversed",
+            "search_volume": 8100,
+            "cpc": null,
+            "keyword_difficulty": 0,
+            "position": 7,
+            "url": "https://www.asknebula.com/blog/the-queen-of-wands-yes-or-no-meaning-upright-and-reversed",
+            "etv": 533.7899780273438
+          },
+          {
+            "keyword": "astrology signs and dating",
+            "search_volume": 246000,
+            "cpc": 0.25,
+            "keyword_difficulty": 21,
+            "position": 36,
+            "url": "https://www.asknebula.com/zodiac-compatibility",
+            "etv": 516.5999755859375
+          },
+          {
+            "keyword": "birth chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 65,
+            "position": 48,
+            "url": "https://www.asknebula.com/charts/birth-chart",
+            "etv": 516.5999755859375
+          },
+          {
+            "keyword": "birth chart natal chart",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 52,
+            "position": 54,
+            "url": "https://www.asknebula.com/charts/birth-chart",
+            "etv": 516.5999755859375
+          },
+          {
+            "keyword": "horoscopes by birth",
+            "search_volume": 246000,
+            "cpc": 1.2699999809265137,
+            "keyword_difficulty": 59,
+            "position": 62,
+            "url": "https://www.asknebula.com/charts/birth-chart",
+            "etv": 516.5999755859375
+          }
+        ]
+      }
+    },
+    "astrotalk.com": {
+      "metrics": {},
+      "ranked_keywords": {
+        "total_count": 73502,
+        "items": [
+          {
+            "keyword": "astrologer",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 71,
+            "position": 2,
+            "url": "https://astrotalk.com/",
+            "etv": 111872
+          },
+          {
+            "keyword": "astrology astrologers",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 82,
+            "position": 11,
+            "url": "https://astrotalk.com/",
+            "etv": 12438.400390625
+          },
+          {
+            "keyword": "virgo horoscope today",
+            "search_volume": 74000,
+            "cpc": 1.6299999952316284,
+            "keyword_difficulty": 23,
+            "position": 7,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/virgo",
+            "etv": 3470.60009765625
+          },
+          {
+            "keyword": "horoscope",
+            "search_volume": 1500000,
+            "cpc": 1.5399999618530273,
+            "keyword_difficulty": 75,
+            "position": 33,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope",
+            "etv": 3150
+          },
+          {
+            "keyword": "horoscope / leo today",
+            "search_volume": 90500,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 21,
+            "position": 8,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/leo",
+            "etv": 3058.89990234375
+          },
+          {
+            "keyword": "sagittarius and libra love compatibility",
+            "search_volume": 9900,
+            "cpc": 0.23000000417232513,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://astrotalk.com/compatibility/sagittarius/libra",
+            "etv": 3009.60009765625
+          },
+          {
+            "keyword": "sagittarius and libra match",
+            "search_volume": 9900,
+            "cpc": 0.23000000417232513,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://astrotalk.com/compatibility/sagittarius/libra",
+            "etv": 3009.60009765625
+          },
+          {
+            "keyword": "gemini male",
+            "search_volume": 40500,
+            "cpc": 0.07999999821186066,
+            "keyword_difficulty": 3,
+            "position": 6,
+            "url": "https://astrotalk.com/zodiac-signs/gemini-man-characteristics",
+            "etv": 2668.949951171875
+          },
+          {
+            "keyword": "astrotalk",
+            "search_volume": 8100,
+            "cpc": 6.010000228881836,
+            "keyword_difficulty": 27,
+            "position": 1,
+            "url": "https://astrotalk.com/",
+            "etv": 2462.39990234375
+          },
+          {
+            "keyword": "libra and aquarius match",
+            "search_volume": 14800,
+            "cpc": 0.07000000029802322,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/libra/aquarius",
+            "etv": 2397.60009765625
+          },
+          {
+            "keyword": "sagittarius gemini match",
+            "search_volume": 14800,
+            "cpc": 0.27000001072883606,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/sagittarius/gemini",
+            "etv": 2397.60009765625
+          },
+          {
+            "keyword": "horoscope daily horoscopes",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 60,
+            "position": 15,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope",
+            "etv": 2257.5
+          },
+          {
+            "keyword": "astrology astrologer",
+            "search_volume": 368000,
+            "cpc": 3.930000066757202,
+            "keyword_difficulty": 74,
+            "position": 17,
+            "url": "https://astrotalk.com/",
+            "etv": 2171.199951171875
+          },
+          {
+            "keyword": "scorpio horoscope",
+            "search_volume": 135000,
+            "cpc": 1.1200000047683716,
+            "keyword_difficulty": 47,
+            "position": 14,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/scorpio",
+            "etv": 2025
+          },
+          {
+            "keyword": "aries horoscope today",
+            "search_volume": 74000,
+            "cpc": 1.0099999904632568,
+            "keyword_difficulty": 20,
+            "position": 9,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/aries",
+            "etv": 1894.4000244140625
+          },
+          {
+            "keyword": "astrology aries horoscope",
+            "search_volume": 165000,
+            "cpc": 0.6299999952316284,
+            "keyword_difficulty": 34,
+            "position": 14,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/aries",
+            "etv": 1864.5
+          },
+          {
+            "keyword": "zodiac sign according to date",
+            "search_volume": 246000,
+            "cpc": 0.25,
+            "keyword_difficulty": 43,
+            "position": 16,
+            "url": "https://astrotalk.com/sun-sign-calculator",
+            "etv": 1845
+          },
+          {
+            "keyword": "virgo horoscope",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 48,
+            "position": 14,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/virgo",
+            "etv": 1829.0999755859375
+          },
+          {
+            "keyword": "cancer zodiac horoscope for today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 33,
+            "position": 9,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/cancer",
+            "etv": 1782.8499755859375
+          },
+          {
+            "keyword": "cancer zodiac today",
+            "search_volume": 90500,
+            "cpc": 0.7400000095367432,
+            "keyword_difficulty": 15,
+            "position": 10,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/cancer",
+            "etv": 1782.8499755859375
+          },
+          {
+            "keyword": "leo horoscope today",
+            "search_volume": 90500,
+            "cpc": 1.2200000286102295,
+            "keyword_difficulty": 16,
+            "position": 9,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/leo",
+            "etv": 1782.8499755859375
+          },
+          {
+            "keyword": "aries love compatibility with cancer",
+            "search_volume": 18100,
+            "cpc": 0.07999999821186066,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/cancer/aries",
+            "etv": 1761.1300048828125
+          },
+          {
+            "keyword": "leo-aquarius compatibility",
+            "search_volume": 18100,
+            "cpc": 0.10999999940395355,
+            "keyword_difficulty": 4,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/aquarius/leo",
+            "etv": 1761.1300048828125
+          },
+          {
+            "keyword": "horoscope of the day",
+            "search_volume": 301000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 58,
+            "position": 15,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope",
+            "etv": 1685.5999755859375
+          },
+          {
+            "keyword": "aries characteristics male",
+            "search_volume": 5400,
+            "cpc": 0.05000000074505806,
+            "keyword_difficulty": 22,
+            "position": 3,
+            "url": "https://astrotalk.com/zodiac-signs/aries-man-characteristics",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "character of taurus man",
+            "search_volume": 5400,
+            "cpc": 0.05000000074505806,
+            "keyword_difficulty": 9,
+            "position": 3,
+            "url": "https://astrotalk.com/zodiac-signs/taurus-man-characteristics",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "characteristics of a taurus man",
+            "search_volume": 5400,
+            "cpc": 0.05000000074505806,
+            "keyword_difficulty": 5,
+            "position": 3,
+            "url": "https://astrotalk.com/zodiac-signs/taurus-man-characteristics",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "characteristics of aries man",
+            "search_volume": 5400,
+            "cpc": 0.05000000074505806,
+            "keyword_difficulty": 16,
+            "position": 3,
+            "url": "https://astrotalk.com/zodiac-signs/aries-man-characteristics",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "male taurus traits",
+            "search_volume": 5400,
+            "cpc": 0.05000000074505806,
+            "keyword_difficulty": 2,
+            "position": 2,
+            "url": "https://astrotalk.com/zodiac-signs/taurus-man-characteristics",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "taurus and gemini",
+            "search_volume": 5400,
+            "cpc": 0.03999999910593033,
+            "keyword_difficulty": 0,
+            "position": 3,
+            "url": "https://astrotalk.com/compatibility/taurus/gemini",
+            "etv": 1641.5999755859375
+          },
+          {
+            "keyword": "cancer-cancer zodiac compatibility",
+            "search_volume": 9900,
+            "cpc": 0.4099999964237213,
+            "keyword_difficulty": 3,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/cancer/cancer",
+            "etv": 1603.800048828125
+          },
+          {
+            "keyword": "libra sagittarius match",
+            "search_volume": 9900,
+            "cpc": 0.23000000417232513,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/sagittarius/libra",
+            "etv": 1603.800048828125
+          },
+          {
+            "keyword": "sagittarius and libra love match",
+            "search_volume": 9900,
+            "cpc": 0.23000000417232513,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/sagittarius/libra",
+            "etv": 1603.800048828125
+          },
+          {
+            "keyword": "sagittarius and libra relationship compatibility",
+            "search_volume": 9900,
+            "cpc": 0.23000000417232513,
+            "keyword_difficulty": 0,
+            "position": 4,
+            "url": "https://astrotalk.com/compatibility/sagittarius/libra",
+            "etv": 1603.800048828125
+          },
+          {
+            "keyword": "horoscope taurus today",
+            "search_volume": 60500,
+            "cpc": 0.550000011920929,
+            "keyword_difficulty": 24,
+            "position": 9,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/taurus",
+            "etv": 1548.800048828125
+          },
+          {
+            "keyword": "scorpio and horoscope",
+            "search_volume": 135000,
+            "cpc": 1.1200000047683716,
+            "keyword_difficulty": 35,
+            "position": 13,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/scorpio",
+            "etv": 1525.5
+          },
+          {
+            "keyword": "horoscope and virgo",
+            "search_volume": 201000,
+            "cpc": 1.059999942779541,
+            "keyword_difficulty": 51,
+            "position": 16,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/virgo",
+            "etv": 1507.5
+          },
+          {
+            "keyword": "gemini horoscope",
+            "search_volume": 165000,
+            "cpc": 1.0399999618530273,
+            "keyword_difficulty": 46,
+            "position": 14,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/gemini",
+            "etv": 1501.5
+          },
+          {
+            "keyword": "scorpio horoscope today",
+            "search_volume": 74000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 18,
+            "position": 10,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/scorpio",
+            "etv": 1457.800048828125
+          },
+          {
+            "keyword": "scorpio zodiac horoscope today",
+            "search_volume": 74000,
+            "cpc": 0.8199999928474426,
+            "keyword_difficulty": 33,
+            "position": 10,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/scorpio",
+            "etv": 1457.800048828125
+          },
+          {
+            "keyword": "star signs virgo today",
+            "search_volume": 74000,
+            "cpc": 1.6299999952316284,
+            "keyword_difficulty": 33,
+            "position": 10,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/virgo",
+            "etv": 1457.800048828125
+          },
+          {
+            "keyword": "virgo's horoscope for the day",
+            "search_volume": 74000,
+            "cpc": 1.6299999952316284,
+            "keyword_difficulty": 24,
+            "position": 10,
+            "url": "https://astrotalk.com/horoscope/daily-horoscope/virgo",
+            "etv": 1457.800048828125
+          },
+          {
+            "keyword": "cancer and taurus love compatibility",
+            "search_volume": 14800,
+            "cpc": 0.15000000596046448,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/taurus/cancer",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "cancer gemini compatibility",
+            "search_volume": 14800,
+            "cpc": 0.23999999463558197,
+            "keyword_difficulty": 0,
+            "position": 6,
+            "url": "https://astrotalk.com/compatibility/cancer/gemini",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "leo libra compatibility",
+            "search_volume": 14800,
+            "cpc": 0.2800000011920929,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/leo/libra",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "leo-libra love compatibility",
+            "search_volume": 14800,
+            "cpc": 0.2800000011920929,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/leo/libra",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "taurus and gemini match",
+            "search_volume": 14800,
+            "cpc": 0.3100000023841858,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/taurus/gemini",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "taurus with cancer compatibility",
+            "search_volume": 14800,
+            "cpc": 0.15000000596046448,
+            "keyword_difficulty": 0,
+            "position": 6,
+            "url": "https://astrotalk.com/compatibility/taurus/cancer",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "virgo vs libra compatibility",
+            "search_volume": 14800,
+            "cpc": 0.28999999165534973,
+            "keyword_difficulty": 0,
+            "position": 5,
+            "url": "https://astrotalk.com/compatibility/virgo/libra",
+            "etv": 1440.0400390625
+          },
+          {
+            "keyword": "astrological sign zodiac",
+            "search_volume": 673000,
+            "cpc": 0.12999999523162842,
+            "keyword_difficulty": 37,
+            "position": 82,
+            "url": "https://astrotalk.com/zodiac-signs",
+            "etv": 1413.300048828125
+          }
+        ]
+      }
+    }
+  }
+}
