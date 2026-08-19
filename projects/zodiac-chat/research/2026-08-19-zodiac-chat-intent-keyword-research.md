@@ -9,6 +9,8 @@
 
 > **Правка от 2026-08-19.** В первой версии отчёта было написано, что GSC недоступен из-за отсутствующего файла сервис-аккаунта. Это неверно: сервис-аккаунт существует, у него `siteFullUser` на property `sc-domain:zodiac-chat.com`, данные выгружены. Разделы 1, 3, 10 и 11 исправлены по факту.
 
+> **Follow-up от 2026-08-19:** GSC-запросы прогнаны через DataForSEO (метрики + SERP) — см. `2026-08-19-gsc-query-dataforseo-followup.md` и **приложение A** в конце этого файла. Один вывод раздела 3.1 (пункт 3, про франкоязычный сегмент) там опровергнут.
+
 ---
 
 ## 1. Краткий вывод
@@ -155,7 +157,7 @@ Property: **`sc-domain:zodiac-chat.com`**, доступ сервис-аккау�
 
 1. **Блокера «нет доступа к GSC» не существует** — доступ есть, данные есть. Ограничение здесь другое: объём данных настолько мал, что quick-wins в обычном смысле (запросы на позициях 11-20 с сотнями показов) просто не из чего строить. Порог `min_impressions=50` в `research_quick_wins.py` не проходит ни один запрос.
 2. **Раздел 4 подтверждён фактами Google, а не только базой DataForSEO.** Все 16 названных запросов — это варианты написания названия сайта и его функции (`zodiac chat`, `zodiac ai`, `zodiac com`, `ai zodiac`, `zodiac talk`, `zodiask`, `zodiacap7`, `my zodiac ai official website`). Ни одного запроса из целевых кластеров: нет ни compatibility, ни synastry, ни birth chart, ни посигнальных гороскопов. По `zodiac chat` сайт стоит на **позиции 5.11 и получает 9 показов за 90 дней** — это и есть прямое измерение того, что спроса за фразой нет: почти топ-5 при трёх показах в месяц.
-3. **Два запроса из 16 — французские** (`astrologie chat` — самый «объёмный» запрос выборки, `tchat horoscope`). Плюс `chat horoscope`. При нулевом контенте это чистая случайность выдачи, но она указывает, что франкоязычный сегмент пустой — там сайт цепляется вообще без усилий.
+3. ~~**Два запроса из 16 — французские** (`astrologie chat` — самый «объёмный» запрос выборки, `tchat horoscope`). Плюс `chat horoscope`. При нулевом контенте это чистая случайность выдачи, но она указывает, что франкоязычный сегмент пустой — там сайт цепляется вообще без усилий.~~ **Опровергнуто follow-up'ом, см. приложение A.** По-французски *chat* = кот: выдача по `astrologie chat` — про астрологию кошек (зоо-медиа, страховки для животных). Сегмент не пустой, запрос нерелевантен. Реальный французский интент — `tchat horoscope` (70/мес FR), и там выдача занята платными voyance-платформами.
 4. **CTR 5.6% при средней позиции 14.57** — аномально высокий для второй страницы выдачи. Объяснение простое: часть показов брендовая/навигационная. Использовать этот CTR как базовую линию для планирования нельзя.
 5. **Стартовая точка зафиксирована.** 20 кликов / 357 показов за 90 дней — та база, относительно которой измеряется эффект любых работ из раздела 8.
 
@@ -549,3 +551,31 @@ python3 research_gsc_footprint.py --project zodiac-chat --long-window 90 --short
 ```
 
 `research_gsc_footprint.py` читает путь к сервис-аккаунту из `GSC_CREDENTIALS_PATH` и property — из `project.json` (`gsc_site_url`). Сам файл сервис-аккаунта в репозиторий не попадает (`credentials/` в `.gitignore`), и в артефактах не сохраняется ничего, кроме e-mail сервис-аккаунта и уровня доступа.
+
+---
+
+## Приложение A. Follow-up: GSC-запросы через DataForSEO (2026-08-19)
+
+Полный разбор — `2026-08-19-gsc-query-dataforseo-followup.md`. Сырые данные — `2026-08-19-gsc-query-dataforseo-data.json`, `2026-08-19-gsc-query-dataforseo-metrics.csv`. Здесь только то, что уточняет или меняет выводы выше.
+
+**1. Раздел 3.1, пункт 3 (франкоязычный сегмент) — опровергнут.** По-французски *chat* = кот. Выдача по `astrologie chat` (FR) — `fidanimo.com`, `lemagduchat.ouest-france.fr`, `homycat.com`, `assurance.carrefour.fr`, `assuropoil.fr`: астрология кошек, зоо-медиа и страхование животных. Самый «объёмный» запрос GSC-выборки (11 показов, 19% видимых) — полностью нерелевантен. Настоящий французский интент — `tchat horoscope`: 70/мес FR, выдача из voyance-платформ с freemium-чатом (`esmeralda.chat`, `jimini.fr`, `tarotap.com`, `horoscope.fr`).
+
+**2. Раздел 4 — подтверждён, но причина другая.** 27 100/мес по `zodiac chat` в Google Ads объяснялись здесь через suggestions про group chat / chat rooms. SERP показывает проще: топ-19 US по `zodiac chat` — это калькуляторы натальных карт (`astro.cafeastrology.com`, `astro-charts.com`, `thepattern.com`, `costarastrology.com`, `astro.com`, `alabe.com`). Google трактует запрос как опечатку от **`zodiac chart`**, и 27 100 — агрегат по этому кластеру. `zodiac-chat.com` в топ-19 отсутствует.
+
+**3. Половина видимых показов — промах по интенту.** Из 57 показов за 90 дней: 46% нерелевантны (кошки, натальные карты, AI-арт, чужой бренд), 23% — брендовый шум из вариантов написания домена, 30% — целевой продуктовый интент, 2% — развлекательный. Проверенные SERP: `zodiac ai generator` — генерация AI-картинок (`deepai.org`, `seeles.ai`, `magicshot.ai`), там `zodiac-chat.com` стоит на позиции 20 в чужом интенте; `my zodiac ai official website` — навигационный запрос к конкуренту `my-zodiac-ai.com`; `fake horoscope maker` — шуточные генераторы (`randomstupidshit.com` #1).
+
+**4. Раздел 1, пункт 2 (AI-astrology кластер) — усилен.** SERP по `zodiac ai` (US, 90/мес, KD 4) — единственная из проверенных, где стоят прямые аналоги продукта: `my-zodiac-ai.com` #1, `jenova.ai`, `aizodiac.com`, `aistro.io`, `astrovoice.ai`, `destinyaiastrology.com`. Рядом `ai astrology chat` (50 US, KD 3, worldwide 6 600), `astrology chatbot` (20, KD 3), `zodiac sign ai` (20, KD 0), `fake horoscope` (90, KD 4). Суммарно ~280/мес US при KD 0–4.
+
+**5. `horoscope chat` (US) брать не стоит.** Интент правильный, но выдача занята индийскими астро-платформами (`kundligpt.com`, `kundlichat.in`, `astrotalk.com`, `jyotinow.com`, `astrosage.com`, `ganeshaspeaks.com`), US KD = 94 при объёме 20/мес. Это же объясняет Индию и Филиппины в топе стран по показам.
+
+**Общая оценка ниши не изменилась:** объёмы по-прежнему не оправдывают SEO как основной канал. Follow-up добавляет точности, а не оптимизма.
+
+**Команда:**
+
+```bash
+python3 research_gsc_query_followup.py --project zodiac-chat \
+  --queries-csv projects/zodiac-chat/research/2026-08-19-gsc-queries-90d.csv \
+  --queries-csv projects/zodiac-chat/research/2026-08-19-gsc-queries-30d.csv \
+  --extra-keyword "ai astrology chat" --extra-market "2250:fr:FR" \
+  --serp-keyword "zodiac chat" --serp-keyword "astrologie chat::2250::fr"
+```
