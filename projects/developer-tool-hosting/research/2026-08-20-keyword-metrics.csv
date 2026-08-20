@@ -1,0 +1,129 @@
+keyword,volume_us,volume_worldwide,keyword_difficulty,cpc_us,cpc_worldwide,competition_labs,competition_level_ads_us,competition_index_ads_us,competition_level_ads_ww,competition_index_ads_ww,main_intent,in_labs_db
+wordpress hosting,27100,74000,67,59.27,21.63,0.1,LOW,10,LOW,7,commercial,True
+discord bot hosting,1600,8100,13,6.13,2.79,0.12,LOW,12,LOW,17,commercial,True
+managed wordpress hosting,3600,6600,63,79.88,26.35,0.13,LOW,7,LOW,12,commercial,True
+node.js hosting,480,5400,7,18.56,4.52,0.41,MEDIUM,36,MEDIUM,60,commercial,True
+nodejs hosting,480,5400,11,18.56,4.52,0.41,MEDIUM,36,MEDIUM,60,commercial,True
+supabase self hosted,480,5400,1,2.28,3.49,0.03,LOW,3,LOW,10,navigational,True
+n8n hosting,390,5400,18,10.68,4,0.54,MEDIUM,45,MEDIUM,51,navigational,True
+self hosted n8n,880,4400,18,7.21,4.93,0.34,LOW,26,LOW,24,navigational,True
+vercel alternatives,720,3600,0,26.73,7.84,0.58,MEDIUM,52,MEDIUM,49,commercial,True
+docker hosting,590,3600,18,26.56,9.19,0.36,MEDIUM,35,MEDIUM,38,commercial,True
+static site hosting,880,2900,49,15.43,6.89,0.27,LOW,26,LOW,29,commercial,True
+woocommerce hosting,880,2900,30,78.44,16.54,0.18,LOW,18,LOW,33,commercial,True
+postgres hosting,590,2900,28,16.05,6.28,0.4,MEDIUM,46,MEDIUM,50,commercial,True
+postgresql hosting,590,2900,28,16.05,6.28,0.4,MEDIUM,46,MEDIUM,50,navigational,True
+php hosting,390,2900,2,20.6,5.33,0.27,MEDIUM,34,MEDIUM,49,commercial,True
+python hosting,320,2900,19,19.75,3.65,0.36,LOW,26,MEDIUM,48,informational,True
+nextcloud hosting,260,2900,15,12.54,3.91,0.19,LOW,19,MEDIUM,50,commercial,True
+ghost hosting,1000,2400,21,11.1,4.07,0.07,LOW,4,LOW,9,informational,True
+api hosting,140,2400,43,,4.08,0.29,LOW,28,LOW,10,commercial,True
+magento hosting,590,1900,31,31.57,13.53,0.1,LOW,9,LOW,21,commercial,True
+laravel hosting,260,1900,16,10.25,2.89,0.24,LOW,23,MEDIUM,51,commercial,True
+free node.js hosting,260,1900,4,14.22,3.25,0.27,LOW,27,MEDIUM,43,commercial,True
+joomla hosting,390,1600,28,18.01,9.02,0.27,LOW,12,LOW,21,navigational,True
+mysql hosting,320,1600,38,49.69,9.4,0.35,MEDIUM,35,MEDIUM,43,commercial,True
+netlify alternatives,260,1600,0,17.66,5.04,0.54,MEDIUM,52,MEDIUM,52,commercial,True
+prestashop hosting,140,1600,18,15.03,10.11,0.08,LOW,9,LOW,24,commercial,True
+drupal hosting,390,1300,17,16.04,14.08,0.26,LOW,20,LOW,20,commercial,True
+next.js hosting,210,1300,27,19.21,5.76,0.48,MEDIUM,57,MEDIUM,58,navigational,True
+nextjs hosting,210,1300,27,19.21,5.76,0.57,MEDIUM,57,MEDIUM,58,navigational,True
+supabase hosting,170,1300,28,3.7,3.04,0.46,LOW,28,LOW,32,commercial,True
+deploy laravel,50,1300,30,7.48,2.56,0.2,LOW,20,LOW,30,informational,True
+django hosting,260,1000,6,30.83,3.37,0.41,LOW,30,MEDIUM,44,commercial,True
+heroku alternatives,260,1000,3,76.56,30.72,0.37,LOW,30,MEDIUM,40,commercial,True
+railway alternatives,210,1000,0,24.71,11.75,0.44,MEDIUM,49,MEDIUM,37,informational,True
+mongodb hosting,210,880,27,26.75,13.16,0.33,MEDIUM,36,MEDIUM,48,commercial,True
+vite hosting,140,880,22,8.68,3.46,0.08,LOW,8,LOW,6,commercial,True
+ollama hosting,110,880,19,9.66,3.2,0.27,LOW,28,LOW,30,navigational,True
+render alternatives,110,880,0,28.18,8.96,0.51,MEDIUM,51,MEDIUM,39,informational,True
+telegram bot hosting,30,880,0,4.63,2.31,0.25,LOW,25,LOW,13,commercial,True
+kubernetes hosting,210,720,35,27.96,13.59,0.27,LOW,30,MEDIUM,44,commercial,True
+gitlab hosting,140,720,67,19.2,6.75,0.08,LOW,6,LOW,18,commercial,True
+digitalocean alternatives,140,720,0,31.42,14,0.5,MEDIUM,49,MEDIUM,58,commercial,True
+redis hosting,140,590,55,13.49,7.11,0.05,LOW,5,LOW,13,commercial,True
+react hosting,90,590,11,6.27,4.32,0.63,MEDIUM,40,MEDIUM,49,informational,True
+rails hosting,170,480,4,11.08,6.34,0.24,LOW,23,LOW,31,commercial,True
+ruby on rails hosting,170,480,1,11.08,6.34,0.24,LOW,23,LOW,31,informational,True
+opencart hosting,90,480,39,6.73,4.06,0.1,LOW,5,LOW,13,commercial,True
+git hosting,90,480,21,24.79,5.34,0.14,LOW,14,LOW,9,commercial,True
+streamlit hosting,70,390,25,,3.28,0.16,LOW,7,LOW,10,informational,True
+free django hosting,70,390,3,15.38,3.05,0.2,LOW,30,LOW,29,commercial,True
+angular hosting,50,390,0,,2.21,0.04,LOW,7,LOW,6,commercial,True
+shopware hosting,50,390,0,,9.55,0.21,LOW,4,MEDIUM,38,commercial,True
+deploy next.js,40,390,,11.09,4.12,,MEDIUM,64,MEDIUM,37,,False
+sqlite hosting,90,320,25,21.04,9.47,0.41,MEDIUM,38,MEDIUM,35,commercial,True
+astro hosting,50,320,26,15.73,5.88,0.21,LOW,22,LOW,23,navigational,True
+immich hosting,40,320,20,5.91,2.78,0.24,LOW,15,LOW,23,navigational,True
+elasticsearch hosting,140,260,17,11.49,8.24,0.12,LOW,12,LOW,18,commercial,True
+best node.js hosting,110,260,6,17.12,3.85,0.42,MEDIUM,42,MEDIUM,65,commercial,True
+best laravel hosting,90,260,15,,1.31,0.16,LOW,2,LOW,18,commercial,True
+fly.io alternatives,90,260,0,20.24,9.23,0.29,LOW,20,MEDIUM,38,commercial,True
+mariadb hosting,70,260,24,17.65,6.08,0.23,LOW,9,LOW,32,navigational,True
+flask hosting,30,260,4,13.62,3.42,0.25,LOW,25,MEDIUM,39,informational,True
+fastapi hosting,40,210,23,11.35,7.22,0.52,MEDIUM,46,MEDIUM,38,commercial,True
+rabbitmq hosting,40,210,26,11.18,5.94,0.14,LOW,14,LOW,19,commercial,True
+pocketbase hosting,30,210,17,6.51,4.47,0.26,LOW,26,LOW,29,navigational,True
+strapi hosting,20,210,16,10.93,6.52,0.25,MEDIUM,46,MEDIUM,47,commercial,True
+grafana hosting,40,170,60,24.13,8.87,0.58,MEDIUM,58,MEDIUM,41,commercial,True
+home assistant hosting,30,170,63,,0.75,0.02,LOW,1,LOW,13,commercial,True
+nuxt hosting,20,170,9,,3.52,0.1,LOW,10,LOW,17,navigational,True
+best django hosting,90,140,9,40.58,7.2,0.14,LOW,17,MEDIUM,54,commercial,True
+jupyter notebook hosting,40,140,30,16.15,16.15,0.27,LOW,14,LOW,8,navigational,True
+clickhouse hosting,30,140,16,7.8,3.77,0.47,MEDIUM,58,MEDIUM,51,navigational,True
+comfyui hosting,30,140,,,2.92,,LOW,21,LOW,27,,False
+neo4j hosting,30,110,36,13.66,6.25,0.42,MEDIUM,54,MEDIUM,41,navigational,True
+laravel cloud hosting,30,110,,28.4,5.34,0.04,LOW,4,LOW,10,commercial,True
+bun hosting,20,110,,,1.29,0.1,LOW,17,LOW,21,navigational,True
+hugo hosting,20,110,41,,0.82,0.32,LOW,7,LOW,22,navigational,True
+nestjs hosting,10,110,18,,2.69,0.86,MEDIUM,48,MEDIUM,53,navigational,True
+mautic hosting,10,110,0,,1.97,0.08,LOW,3,LOW,26,navigational,True
+kafka hosting,20,90,57,10.08,4.81,0.63,LOW,18,MEDIUM,38,navigational,True
+matomo hosting,10,90,,,7.39,0.43,LOW,0,MEDIUM,35,navigational,True
+sentry hosting,10,90,48,,5.12,0.04,LOW,4,LOW,10,navigational,True
+flowise hosting,30,70,3,,,0.86,,,HIGH,86,navigational,True
+payload cms hosting,20,70,,,4.4,0.33,LOW,8,LOW,19,commercial,True
+gitea hosting,20,70,63,,2.18,0.07,LOW,5,LOW,14,navigational,True
+express hosting,10,70,40,,6.16,0,MEDIUM,33,MEDIUM,34,commercial,True
+deno hosting,10,70,20,,,0.05,LOW,0,LOW,13,navigational,True
+sanity hosting,10,70,,0.6,0.98,0.53,LOW,31,LOW,24,navigational,True
+vllm hosting,10,70,,8.62,5.69,0.31,MEDIUM,54,MEDIUM,44,navigational,True
+managed kubernetes hosting,30,50,30,13.45,6.25,,LOW,24,MEDIUM,39,commercial,True
+jamstack hosting,20,50,34,,,0.01,LOW,1,LOW,6,navigational,True
+sveltekit hosting,10,50,0,26.71,26.71,0.14,MEDIUM,50,LOW,27,commercial,True
+svelte hosting,10,50,40,25.89,25.89,0.29,MEDIUM,49,LOW,32,navigational,True
+vue hosting,10,50,,15.55,15.55,0.39,LOW,14,LOW,17,commercial,True
+symfony hosting,10,50,39,,9.17,,LOW,5,MEDIUM,51,commercial,True
+directus hosting,10,50,,7.45,3.44,0.5,MEDIUM,50,MEDIUM,36,navigational,True
+minio hosting,10,50,,,,,,,MEDIUM,35,,False
+llama hosting,10,50,,1.88,2.33,,LOW,27,MEDIUM,36,,False
+metabase hosting,10,50,,,2.39,0.17,LOW,20,LOW,19,commercial,True
+appwrite hosting,10,50,,24.42,13.66,0.86,HIGH,86,LOW,21,commercial,True
+vaultwarden hosting,10,50,,,13.1,0.54,HIGH,67,LOW,32,navigational,True
+codeigniter hosting,30,40,0,,3.45,0.86,LOW,0,MEDIUM,57,commercial,True
+stable diffusion hosting,10,40,0,,3.48,0.69,MEDIUM,45,MEDIUM,41,commercial,True
+webhook hosting,10,40,33,,2.51,0.57,MEDIUM,57,MEDIUM,47,commercial,True
+managed postgres hosting,10,40,,,3.59,0.39,LOW,6,MEDIUM,46,commercial,True
+jekyll hosting,10,30,32,,,0.4,MEDIUM,54,MEDIUM,41,navigational,True
+medusa hosting,10,30,,,2.65,0.11,LOW,31,LOW,31,navigational,True
+typesense hosting,10,30,,,1.79,,LOW,0,LOW,8,,False
+airflow hosting,10,30,36,9.94,8.94,0.49,MEDIUM,50,LOW,33,commercial,True
+jupyter hosting,10,30,43,,,0.43,MEDIUM,43,LOW,22,navigational,True
+nodejs cloud hosting,10,30,,,1.61,0.02,LOW,4,LOW,27,commercial,True
+remix hosting,10,20,5,,3.2,0.19,LOW,19,MEDIUM,34,navigational,True
+wagtail hosting,10,20,43,,,0.36,LOW,23,LOW,28,navigational,True
+medusajs hosting,10,20,,,4.04,0.57,LOW,0,MEDIUM,35,navigational,True
+langchain hosting,10,20,,,,0,MEDIUM,46,LOW,30,commercial,True
+dify hosting,10,20,,,1.57,,,,MEDIUM,58,,False
+open webui hosting,10,20,,,8.69,,LOW,0,HIGH,70,,False
+saleor hosting,10,10,,5.57,5.57,0.14,MEDIUM,43,MEDIUM,33,navigational,True
+meilisearch hosting,10,10,,,,0.43,LOW,11,LOW,14,commercial,True
+plausible hosting,10,10,,,,0.14,,,LOW,14,informational,True
+langflow hosting,10,10,,,1.28,,HIGH,86,MEDIUM,61,,False
+cron job hosting,10,10,,,0.15,,LOW,4,LOW,25,informational,True
+nocodb hosting,10,10,,,2.33,0.19,LOW,19,MEDIUM,37,commercial,True
+baserow hosting,10,10,,2.82,2.08,,HIGH,86,MEDIUM,45,,False
+budibase hosting,10,10,,,5.24,,,,HIGH,71,,False
+vendure hosting,,,,,,,,,,,,False
+penpot hosting,,,,,,,,,,,,False
+uptime kuma hosting,,,,,,,,,,,,False
